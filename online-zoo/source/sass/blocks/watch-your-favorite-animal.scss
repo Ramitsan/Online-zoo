@@ -1,0 +1,50 @@
+.watch-your-favorite-animal {
+  width: 100%;
+  padding-bottom: 103px;
+  background-color: $white;
+  background-image: url("../../assets/img/giant-panda_desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1600px auto;
+}
+
+.watch-your-favorite-animal__wrapper {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.watch-your-favorite-animal__title {
+  width: 495px;
+  position: relative;
+  font-family: $font-roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 106px;
+  line-height: 75%;
+  text-transform: uppercase;
+  color: $white;
+  z-index: 100;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -78px;
+    right: 104px;
+    width: 465px;
+    height: 465px;
+    background: $orange-gradient;
+    border-radius: 50%;
+    z-index: -1;
+  }
+}
+
+.watch-your-favorite-animal__title span {
+  color: $yellow;
+}
+
+.watch-your-favorite-animal__btn {
+  @include orange-btn();
+}
