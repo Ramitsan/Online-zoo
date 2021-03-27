@@ -1,0 +1,26 @@
+.backstage {
+  padding: 140px;
+  background-image: url("../../assets/img/flower_bg_desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 281px auto;
+}
+
+.backstage__wrapper {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.backstage__img {
+  margin-right: 86px;
+}
+
+.backstage__info {
+  width: 465px;
+  text-align: left;
+}
