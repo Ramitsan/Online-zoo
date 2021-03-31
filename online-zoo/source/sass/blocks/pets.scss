@@ -1,0 +1,86 @@
+.pets {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  background-image: url("../../assets/img/palm_bg_desktop.png"), url("../../assets/img/strelitzia_desktop.png");
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 292px 460px, 368px 275px;
+}
+
+.pets__wrapper {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.pets__list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 85px;
+}
+
+.pets__item {
+  width: 366px;
+  margin-bottom: 20px;
+  background-color: $white;
+  text-align: left;
+  border: 1px solid #FE9013;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.pets__buttons {
+  width: 1320px;
+  position: absolute;
+  top: 50%;
+  left: -7%;
+  margin-top: -31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pets__button {
+  width: 62px;
+  height: 62px;
+  font-size: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  background: $orange-gradient;
+  position: relative;
+}
+
+.pets__button--left {
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/arrow-left.png");
+    background-repeat: no-repeat;
+    background-size: 18px 10px;
+    background-position: center;
+    width: 18px;
+    height: 10px;
+    top: 27px;
+    left: 19px;
+  }
+}
+
+.pets__button--right {
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/arrow-right.png");
+    background-repeat: no-repeat;
+    background-size: 18px 10px;
+    background-position: center;
+    width: 18px;
+    height: 10px;
+    top: 27px;
+    left: 19px;
+  }
+}
