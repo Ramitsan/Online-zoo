@@ -1,0 +1,100 @@
+.pick-and-feed {
+  background: $orange-gradient-bg;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 98px;
+}
+
+.pick-and-feed__wrapper {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  background: $opacity-bg;
+  border-radius: 20px;
+  padding-top: 52px;
+  padding-bottom: 58px;
+}
+
+.pick-and-feed__list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 65px;
+}
+
+.pick-and-feed__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+
+.pick-and-feed__item:not(:last-of-type) {
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/arrow-pick-and-feed.png");
+    background-repeat: no-repeat;
+    background-size: 71px 37px;
+    background-position: center;
+    width: 71px;
+    height: 37px;
+    top: 35%;
+    left: 220px;
+  }
+}
+
+.pick-and-feed__container-img {
+  width: 168px;
+  height: 168px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: inherit;
+    z-index: -1;
+    margin: -5px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  }
+}
+
+.pick-and-feed__container-img--pay img {
+  width: 108px;
+  height: 60px;
+}
+
+.pick-and-feed__container-img--zoo img {
+  width: 87px;
+  height: 96px;
+}
+
+.pick-and-feed__container-img--monkey img {
+  width: 127px;
+  height: 73px;
+}
+
+.pick-and-feed__item p {
+  width: 168px;
+  text-align: left;
+}
+
+.pick-and-feed__link {
+  display: inline-block;
+}
