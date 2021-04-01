@@ -1,7 +1,7 @@
 {
-  "name": "Liga-A-start-template",
+  "name": "Online-zoo",
   "version": "1.0.0",
-  "description": "Стартовый шаблон сборки Лиги А",
+  "description": "Онлайн-зоопарк, который дает возможность увидеть питомцев в каком-либо из зоопарков или в дикой природе, где имеются камеры постоянной трансляции",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "9.5.x",
