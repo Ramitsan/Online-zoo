@@ -24,3 +24,13 @@
   width: 465px;
   text-align: left;
 }
+
+.backstage__title {
+  @include second-level-headings ();
+  color: $main-text-color;
+}
+
+.backstage__subtitle {
+  @include fourth-level-headings ();
+  color: $main-text-color;
+}

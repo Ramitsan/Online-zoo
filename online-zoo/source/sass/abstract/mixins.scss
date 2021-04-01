@@ -13,3 +13,27 @@
   outline: none;
   cursor: pointer;
 }
+
+@mixin second-level-headings () {
+  font-family: $font-roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+@mixin third-level-headings () {
+  font-family: $font-roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 130%;
+}
+
+@mixin fourth-level-headings () {
+  font-family: $font-roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120%;
+}

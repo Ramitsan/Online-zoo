@@ -15,6 +15,16 @@
   padding-bottom: 58px;
 }
 
+.pick-and-feed__title {
+  @include second-level-headings ();
+  color: $orange;
+}
+
+.pick-and-feed__subtitle {
+  @include fourth-level-headings ();
+  color: $main-text-color;
+}
+
 .pick-and-feed__list {
   width: 100%;
   display: flex;
@@ -97,4 +107,9 @@
 
 .pick-and-feed__link {
   display: inline-block;
+}
+
+.pick-and-feed__caption {
+  @include third-level-headings ();
+  color: $main-text-color;
 }
