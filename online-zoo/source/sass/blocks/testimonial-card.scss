@@ -1,0 +1,81 @@
+.testimonial-card {
+  width: 266px;
+  background-color: $light-gray;
+  border-radius: 20px;
+}
+
+.testimonial-card blockquote {
+  margin: 20px 15px;
+}
+
+.testimonial-card__user-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.testimonial-card__user-avatar {
+  width: 37px;
+  height: 37px;
+  margin-right: 10px;
+}
+
+.testimonial-card__user-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.testimonial-card__user-name {
+  flex: 1;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  color: $black;
+}
+
+.testimonial-card__box {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.testimonial-card__user-local,
+.testimonial-card__day {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  color: #BDBDBD;
+}
+
+.testimonial-card__user-local {
+  position: relative;
+  margin-right: 16px;
+  &::after {
+    content: ".";
+    position: absolute;
+    left: 91px;
+    top: -8px;
+    font-size: 30px;
+    color: #BDBDBD;
+  }
+}
+
+.testimonial-card__text {
+  width: 236px;
+  margin: 0;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  color: $gray;
+}
