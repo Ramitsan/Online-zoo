@@ -71,7 +71,7 @@
   border-radius: 5px;
   box-sizing: border-box;
   background-clip: padding-box;
-  &::before {
+  &::after {
     content: "";
     position: absolute;
     top: 0;
@@ -107,6 +107,7 @@
 
 .pick-and-feed__link {
   display: inline-block;
+  border-radius: 25px;
 }
 
 .pick-and-feed__caption {
