@@ -1,5 +1,8 @@
 "use strict";
 
+const ghPages = require('gh-pages');
+const path = require('path');
+
 var gulp = require("gulp");
 var plumber = require("gulp-plumber");
 var sourcemap = require("gulp-sourcemaps");
@@ -100,3 +103,8 @@ gulp.task("clean", function() {
 
 gulp.task("build", gulp.series("clean", "copy", "css", "sprite", "html"));
 gulp.task("start", gulp.series("build", "server"));
+
+function deploy(cb) {
+  ghPages.publish(path.join(process.cwd(), './online-zoo/build'), cb);
+}
+exports.deploy = deploy;
