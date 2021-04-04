@@ -408,6 +408,8 @@ img {
   color: #FFFFFF;
   outline: none;
   cursor: pointer; }
+  .btn--orange:active {
+    background: #4B9200; }
 
 .btn--submit {
   background: #F1F3F2;

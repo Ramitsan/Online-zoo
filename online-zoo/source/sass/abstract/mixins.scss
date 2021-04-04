@@ -11,6 +11,9 @@
   color: $white;
   outline: none;
   cursor: pointer;
+  &:active {
+    background: $green;
+  }
 }
 
 @mixin second-level-headings () {
