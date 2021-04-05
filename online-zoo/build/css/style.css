@@ -1291,6 +1291,9 @@ img {
 .animal-page__donate--eagle {
   background-image: url("../assets/img/eagle_bg_desktop.jpg"); }
 
+.animal-page__donate--alligator {
+  background-image: url("../assets/img/alligator_bg_desktop.jpg"); }
+
 .animal-page__donate a {
   display: inline-block;
   margin-top: 270px;
