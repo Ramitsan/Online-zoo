@@ -1,0 +1,166 @@
+.side-bar {
+  width: 100px;
+  height: 652px;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-left: 0;
+  top: 30px;
+  left: 30px;
+  background: $orange-gradient-bg;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+.side-bar__link {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: $white;
+    border: 2px solid $orange;
+    border-radius: 50%;
+    top: 0;
+    left: 10px;
+
+  }
+}
+.side-bar__link--active {
+  cursor: default;
+  &::before {
+    border: 2px solid $green;
+  }
+
+}
+
+.side-bar__link--gorilla {
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/gorilla_icon_default.svg");
+    background-repeat: no-repeat;
+    background-size: 55px 47px;
+    width: 55px;
+    height: 47px;
+    left: 24px;
+    top: 16px;
+  }
+}
+
+.side-bar__link--gorilla-active::after {
+    background-image: url("../../assets/icons/gorilla_icon_active.svg");
+}
+
+.side-bar__link--alligator {
+    &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/alligator_icon_default.svg");
+    background-repeat: no-repeat;
+    background-size: 64px 30px;
+    width: 64px;
+    height: 30px;
+    left: 18px;
+    top: 25px;
+  }
+}
+
+.side-bar__link--alligator-active::after {
+   background-image: url("../../assets/icons/alligator_icon_active.svg");
+}
+
+.side-bar__link--panda {
+   &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/panda_icon_default.svg");
+    background-repeat: no-repeat;
+    background-size: 58px 42px;
+    width: 58px;
+    height: 42px;
+    left: 19px;
+    top: 19px;
+  }
+}
+
+.side-bar__link--panda-active::after {
+    background-image: url("../../assets/icons/panda_icon_active.svg");
+}
+
+.side-bar__link--eagle {
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/eagle_icon_default.svg");
+    background-repeat: no-repeat;
+    background-size: 54px 48px;
+    width: 54px;
+    height: 48px;
+    left: 22px;
+    top: 14px;
+  }
+}
+
+.side-bar__link--eagle-active::after {
+    background-image: url("../../assets/icons/eagle_icon_hover.svg");
+}
+
+.side-bar__link--sloth {
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/sloth_icon_default.svg");
+    background-repeat: no-repeat;
+    background-size: 55px 42px;
+    width: 50px;
+    height: 41px;
+    top: 12px;
+    left: 22px;
+  }
+}
+
+.side-bar__link--sloth-active::after {
+    background-image: url("../../assets/icons/sloth_icon_hover.svg");
+}
+
+.side-bar__link--penguin {
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/penguin_icon_default.svg");
+    background-repeat: no-repeat;
+    background-size: 32px 59px;
+    width: 32px;
+    height: 59px;
+    left: 34px;
+    top: 11px;
+  }
+}
+
+.side-bar__link--penguin-active::after {
+     background-image: url("../../assets/icons/penguin_icon_hover.svg");
+}
+
+.side-bar__link--other {
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/other_icon_default.svg");
+    background-repeat: no-repeat;
+    background-size: 62px 62px;
+    width: 62px;
+    height: 62px;
+    left: 19px;
+    top: 9px;
+  }
+}
+
+.side-bar__link--other-active::after {
+      background-image: url("../../assets/icons/other_icon_hover.svg");
+}
