@@ -612,6 +612,20 @@ img {
   border-radius: 5px;
   overflow: hidden; }
 
+.pets__info {
+  margin-left: 10px; }
+
+.pets__name {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000; }
+
+.pets__home-country {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  color: #000000; }
+
 .pets__buttons {
   width: 1320px;
   position: absolute;
