@@ -577,7 +577,7 @@ img {
 .pets {
   padding-top: 20px;
   padding-bottom: 100px;
-  background-image: url("../assets/img/palm_bg_desktop.png"), url("../../assets/img/strelitzia_desktop.png");
+  background-image: url("../assets/img/palm_bg_desktop.png"), url("../assets/img/strelitzia_desktop.png");
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
   background-size: 292px 460px, 368px 275px; }
@@ -1279,7 +1279,7 @@ img {
 .animal-page__donate {
   width: 100%;
   height: 390px;
-  background-image: url("../../assets/img/panda_bg_desktop.png");
+  background-image: url("../assets/img/panda_bg_desktop.png");
   background-size: cover;
   background-position: top center; }
 
@@ -1488,7 +1488,7 @@ img {
 .watch-online__button--right::before {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/arrow-right.png");
+  background-image: url("../assets/icons/arrow-right.png");
   background-repeat: no-repeat;
   background-size: 18px 10px;
   background-position: center;
