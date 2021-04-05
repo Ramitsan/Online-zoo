@@ -528,7 +528,7 @@ img {
 
 .backstage {
   padding: 140px;
-  background-image: url("../../assets/img/flower_bg_desktop.jpg");
+  background-image: url("../assets/img/flower_bg_desktop.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 281px auto; }
@@ -577,7 +577,7 @@ img {
 .pets {
   padding-top: 20px;
   padding-bottom: 100px;
-  background-image: url("../../assets/img/palm_bg_desktop.png"), url("../../assets/img/strelitzia_desktop.png");
+  background-image: url("../assets/img/palm_bg_desktop.png"), url("../../assets/img/strelitzia_desktop.png");
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
   background-size: 292px 460px, 368px 275px; }
@@ -658,7 +658,7 @@ img {
 .pets__button--left::before {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/arrow-left.png");
+  background-image: url("../assets/icons/arrow-left.png");
   background-repeat: no-repeat;
   background-size: 18px 10px;
   background-position: center;
@@ -670,7 +670,7 @@ img {
 .pets__button--right::before {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/arrow-right.png");
+  background-image: url("../assets/icons/arrow-right.png");
   background-repeat: no-repeat;
   background-size: 18px 10px;
   background-position: center;
@@ -749,7 +749,7 @@ img {
 .pick-and-feed__item:not(:last-of-type)::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/arrow-pick-and-feed.png");
+  background-image: url("../assets/icons/arrow-pick-and-feed.png");
   background-repeat: no-repeat;
   background-size: 71px 37px;
   background-position: center;
@@ -822,7 +822,7 @@ img {
   width: 100%;
   padding-top: 232px;
   padding-bottom: 177px;
-  background-image: url("../../assets/img/leav_bg_desctop.png");
+  background-image: url("../assets/img/leav_bg_desctop.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 247px 408px; }
@@ -1138,7 +1138,7 @@ img {
 .page-footer__social-link--facebook::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/facebook.png");
+  background-image: url("../assets/icons/facebook.png");
   background-repeat: no-repeat;
   background-size: 8px 16px;
   background-position: center;
@@ -1150,7 +1150,7 @@ img {
 .page-footer__social-link--twitter::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/twitter.png");
+  background-image: url("../assets/icons/twitter.png");
   background-repeat: no-repeat;
   background-size: 16px 14px;
   background-position: center;
@@ -1162,7 +1162,7 @@ img {
 .page-footer__social-link--instagram::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/insta.png");
+  background-image: url("../assets/icons/insta.png");
   background-repeat: no-repeat;
   background-size: 16px 16px;
   background-position: center;
@@ -1174,7 +1174,7 @@ img {
 .page-footer__social-link--youtube::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/youtube.png");
+  background-image: url("../assets/icons/youtube.png");
   background-repeat: no-repeat;
   background-size: 18px 13px;
   background-position: center;
@@ -1315,7 +1315,7 @@ img {
 .side-bar__link--gorilla::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/gorilla_icon_default.svg");
+  background-image: url("../assets/icons/gorilla_icon_default.svg");
   background-repeat: no-repeat;
   background-size: 55px 47px;
   width: 55px;
@@ -1324,12 +1324,12 @@ img {
   top: 16px; }
 
 .side-bar__link--gorilla-active::after {
-  background-image: url("../../assets/icons/gorilla_icon_active.svg"); }
+  background-image: url("../assets/icons/gorilla_icon_active.svg"); }
 
 .side-bar__link--alligator::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/alligator_icon_default.svg");
+  background-image: url("../assets/icons/alligator_icon_default.svg");
   background-repeat: no-repeat;
   background-size: 64px 30px;
   width: 64px;
@@ -1338,12 +1338,12 @@ img {
   top: 25px; }
 
 .side-bar__link--alligator-active::after {
-  background-image: url("../../assets/icons/alligator_icon_active.svg"); }
+  background-image: url("../assets/icons/alligator_icon_active.svg"); }
 
 .side-bar__link--panda::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/panda_icon_default.svg");
+  background-image: url("../assets/icons/panda_icon_default.svg");
   background-repeat: no-repeat;
   background-size: 58px 42px;
   width: 58px;
@@ -1352,12 +1352,12 @@ img {
   top: 19px; }
 
 .side-bar__link--panda-active::after {
-  background-image: url("../../assets/icons/panda_icon_active.svg"); }
+  background-image: url("../assets/icons/panda_icon_active.svg"); }
 
 .side-bar__link--eagle::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/eagle_icon_default.svg");
+  background-image: url("../assets/icons/eagle_icon_default.svg");
   background-repeat: no-repeat;
   background-size: 54px 48px;
   width: 54px;
@@ -1366,12 +1366,12 @@ img {
   top: 14px; }
 
 .side-bar__link--eagle-active::after {
-  background-image: url("../../assets/icons/eagle_icon_hover.svg"); }
+  background-image: url("../assets/icons/eagle_icon_hover.svg"); }
 
 .side-bar__link--sloth::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/sloth_icon_default.svg");
+  background-image: url("../assets/icons/sloth_icon_default.svg");
   background-repeat: no-repeat;
   background-size: 55px 42px;
   width: 50px;
@@ -1380,12 +1380,12 @@ img {
   left: 22px; }
 
 .side-bar__link--sloth-active::after {
-  background-image: url("../../assets/icons/sloth_icon_hover.svg"); }
+  background-image: url("../assets/icons/sloth_icon_hover.svg"); }
 
 .side-bar__link--penguin::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/penguin_icon_default.svg");
+  background-image: url("../assets/icons/penguin_icon_default.svg");
   background-repeat: no-repeat;
   background-size: 32px 59px;
   width: 32px;
@@ -1394,12 +1394,12 @@ img {
   top: 11px; }
 
 .side-bar__link--penguin-active::after {
-  background-image: url("../../assets/icons/penguin_icon_hover.svg"); }
+  background-image: url("../assets/icons/penguin_icon_hover.svg"); }
 
 .side-bar__link--other::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/other_icon_default.svg");
+  background-image: url("../assets/icons/other_icon_default.svg");
   background-repeat: no-repeat;
   background-size: 62px 62px;
   width: 62px;
@@ -1408,7 +1408,7 @@ img {
   top: 9px; }
 
 .side-bar__link--other-active::after {
-  background-image: url("../../assets/icons/other_icon_hover.svg"); }
+  background-image: url("../assets/icons/other_icon_hover.svg"); }
 
 .watch-online__container {
   width: 100%;
@@ -1459,7 +1459,7 @@ img {
 .watch-online__button--left::before {
   content: "";
   position: absolute;
-  background-image: url("../../assets/icons/arrow-left.png");
+  background-image: url("../assets/icons/arrow-left.png");
   background-repeat: no-repeat;
   background-size: 18px 10px;
   background-position: center;
