@@ -470,6 +470,10 @@ img {
   font-weight: 500;
   cursor: pointer; }
 
+.page-header__nav-link--active {
+  color: #FE9013;
+  cursor: default; }
+
 .watch-your-favorite-animal {
   width: 100%;
   padding-bottom: 103px;

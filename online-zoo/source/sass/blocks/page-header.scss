@@ -41,3 +41,8 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+.page-header__nav-link--active {
+  color: $orange;
+  cursor: default;
+}
