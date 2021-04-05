@@ -1,7 +1,7 @@
 .pets {
   padding-top: 20px;
   padding-bottom: 100px;
-  background-image: url("../../assets/img/palm_bg_desktop.png"), url("../../assets/img/strelitzia_desktop.png");
+  background-image: url("../assets/img/palm_bg_desktop.png"), url("../../assets/img/strelitzia_desktop.png");
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
   background-size: 292px 460px, 368px 275px;
@@ -76,7 +76,7 @@
   &::before {
     content: "";
     position: absolute;
-    background-image: url("../../assets/icons/arrow-left.png");
+    background-image: url("../assets/icons/arrow-left.png");
     background-repeat: no-repeat;
     background-size: 18px 10px;
     background-position: center;
@@ -91,7 +91,7 @@
   &::before {
     content: "";
     position: absolute;
-    background-image: url("../../assets/icons/arrow-right.png");
+    background-image: url("../assets/icons/arrow-right.png");
     background-repeat: no-repeat;
     background-size: 18px 10px;
     background-position: center;

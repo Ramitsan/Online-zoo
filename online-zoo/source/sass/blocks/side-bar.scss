@@ -43,7 +43,7 @@
   &::after {
     content: "";
     position: absolute;
-    background-image: url("../../assets/icons/gorilla_icon_default.svg");
+    background-image: url("../assets/icons/gorilla_icon_default.svg");
     background-repeat: no-repeat;
     background-size: 55px 47px;
     width: 55px;
@@ -54,14 +54,14 @@
 }
 
 .side-bar__link--gorilla-active::after {
-    background-image: url("../../assets/icons/gorilla_icon_active.svg");
+    background-image: url("../assets/icons/gorilla_icon_active.svg");
 }
 
 .side-bar__link--alligator {
     &::after {
     content: "";
     position: absolute;
-    background-image: url("../../assets/icons/alligator_icon_default.svg");
+    background-image: url("../assets/icons/alligator_icon_default.svg");
     background-repeat: no-repeat;
     background-size: 64px 30px;
     width: 64px;
@@ -72,14 +72,14 @@
 }
 
 .side-bar__link--alligator-active::after {
-   background-image: url("../../assets/icons/alligator_icon_active.svg");
+   background-image: url("../assets/icons/alligator_icon_active.svg");
 }
 
 .side-bar__link--panda {
    &::after {
     content: "";
     position: absolute;
-    background-image: url("../../assets/icons/panda_icon_default.svg");
+    background-image: url("../assets/icons/panda_icon_default.svg");
     background-repeat: no-repeat;
     background-size: 58px 42px;
     width: 58px;
@@ -90,14 +90,14 @@
 }
 
 .side-bar__link--panda-active::after {
-    background-image: url("../../assets/icons/panda_icon_active.svg");
+    background-image: url("../assets/icons/panda_icon_active.svg");
 }
 
 .side-bar__link--eagle {
   &::after {
     content: "";
     position: absolute;
-    background-image: url("../../assets/icons/eagle_icon_default.svg");
+    background-image: url("../assets/icons/eagle_icon_default.svg");
     background-repeat: no-repeat;
     background-size: 54px 48px;
     width: 54px;
@@ -108,14 +108,14 @@
 }
 
 .side-bar__link--eagle-active::after {
-    background-image: url("../../assets/icons/eagle_icon_hover.svg");
+    background-image: url("../assets/icons/eagle_icon_hover.svg");
 }
 
 .side-bar__link--sloth {
   &::after {
     content: "";
     position: absolute;
-    background-image: url("../../assets/icons/sloth_icon_default.svg");
+    background-image: url("../assets/icons/sloth_icon_default.svg");
     background-repeat: no-repeat;
     background-size: 55px 42px;
     width: 50px;
@@ -126,14 +126,14 @@
 }
 
 .side-bar__link--sloth-active::after {
-    background-image: url("../../assets/icons/sloth_icon_hover.svg");
+    background-image: url("../assets/icons/sloth_icon_hover.svg");
 }
 
 .side-bar__link--penguin {
   &::after {
     content: "";
     position: absolute;
-    background-image: url("../../assets/icons/penguin_icon_default.svg");
+    background-image: url("../assets/icons/penguin_icon_default.svg");
     background-repeat: no-repeat;
     background-size: 32px 59px;
     width: 32px;
@@ -144,14 +144,14 @@
 }
 
 .side-bar__link--penguin-active::after {
-     background-image: url("../../assets/icons/penguin_icon_hover.svg");
+     background-image: url("../assets/icons/penguin_icon_hover.svg");
 }
 
 .side-bar__link--other {
   &::after {
     content: "";
     position: absolute;
-    background-image: url("../../assets/icons/other_icon_default.svg");
+    background-image: url("../assets/icons/other_icon_default.svg");
     background-repeat: no-repeat;
     background-size: 62px 62px;
     width: 62px;
@@ -162,5 +162,5 @@
 }
 
 .side-bar__link--other-active::after {
-      background-image: url("../../assets/icons/other_icon_hover.svg");
+      background-image: url("../assets/icons/other_icon_hover.svg");
 }
