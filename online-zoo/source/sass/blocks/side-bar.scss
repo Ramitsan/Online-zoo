@@ -7,7 +7,7 @@
   padding-top: 10px;
   margin-left: 0;
   top: 30px;
-  left: 30px;
+  left: 10px;
   background: $orange-gradient-bg;
   border-radius: 5px;
   z-index: 100;
@@ -28,15 +28,14 @@
     border-radius: 50%;
     top: 0;
     left: 10px;
-
   }
 }
+
 .side-bar__link--active {
   cursor: default;
   &::before {
     border: 2px solid $green;
   }
-
 }
 
 .side-bar__link--gorilla {
@@ -54,11 +53,11 @@
 }
 
 .side-bar__link--gorilla-active::after {
-    background-image: url("../assets/icons/gorilla_icon_active.svg");
+  background-image: url("../assets/icons/gorilla_icon_active.svg");
 }
 
 .side-bar__link--alligator {
-    &::after {
+  &::after {
     content: "";
     position: absolute;
     background-image: url("../assets/icons/alligator_icon_default.svg");
@@ -72,11 +71,11 @@
 }
 
 .side-bar__link--alligator-active::after {
-   background-image: url("../assets/icons/alligator_icon_active.svg");
+  background-image: url("../assets/icons/alligator_icon_active.svg");
 }
 
 .side-bar__link--panda {
-   &::after {
+  &::after {
     content: "";
     position: absolute;
     background-image: url("../assets/icons/panda_icon_default.svg");
@@ -90,7 +89,7 @@
 }
 
 .side-bar__link--panda-active::after {
-    background-image: url("../assets/icons/panda_icon_active.svg");
+  background-image: url("../assets/icons/panda_icon_active.svg");
 }
 
 .side-bar__link--eagle {
@@ -108,7 +107,7 @@
 }
 
 .side-bar__link--eagle-active::after {
-    background-image: url("../assets/icons/eagle_icon_hover.svg");
+  background-image: url("../assets/icons/eagle_icon_hover.svg");
 }
 
 .side-bar__link--sloth {
@@ -126,7 +125,7 @@
 }
 
 .side-bar__link--sloth-active::after {
-    background-image: url("../assets/icons/sloth_icon_hover.svg");
+  background-image: url("../assets/icons/sloth_icon_hover.svg");
 }
 
 .side-bar__link--penguin {
@@ -144,7 +143,7 @@
 }
 
 .side-bar__link--penguin-active::after {
-     background-image: url("../assets/icons/penguin_icon_hover.svg");
+  background-image: url("../assets/icons/penguin_icon_hover.svg");
 }
 
 .side-bar__link--other {
@@ -162,5 +161,5 @@
 }
 
 .side-bar__link--other-active::after {
-      background-image: url("../assets/icons/other_icon_hover.svg");
+  background-image: url("../assets/icons/other_icon_hover.svg");
 }
