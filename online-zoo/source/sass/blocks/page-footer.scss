@@ -187,6 +187,11 @@
   margin-right: 55px;
 }
 
+.page-footer__nav-link--active {
+  color: $orange;
+  cursor: default;
+}
+
 .page-footer__copyright {
   flex-grow: 1;
   display: flex;

@@ -1212,6 +1212,10 @@ img {
   color: #FFFFFF;
   margin-right: 55px; }
 
+.page-footer__nav-link--active {
+  color: #FE9013;
+  cursor: default; }
+
 .page-footer__copyright {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -1232,5 +1236,15 @@ img {
   font-weight: 200;
   line-height: 130%;
   color: #FFFFFF; }
+
+.map {
+  width: 100%;
+  background-color: #EAF7FE; }
+
+.map__container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative; }
 
 /*# sourceMappingURL=style.css.map */
