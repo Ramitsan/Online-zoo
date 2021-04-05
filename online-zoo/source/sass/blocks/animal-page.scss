@@ -3,8 +3,6 @@
   padding-top: 40px;
   padding-bottom: 100px;
   position: relative;
-  display: flex;
-  flex-direction: row;
 }
 
 .animal-page__wrapper {
@@ -13,5 +11,25 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+}
 
+.animal-page__title {
+  @include second-level-headings ();
+  color: $main-text-color;
+}
+
+.animal-page__donate {
+  width: 100%;
+  height: 390px;
+  background-image: url("../../assets/img/panda_bg_desktop.png");
+  background-size: cover;
+  background-position: top center;
+}
+
+.animal-page__donate a {
+  display: inline-block;
+  margin-top: 270px;
+  border-radius: 25px;
+  padding: 15px 100px;
 }

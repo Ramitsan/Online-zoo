@@ -1,0 +1,21 @@
+.description-animal {
+  color: $black;
+}
+
+.description-animal__item:first-child,
+.description-animal__item:nth-child(2),
+.description-animal__item:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+}
+
+.description-animal__item:first-child .description-animal__text,
+.description-animal__item:nth-child(2) .description-animal__text,
+.description-animal__item:nth-child(3) .description-animal__text {
+  margin-top: 36px;
+}
+
+.description-animal__subtitle {
+  @include fourth-level-headings ();
+}

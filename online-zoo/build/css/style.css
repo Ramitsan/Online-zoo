@@ -1251,14 +1251,7 @@ img {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 100px;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
+  position: relative; }
 
 .animal-page__wrapper {
   width: 100%;
@@ -1270,12 +1263,36 @@ img {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.animal-page__title {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 120%;
+  color: #333B41; }
+
+.animal-page__donate {
+  width: 100%;
+  height: 390px;
+  background-image: url("../../assets/img/panda_bg_desktop.png");
+  background-size: cover;
+  background-position: top center; }
+
+.animal-page__donate a {
+  display: inline-block;
+  margin-top: 270px;
+  border-radius: 25px;
+  padding: 15px 100px; }
 
 .side-bar {
   width: 100px;
   height: 652px;
-  position: sticky;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1479,5 +1496,90 @@ img {
   height: 10px;
   top: 27px;
   left: 19px; }
+
+.animal-info {
+  text-align: left;
+  padding-bottom: 170px; }
+
+.animal-info__wrapper {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto; }
+
+.animal-info__title {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 500;
+  color: #4B9200; }
+
+.animal-info__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.animal-info__foto {
+  width: 422px;
+  height: 421px; }
+
+.animal-info__text-block {
+  width: 655px;
+  margin-left: 55px;
+  margin-bottom: 10px; }
+
+.animal-info__annotation {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 140%;
+  color: #ABABAB; }
+
+.animal-info__link {
+  border-radius: 25px; }
+
+.animal-info__annotation a,
+.description-animal__text a {
+  text-decoration: none;
+  color: #4B9200; }
+
+.description-animal {
+  color: #000000; }
+
+.description-animal__item:first-child,
+.description-animal__item:nth-child(2),
+.description-animal__item:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline; }
+
+.description-animal__item:first-child .description-animal__text,
+.description-animal__item:nth-child(2) .description-animal__text,
+.description-animal__item:nth-child(3) .description-animal__text {
+  margin-top: 36px; }
+
+.description-animal__subtitle {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120%; }
 
 /*# sourceMappingURL=style.css.map */

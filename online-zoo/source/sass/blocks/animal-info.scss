@@ -1,0 +1,51 @@
+.animal-info {
+  text-align: left;
+  padding-bottom: 170px;
+}
+
+.animal-info__wrapper {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.animal-info__title {
+  @include second-level-headings ();
+  font-weight: 500;
+  color: $green;
+}
+
+.animal-info__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.animal-info__foto {
+  width: 422px;
+  height: 421px;
+}
+
+.animal-info__text-block {
+  width: 655px;
+  margin-left: 55px;
+  margin-bottom: 10px;
+}
+
+.animal-info__annotation {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 140%;
+  color: #ABABAB;
+}
+
+.animal-info__link {
+  border-radius: 25px;
+}
+
+.animal-info__annotation a,
+.description-animal__text a {
+  text-decoration: none;
+  color: $green;
+}
