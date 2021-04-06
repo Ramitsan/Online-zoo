@@ -1,6 +1,6 @@
 .watch-your-favorite-animal {
   width: 100%;
-  padding-bottom: 103px;
+  padding-bottom: 100px;
   background-color: $white;
   background-image: url("../assets/img/giant-panda_desktop2.jpg");
   background-repeat: no-repeat;
@@ -28,11 +28,13 @@
   text-transform: uppercase;
   color: $white;
   z-index: 100;
+  margin-top: 88px;
+  margin-bottom: 64px;
   &::before {
     content: "";
     position: absolute;
     top: -78px;
-    right: 104px;
+    right: 109px;
     width: 465px;
     height: 465px;
     background: $orange-gradient;
@@ -43,6 +45,7 @@
 
 .watch-your-favorite-animal__btn {
   border-radius: 25px;
+  margin-right: 100px;
 }
 
 .watch-your-favorite-animal__title span {

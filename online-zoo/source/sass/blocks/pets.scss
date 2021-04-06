@@ -1,6 +1,6 @@
 .pets {
-  padding-top: 20px;
-  padding-bottom: 100px;
+  padding-top: 65px;
+  padding-bottom: 117px;
   background-image: url("../assets/img/palm_bg_desktop.png"), url("../assets/img/strelitzia_desktop.png");
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
@@ -21,7 +21,8 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 85px;
+  margin-bottom: 74px;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -177,13 +178,15 @@
 }
 
 .pets__info {
-  margin-left: 10px;
+  margin-left: 14px;
 }
 
 .pets__name {
   font-weight: 500;
   text-transform: uppercase;
   color: $black;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .pets__home-country {
@@ -191,12 +194,14 @@
   font-size: 15px;
   line-height: 120%;
   color: $black;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .pets__buttons {
   width: 1320px;
   position: absolute;
-  top: 50%;
+  top: 44%;
   left: -7%;
   margin-top: -31px;
   display: flex;
@@ -250,4 +255,5 @@
 
 .pets__link {
   border-radius: 25px;
+  padding: 16px 56px;
 }

@@ -16,6 +16,7 @@
 .page-header__logo {
   margin: 15px 0;
   margin-right: 60px;
+  margin-bottom: 7px;
 }
 
 .page-header__logo-image {
@@ -33,6 +34,8 @@
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
+  padding-left: 3px;
+  margin: 10px 0;
 }
 
 .page-header__nav-link {

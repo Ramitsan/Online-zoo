@@ -11,18 +11,45 @@
   margin: 0 auto;
   background: $opacity-bg;
   border-radius: 20px;
-  padding-top: 52px;
+  padding-top: 40px;
   padding-bottom: 58px;
 }
 
 .pick-and-feed__title {
   @include second-level-headings ();
   color: $orange;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .pick-and-feed__subtitle {
   @include fourth-level-headings ();
   color: $main-text-color;
+  margin-bottom: 40px;
+}
+
+.pick-and-feed__subtitle,
+.pick-and-feed__info,
+.pick-and-feed__text {
+  margin-left: 100px;
+  text-align: left;
+}
+
+.pick-and-feed__info {
+  margin-bottom: 0;
+}
+
+.pick-and-feed__text {
+  width: 870px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.pick-and-feed__text-link {
+  display: inline-block;
+  color: #333B41;
+  padding-bottom: 3px;
+  border-bottom: 1px solid $orange;
 }
 
 .pick-and-feed__list {
@@ -32,7 +59,10 @@
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  margin-top: 40px;
   margin-bottom: 65px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .pick-and-feed__item {
@@ -41,6 +71,8 @@
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .pick-and-feed__item:not(:last-of-type) {
@@ -53,8 +85,8 @@
     background-position: center;
     width: 71px;
     height: 37px;
-    top: 35%;
-    left: 220px;
+    top: 24%;
+    left: 200px;
   }
 }
 
@@ -62,7 +94,6 @@
   width: 168px;
   height: 168px;
   position: relative;
-  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,9 +127,11 @@
 .pick-and-feed__link {
   display: inline-block;
   border-radius: 25px;
+  padding: 14px 74px;
 }
 
 .pick-and-feed__caption {
   @include third-level-headings ();
   color: $main-text-color;
+  margin-top: 54px;
 }

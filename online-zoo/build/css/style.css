@@ -397,7 +397,7 @@ img {
 
 .btn--orange {
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-  padding: 15px 70px;
+  padding: 15px 95px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -441,7 +441,8 @@ img {
 
 .page-header__logo {
   margin: 15px 0;
-  margin-right: 60px; }
+  margin-right: 60px;
+  margin-bottom: 7px; }
 
 .page-header__logo-image {
   width: 82px;
@@ -462,7 +463,9 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  list-style: none; }
+  list-style: none;
+  padding-left: 3px;
+  margin: 10px 0; }
 
 .page-header__nav-link {
   display: inline-block;
@@ -478,7 +481,7 @@ img {
 
 .watch-your-favorite-animal {
   width: 100%;
-  padding-bottom: 103px;
+  padding-bottom: 100px;
   background-color: #FFFFFF;
   background-image: url("../assets/img/giant-panda_desktop2.jpg");
   background-repeat: no-repeat;
@@ -510,12 +513,14 @@ img {
   line-height: 75%;
   text-transform: uppercase;
   color: #FFFFFF;
-  z-index: 100; }
+  z-index: 100;
+  margin-top: 88px;
+  margin-bottom: 64px; }
   .watch-your-favorite-animal__title::before {
     content: "";
     position: absolute;
     top: -78px;
-    right: 104px;
+    right: 109px;
     width: 465px;
     height: 465px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
@@ -523,13 +528,15 @@ img {
     z-index: -1; }
 
 .watch-your-favorite-animal__btn {
-  border-radius: 25px; }
+  border-radius: 25px;
+  margin-right: 100px; }
 
 .watch-your-favorite-animal__title span {
   color: #FFEE2E; }
 
 .backstage {
-  padding: 140px;
+  padding-top: 100px;
+  padding-bottom: 86px;
   background-image: url("../assets/img/flower_bg_desktop.jpg");
   background-repeat: no-repeat;
   background-position: right;
@@ -554,7 +561,8 @@ img {
           align-items: center; }
 
 .backstage__img {
-  margin-right: 86px; }
+  margin-right: 86px;
+  margin-top: 25px; }
 
 .backstage__info {
   width: 465px;
@@ -577,8 +585,8 @@ img {
   color: #333B41; }
 
 .pets {
-  padding-top: 20px;
-  padding-bottom: 100px;
+  padding-top: 65px;
+  padding-bottom: 117px;
   background-image: url("../assets/img/palm_bg_desktop.png"), url("../assets/img/strelitzia_desktop.png");
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
@@ -607,7 +615,8 @@ img {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 85px;
+  margin-bottom: 74px;
+  padding-left: 0;
   list-style: none; }
 
 .pets__item {
@@ -753,23 +762,27 @@ img {
   transition: all .5s ease-in-out; }
 
 .pets__info {
-  margin-left: 10px; }
+  margin-left: 14px; }
 
 .pets__name {
   font-weight: 500;
   text-transform: uppercase;
-  color: #000000; }
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 0; }
 
 .pets__home-country {
   font-weight: 300;
   font-size: 15px;
   line-height: 120%;
-  color: #000000; }
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 10px; }
 
 .pets__buttons {
   width: 1320px;
   position: absolute;
-  top: 50%;
+  top: 44%;
   left: -7%;
   margin-top: -31px;
   display: -webkit-box;
@@ -819,7 +832,8 @@ img {
   left: 19px; }
 
 .pets__link {
-  border-radius: 25px; }
+  border-radius: 25px;
+  padding: 16px 56px; }
 
 .pick-and-feed {
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
@@ -833,7 +847,7 @@ img {
   margin: 0 auto;
   background: rgba(253, 253, 255, 0.52);
   border-radius: 20px;
-  padding-top: 52px;
+  padding-top: 40px;
   padding-bottom: 58px; }
 
 .pick-and-feed__title {
@@ -842,7 +856,9 @@ img {
   font-weight: normal;
   font-size: 48px;
   line-height: 120%;
-  color: #FE9013; }
+  color: #FE9013;
+  margin-top: 0;
+  margin-bottom: 0; }
 
 .pick-and-feed__subtitle {
   font-family: "Roboto", "Arial", sans-serif;
@@ -850,7 +866,28 @@ img {
   font-weight: normal;
   font-size: 24px;
   line-height: 120%;
-  color: #333B41; }
+  color: #333B41;
+  margin-bottom: 40px; }
+
+.pick-and-feed__subtitle,
+.pick-and-feed__info,
+.pick-and-feed__text {
+  margin-left: 100px;
+  text-align: left; }
+
+.pick-and-feed__info {
+  margin-bottom: 0; }
+
+.pick-and-feed__text {
+  width: 870px;
+  margin-top: 10px;
+  margin-bottom: 6px; }
+
+.pick-and-feed__text-link {
+  display: inline-block;
+  color: #333B41;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #FE9013; }
 
 .pick-and-feed__list {
   width: 100%;
@@ -867,7 +904,10 @@ img {
       -ms-flex-align: center;
           align-items: center;
   list-style: none;
-  margin-bottom: 65px; }
+  margin-top: 40px;
+  margin-bottom: 65px;
+  padding-left: 120px;
+  padding-right: 120px; }
 
 .pick-and-feed__item {
   display: -webkit-box;
@@ -883,7 +923,9 @@ img {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  position: relative; }
+  position: relative;
+  margin-top: 0;
+  padding-top: 0; }
 
 .pick-and-feed__item:not(:last-of-type)::after {
   content: "";
@@ -894,14 +936,13 @@ img {
   background-position: center;
   width: 71px;
   height: 37px;
-  top: 35%;
-  left: 220px; }
+  top: 24%;
+  left: 200px; }
 
 .pick-and-feed__container-img {
   width: 168px;
   height: 168px;
   position: relative;
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -936,7 +977,8 @@ img {
 
 .pick-and-feed__link {
   display: inline-block;
-  border-radius: 25px; }
+  border-radius: 25px;
+  padding: 14px 74px; }
 
 .pick-and-feed__caption {
   font-family: "Roboto", "Arial", sans-serif;
@@ -944,15 +986,16 @@ img {
   font-weight: normal;
   font-size: 36px;
   line-height: 130%;
-  color: #333B41; }
+  color: #333B41;
+  margin-top: 54px; }
 
 .testimonials {
   width: 100%;
-  padding-top: 232px;
+  padding-top: 104px;
   padding-bottom: 177px;
   background-image: url("../assets/img/leav_bg_desctop.png");
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right 644px;
   background-size: 247px 408px; }
 
 .testimonials__wrapper {
@@ -967,9 +1010,19 @@ img {
       -ms-flex-direction: column;
           flex-direction: column; }
 
+.testimonials__title {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 130%;
+  color: #333B41;
+  margin-bottom: 26px; }
+
 .testimonials__list {
   width: 100;
   padding: 0;
+  margin-top: 23px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -988,13 +1041,14 @@ img {
   list-style: none; }
 
 .testimonials__controls {
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 .testimonials__link {
   display: inline-block;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  border-radius: 5px; }
+  border-radius: 5px;
+  padding: 15px 84px; }
 
 .testimonial-card {
   width: 266px;
@@ -1109,8 +1163,8 @@ img {
 
 .page-footer {
   width: 100%;
-  padding-top: 68px;
-  padding-bottom: 47px;
+  padding-top: 28px;
+  padding-bottom: 36px;
   background-color: #111115; }
 
 .page-footer__wrapper {
@@ -1161,7 +1215,8 @@ img {
           justify-content: flex-start;
   -webkit-box-align: end;
       -ms-flex-align: end;
-          align-items: flex-end; }
+          align-items: flex-end;
+  padding-top: 15px; }
 
 .page-footer__subscribe-title {
   font-family: "Roboto", "Arial", sans-serif;
@@ -1216,12 +1271,13 @@ img {
       flex-basis: 100%;
   -ms-flex-item-align: end;
       align-self: flex-end;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 36px;
+  margin-bottom: 64px;
   text-align: left; }
 
 .page-footer__donate-link {
-  border-radius: 5px; }
+  border-radius: 5px;
+  padding: 16px 49px; }
 
 .page-footer__social {
   -webkit-box-flex: 1;
@@ -1240,13 +1296,13 @@ img {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-right: 275px; }
+  margin-right: 228px; }
 
 .page-footer__social-link {
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   color: #FFFFFF;
-  padding-left: 25px;
+  padding-left: 38px;
   position: relative; }
   .page-footer__social-link::before {
     content: "";
@@ -1254,7 +1310,7 @@ img {
     width: 26px;
     height: 26px;
     top: -4px;
-    left: -10px;
+    left: 0;
     background-color: rgba(196, 196, 196, 0.5);
     border-radius: 50%; }
   .page-footer__social-link:active {
@@ -1273,7 +1329,7 @@ img {
   width: 8px;
   height: 16px;
   top: 1px;
-  left: -1px; }
+  left: 9px; }
 
 .page-footer__social-link--twitter::after {
   content: "";
@@ -1285,7 +1341,7 @@ img {
   width: 16px;
   height: 14px;
   top: 1px;
-  left: -4px; }
+  left: 5px; }
 
 .page-footer__social-link--instagram::after {
   content: "";
@@ -1297,7 +1353,7 @@ img {
   width: 16px;
   height: 16px;
   top: 1px;
-  left: -4px; }
+  left: 5px; }
 
 .page-footer__social-link--youtube::after {
   content: "";
@@ -1309,7 +1365,7 @@ img {
   width: 18px;
   height: 13px;
   top: 2px;
-  left: -6px; }
+  left: 4px; }
 
 .page-footer__nav {
   -webkit-box-flex: 1;
@@ -1333,7 +1389,8 @@ img {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  list-style: none; }
+  list-style: none;
+  padding-left: 0; }
 
 .page-footer__nav-link {
   display: inline-block;
@@ -1641,7 +1698,7 @@ img {
 .animal-info {
   text-align: left;
   padding-bottom: 170px;
-  background-image: url("../assets/img/strelitzia_desktop2.png"), url("../../assets/img/leav_bg_desktop2.png");
+  background-image: url("../assets/img/strelitzia_desktop2.png"), url("../assets/img/leav_bg_desktop2.png");
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
   background-size: 306px 229px, 215px 292px; }

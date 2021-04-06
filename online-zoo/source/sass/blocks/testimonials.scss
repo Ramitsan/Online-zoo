@@ -1,10 +1,10 @@
 .testimonials {
   width: 100%;
-  padding-top: 232px;
+  padding-top: 104px;
   padding-bottom: 177px;
   background-image: url("../assets/img/leav_bg_desctop.png");
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right 644px;
   background-size: 247px 408px;
 }
 
@@ -16,9 +16,16 @@
   flex-direction: column;
 }
 
+.testimonials__title {
+  @include third-level-headings ();
+  color: #333B41;
+  margin-bottom: 26px;
+}
+
 .testimonials__list {
   width: 100;
   padding: 0;
+  margin-top: 23px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,11 +35,12 @@
 }
 
 .testimonials__controls {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .testimonials__link {
   display: inline-block;
   align-self: flex-start;
-  border-radius: 5px
+  border-radius: 5px;
+  padding: 15px 84px;
 }

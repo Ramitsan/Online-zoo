@@ -1,5 +1,7 @@
 .backstage {
-  padding: 140px;
+  // padding: 140px;
+  padding-top: 100px;
+  padding-bottom: 86px;
   background-image: url("../assets/img/flower_bg_desktop.jpg");
   background-repeat: no-repeat;
   background-position: right;
@@ -18,6 +20,7 @@
 
 .backstage__img {
   margin-right: 86px;
+  margin-top: 25px;
 }
 
 .backstage__info {
