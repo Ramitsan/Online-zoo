@@ -205,9 +205,15 @@
   justify-content: flex-end;
 }
 
-.page-footer__copyright p {
+.page-footer__copyright a {
+  display: inline-block;
   margin-top: 0;
   font-weight: 200;
   line-height: 130%;
   color: $white;
+  padding-bottom: 10px;
+  &:active {
+    color: $green;
+    text-decoration: underline;
+  }
 }
