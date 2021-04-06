@@ -1,6 +1,10 @@
 .animal-info {
   text-align: left;
   padding-bottom: 170px;
+  background-image: url("../assets/img/strelitzia_desktop2.png"), url("../../assets/img/leav_bg_desktop2.png");
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 306px 229px, 215px 292px;
 }
 
 .animal-info__wrapper {

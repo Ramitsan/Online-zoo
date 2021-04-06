@@ -70,6 +70,10 @@
   cursor: pointer;
   background: $orange-gradient;
   position: relative;
+  outline: none;
+  &:active {
+    background: $green;
+  }
 }
 
 .pets__button--left {

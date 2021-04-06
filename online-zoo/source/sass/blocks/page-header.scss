@@ -40,6 +40,9 @@
   color: $white;
   font-weight: 500;
   cursor: pointer;
+  &:active {
+    opacity: 0.8;
+  }
 }
 
 .page-header__nav-link--active {

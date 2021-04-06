@@ -185,6 +185,9 @@
   display: inline-block;
   color: $white;
   margin-right: 55px;
+  &:active {
+    opacity: 0.8;
+  }
 }
 
 .page-footer__nav-link--active {

@@ -469,6 +469,8 @@ img {
   color: #FFFFFF;
   font-weight: 500;
   cursor: pointer; }
+  .page-header__nav-link:active {
+    opacity: 0.8; }
 
 .page-header__nav-link--active {
   color: #FE9013;
@@ -653,7 +655,10 @@ img {
   border-radius: 50%;
   cursor: pointer;
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-  position: relative; }
+  position: relative;
+  outline: none; }
+  .pets__button:active {
+    background: #4B9200; }
 
 .pets__button--left::before {
   content: "";
@@ -773,22 +778,11 @@ img {
       -ms-flex-align: center;
           align-items: center;
   background-color: #FFFFFF;
-  border: 1px solid transparent;
+  border: 1px solid #FE9013;
   border-radius: 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-clip: padding-box; }
-  .pick-and-feed__container-img::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: inherit;
-    z-index: -1;
-    margin: -5px;
-    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%); }
 
 .pick-and-feed__container-img--pay img {
   width: 108px;
@@ -1211,6 +1205,8 @@ img {
   display: inline-block;
   color: #FFFFFF;
   margin-right: 55px; }
+  .page-footer__nav-link:active {
+    opacity: 0.8; }
 
 .page-footer__nav-link--active {
   color: #FE9013;
@@ -1510,7 +1506,11 @@ img {
 
 .animal-info {
   text-align: left;
-  padding-bottom: 170px; }
+  padding-bottom: 170px;
+  background-image: url("../assets/img/strelitzia_desktop2.png"), url("../../assets/img/leav_bg_desktop2.png");
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 306px 229px, 215px 292px; }
 
 .animal-info__wrapper {
   width: 100%;
@@ -1592,5 +1592,8 @@ img {
   font-weight: normal;
   font-size: 24px;
   line-height: 120%; }
+
+.description-animal__link-map:active {
+  color: #FE9013; }
 
 /*# sourceMappingURL=style.css.map */

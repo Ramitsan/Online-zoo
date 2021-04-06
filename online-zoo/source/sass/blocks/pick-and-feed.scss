@@ -67,22 +67,10 @@
   justify-content: center;
   align-items: center;
   background-color: $white;
-  border: 1px solid transparent;
+  border: 1px solid $orange;
   border-radius: 5px;
   box-sizing: border-box;
   background-clip: padding-box;
-  &::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: inherit;
-    z-index: -1;
-    margin: -5px;
-    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-  }
 }
 
 .pick-and-feed__container-img--pay img {

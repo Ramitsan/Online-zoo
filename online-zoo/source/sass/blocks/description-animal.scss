@@ -19,3 +19,9 @@
 .description-animal__subtitle {
   @include fourth-level-headings ();
 }
+
+.description-animal__link-map {
+  &:active {
+    color: $orange;
+  }
+}
