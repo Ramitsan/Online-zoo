@@ -1,0 +1,60 @@
+  .error-page {
+    padding-top: 65px;
+    padding-bottom: 117px;
+    background-image: url("../../assets/img/palm_bg_desktop.png"), url("../../assets/img/bambuk-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 292px 460px, cover;
+    background-position: bottom left, center;
+  }
+
+  .error-page__wrapper {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .error-page__title {
+    font-size: 85px;
+    font-weight: bold;
+    color: $green;
+    margin-bottom: 45px;
+  }
+
+  .error-page__box {
+    margin: 0 auto;
+    margin-top: 85px;
+  }
+
+  .error-page__img {
+    display: block;
+    width: 900px;
+    height: 460px;
+  }
+
+  .error-page__text {
+    font-size: 45px;
+    font-weight: 500;
+    color: $main-text-color;
+  }
+
+  .error-page__links {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .error-page__links a {
+    border-radius: 25px;
+  }
+
+  .error-page__links span {
+    font-size: 36px;
+    font-weight: 500;
+    color: $main-text-color;
+  }
