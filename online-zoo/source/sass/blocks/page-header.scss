@@ -52,3 +52,13 @@
   color: $orange;
   cursor: default;
 }
+
+@media (max-width: $small-desktop-width) {
+  .page-header__wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+  .page-header__nav {
+    width: 488px;
+  }
+}

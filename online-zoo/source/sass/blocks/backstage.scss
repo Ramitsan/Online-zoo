@@ -1,5 +1,4 @@
 .backstage {
-  // padding: 140px;
   padding-top: 100px;
   padding-bottom: 86px;
   background-image: url("../assets/img/flower_bg_desktop.jpg");
@@ -36,4 +35,28 @@
 .backstage__subtitle {
   @include fourth-level-headings ();
   color: $main-text-color;
+}
+
+@media (max-width: $small-desktop-width) {
+  .backstage {
+    padding-top: 50px;
+    padding-bottom: 46px;
+    background-image: none;
+  }
+  .backstage__wrapper {
+    max-width: 940px;
+  }
+  .backstage__img {
+    width: 455px;
+    height: 408px;
+    margin-right: 44px;
+    margin-top: 42px;
+  }
+  .backstage__title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .backstage__subtitle {
+    margin-top: 54px;
+  }
 }

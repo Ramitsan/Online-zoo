@@ -57,7 +57,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   list-style: none;
   margin-top: 40px;
   margin-bottom: 65px;
@@ -134,4 +134,52 @@
   @include third-level-headings ();
   color: $main-text-color;
   margin-top: 54px;
+}
+
+@media (max-width: $small-desktop-width) {
+  .pick-and-feed {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .pick-and-feed__wrapper {
+    max-width: 940px;
+    padding-top: 30px;
+    padding-bottom: 51px;
+  }
+  .pick-and-feed__subtitle {
+    width: 844px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+  }
+  .pick-and-feed__subtitle,
+  .pick-and-feed__info,
+  .pick-and-feed__text {
+    margin-left: 50px;
+  }
+  .pick-and-feed__info,
+  .pick-and-feed__text {
+    width: 806px;
+  }
+  .pick-and-feed__info {
+    font-weight: 500;
+    line-height: 130%;
+  }
+  .pick-and-feed__text-link {
+    padding-bottom: 0;
+  }
+  .pick-and-feed__caption {
+    margin-top: 40px;
+  }
+  .pick-and-feed__list {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 56px;
+  }
+  .pick-and-feed__item p {
+    margin-top: 30px;
+  }
+  .pick-and-feed__item:not(:last-of-type)::after {
+    top: 23%;
+    left: 196px;
+  }
 }

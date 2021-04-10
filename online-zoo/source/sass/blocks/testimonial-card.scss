@@ -94,3 +94,17 @@
   line-height: 120%;
   color: $gray;
 }
+
+@media (max-width: $small-desktop-width) {
+  .testimonial-card {
+    width: 293px;
+    height: 387px;
+    margin-right: 32px;
+  }
+  .testimonial-card__text {
+    width: 260px;
+  }
+  .testimonial-card blockquote {
+    margin: 12px 15px;
+  }
+}
