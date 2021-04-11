@@ -11,8 +11,11 @@
   color: $white;
   outline: none;
   cursor: pointer;
-  &:active {
+  &:hover {
     background: $green;
+  }
+  &:active {
+    opacity: .7;
   }
 }
 

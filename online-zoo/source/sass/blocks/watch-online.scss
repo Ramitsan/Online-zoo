@@ -31,8 +31,11 @@
   background: $orange-gradient;
   position: relative;
   outline: none;
-  &:active {
+  &:hover {
     background: $green;
+  }
+  &:active {
+    opacity: .7;
   }
 }
 

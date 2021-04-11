@@ -101,13 +101,20 @@
     background-color: rgba(196, 196, 196, 0.5);
     border-radius: 50%;
   }
-  &:active {
+  &:hover {
     color: $green;
+  }
+  &:active {
+    opacity: .7;
   }
 }
 
-.page-footer__social-link:active::before {
+.page-footer__social-link:hover::before {
   background-color: $green;
+}
+
+.page-footer__social-link:active::before {
+  opacity: 0.7;
 }
 
 .page-footer__social-link--facebook {

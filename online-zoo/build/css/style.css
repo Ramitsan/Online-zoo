@@ -408,8 +408,10 @@ img {
   color: #FFFFFF;
   outline: none;
   cursor: pointer; }
-  .btn--orange:active {
+  .btn--orange:hover {
     background: #4B9200; }
+  .btn--orange:active {
+    opacity: .7; }
 
 .btn--submit {
   background: #F1F3F2;
@@ -850,8 +852,10 @@ img {
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   position: relative;
   outline: none; }
-  .pets__button:active {
+  .pets__button:hover {
     background: #4B9200; }
+  .pets__button:active {
+    opacity: .7; }
 
 .pets__button--left::before {
   content: "";
@@ -1453,11 +1457,16 @@ img {
     left: 0;
     background-color: rgba(196, 196, 196, 0.5);
     border-radius: 50%; }
-  .page-footer__social-link:active {
+  .page-footer__social-link:hover {
     color: #4B9200; }
+  .page-footer__social-link:active {
+    opacity: .7; }
+
+.page-footer__social-link:hover::before {
+  background-color: #4B9200; }
 
 .page-footer__social-link:active::before {
-  background-color: #4B9200; }
+  opacity: 0.7; }
 
 .page-footer__social-link--facebook::after {
   content: "";
@@ -2018,8 +2027,10 @@ img {
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   position: relative;
   outline: none; }
-  .watch-online__button:active {
+  .watch-online__button:hover {
     background: #4B9200; }
+  .watch-online__button:active {
+    opacity: .7; }
 
 .watch-online__button--left::before {
   content: "";
