@@ -1820,7 +1820,9 @@ img {
   font-weight: normal;
   font-size: 48px;
   line-height: 120%;
-  color: #333B41; }
+  color: #333B41;
+  margin-top: 0;
+  margin-bottom: 15px; }
 
 .animal-page__donate {
   width: 100%;
@@ -1842,9 +1844,9 @@ img {
 
 .animal-page__donate a {
   display: inline-block;
-  margin-top: 270px;
+  margin-top: 276px;
   border-radius: 25px;
-  padding: 15px 100px; }
+  padding: 15px 117px; }
 
 .side-bar {
   width: 100px;
@@ -1860,7 +1862,7 @@ img {
   padding-top: 10px;
   margin-left: 0;
   top: 30px;
-  left: 10px;
+  left: 30px;
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
   border-radius: 5px;
   z-index: 100; }
@@ -2007,7 +2009,7 @@ img {
   position: absolute;
   top: 50%;
   left: -7%;
-  margin-top: -31px;
+  margin-top: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2058,7 +2060,7 @@ img {
 
 .animal-info {
   text-align: left;
-  padding-bottom: 170px;
+  padding-bottom: 181px;
   background-image: url("../assets/img/strelitzia_desktop2.png"), url("../assets/img/leav_bg_desktop2.png");
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
@@ -2069,6 +2071,9 @@ img {
   max-width: 1160px;
   margin: 0 auto; }
 
+.animal-info__wrapper hr {
+  margin-top: 20px; }
+
 .animal-info__title {
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
@@ -2076,7 +2081,8 @@ img {
   font-size: 48px;
   line-height: 120%;
   font-weight: 500;
-  color: #4B9200; }
+  color: #4B9200;
+  margin-bottom: 25px; }
 
 .animal-info__header {
   display: -webkit-box;
@@ -2098,18 +2104,21 @@ img {
   height: 421px; }
 
 .animal-info__text-block {
-  width: 655px;
+  width: 668px;
   margin-left: 55px;
   margin-bottom: 10px; }
 
 .animal-info__annotation {
+  margin-top: -42px;
+  margin-bottom: 56px;
   font-weight: 500;
   font-size: 26px;
   line-height: 140%;
   color: #ABABAB; }
 
 .animal-info__link {
-  border-radius: 25px; }
+  border-radius: 25px;
+  padding: 15px 75px; }
 
 .animal-info__annotation a,
 .description-animal__text a {
@@ -2133,11 +2142,6 @@ img {
       -ms-flex-pack: baseline;
           justify-content: baseline; }
 
-.description-animal__item:first-child .description-animal__text,
-.description-animal__item:nth-child(2) .description-animal__text,
-.description-animal__item:nth-child(3) .description-animal__text {
-  margin-top: 36px; }
-
 .description-animal__subtitle {
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
@@ -2145,8 +2149,70 @@ img {
   font-size: 24px;
   line-height: 120%; }
 
+.description-animal__subtitle--diet {
+  margin-top: 33px;
+  margin-bottom: 0; }
+
+.description-animal__text--diet {
+  margin-top: 40px; }
+
+.description-animal__subtitle--range {
+  margin-top: 5px;
+  margin-bottom: 28px; }
+
+.description-animal__text--range {
+  margin-top: 10px; }
+
+.description-animal__subtitle--habitat {
+  margin-top: 0px; }
+
+.description-animal__text--habitat {
+  margin-top: 6px; }
+
+.description-animal__subtitle--general-info {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.description-animal__text--general-info {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.description-animal__subtitle--physical {
+  margin-bottom: 0; }
+
+.description-animal__text--physical {
+  margin-top: 9px;
+  margin-bottom: 20px; }
+
+.description-animal__subtitle--lifestyle {
+  margin-bottom: 0; }
+
+.description-animal__text--lifestyle {
+  margin-top: 9px;
+  margin-bottom: 20px; }
+
+.description-animal__subtitle--habitat2 {
+  margin-bottom: 0; }
+
+.description-animal__text--habitat2 {
+  margin-top: 10px; }
+
+.description-animal__subtitle--diet2 {
+  margin-bottom: 0; }
+
+.description-animal__text--diet2 {
+  width: 1157px;
+  margin-top: 10px;
+  margin-bottom: 40px; }
+
 .description-animal__link-map:active {
   color: #FE9013; }
+
+.description-animal__button {
+  width: 130px;
+  padding: 10px;
+  border: 1px solid #333B41;
+  border-radius: 5px; }
 
 .error-page {
   padding-top: 65px;

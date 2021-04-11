@@ -1,6 +1,6 @@
 .animal-info {
   text-align: left;
-  padding-bottom: 170px;
+  padding-bottom: 181px;
   background-image: url("../assets/img/strelitzia_desktop2.png"), url("../assets/img/leav_bg_desktop2.png");
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
@@ -13,10 +13,15 @@
   margin: 0 auto;
 }
 
+.animal-info__wrapper hr {
+  margin-top: 20px;
+}
+
 .animal-info__title {
   @include second-level-headings ();
   font-weight: 500;
   color: $green;
+  margin-bottom: 25px;
 }
 
 .animal-info__header {
@@ -32,12 +37,14 @@
 }
 
 .animal-info__text-block {
-  width: 655px;
+  width: 668px;
   margin-left: 55px;
   margin-bottom: 10px;
 }
 
 .animal-info__annotation {
+  margin-top: -42px;
+  margin-bottom: 56px;
   font-weight: 500;
   font-size: 26px;
   line-height: 140%;
@@ -46,6 +53,7 @@
 
 .animal-info__link {
   border-radius: 25px;
+  padding: 15px 75px;
 }
 
 .animal-info__annotation a,

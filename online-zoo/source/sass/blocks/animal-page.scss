@@ -17,6 +17,8 @@
 .animal-page__title {
   @include second-level-headings ();
   color: $main-text-color;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 .animal-page__donate {
@@ -44,7 +46,7 @@
 
 .animal-page__donate a {
   display: inline-block;
-  margin-top: 270px;
+  margin-top: 276px;
   border-radius: 25px;
-  padding: 15px 100px;
+  padding: 15px 117px;
 }

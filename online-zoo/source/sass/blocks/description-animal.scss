@@ -10,18 +10,91 @@
   justify-content: baseline;
 }
 
-.description-animal__item:first-child .description-animal__text,
-.description-animal__item:nth-child(2) .description-animal__text,
-.description-animal__item:nth-child(3) .description-animal__text {
-  margin-top: 36px;
-}
-
 .description-animal__subtitle {
   @include fourth-level-headings ();
+}
+
+.description-animal__subtitle--diet {
+  margin-top: 33px;
+  margin-bottom: 0;
+}
+
+.description-animal__text--diet {
+  margin-top: 40px;
+}
+
+.description-animal__subtitle--range {
+  margin-top: 5px;
+  margin-bottom: 28px;
+}
+
+.description-animal__text--range {
+  margin-top: 10px;
+}
+
+.description-animal__subtitle--habitat {
+  margin-top: 0px;
+}
+
+.description-animal__text--habitat {
+  margin-top: 6px;
+}
+
+.description-animal__subtitle--general-info {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.description-animal__text--general-info {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.description-animal__subtitle--physical {
+  margin-bottom: 0;
+}
+
+.description-animal__text--physical {
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+
+.description-animal__subtitle--lifestyle {
+  margin-bottom: 0;
+}
+
+.description-animal__text--lifestyle {
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+
+.description-animal__subtitle--habitat2 {
+  margin-bottom: 0;
+}
+
+.description-animal__text--habitat2 {
+  margin-top: 10px;
+}
+
+.description-animal__subtitle--diet2 {
+  margin-bottom: 0;
+}
+
+.description-animal__text--diet2 {
+  width: 1157px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 .description-animal__link-map {
   &:active {
     color: $orange;
   }
+}
+
+.description-animal__button {
+  width: 130px;
+  padding: 10px;
+  border: 1px solid $main-text-color;
+  border-radius: 5px;
 }
