@@ -14,28 +14,37 @@
   <header class="page-header">
     <div class="page-header__wrapper">
       <a class="page-header__logo" href="index.html">
-        <img class="page-header__logo-image" src="assets/img/logo_footer_desktop.png" alt="PetStory online logo">
+        <picture>
+          <source media="(max-width: 999px)" srcset="assets/img/logo_footer_tablet.png">
+          <img src="assets/img/logo_footer_desktop.png" alt="PetStory online logo">
+        </picture>
       </a>
       <h1 class="visually-hidden">PetStory Online</h1>
-      <nav class="page-header__nav">
-        <ul class="page-header__nav-list">
-          <li class="page-header__nav-item">
-            <a class="page-header__nav-link page-header__nav-link--active" href="index.html">About</a>
-          </li>
-          <li class="page-header__nav-item">
-            <a class="page-header__nav-link" href="map.html">Map</a>
-          </li>
-          <li class="page-header__nav-item">
-            <a class="page-header__nav-link" href="panda.html">Zoos</a>
-          </li>
-          <li class="page-header__nav-item">
-            <a class="page-header__nav-link" href="404.html">Contact us</a>
-          </li>
-          <li class="page-header__nav-item">
-            <a class="page-header__nav-link" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by ©</a>
-          </li>
-        </ul>
+      <button class="btn main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <nav class="page-header__nav main-nav main-nav--closed">
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="main-nav__link main-nav__link--active" href="index.html">About</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="map.html">Map</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="panda.html">Zoos</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="404.html">Contact us</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by ©</a>
+            </li>
+          </ul>
+        </div>
       </nav>
+      
     </div>
   </header>
   <!-- Header [END] -->

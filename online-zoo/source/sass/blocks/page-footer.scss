@@ -226,7 +226,6 @@
 }
 
 @media (max-width: $small-desktop-width) {
-  .page-footer {}
   .page-footer__wrapper {
     max-width: 940px;
   }
@@ -281,5 +280,26 @@
   .page-footer__copyright {
     margin-right: -22px;
     padding-bottom: 4px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .page-footer {
+    padding-top: 0;
+  }
+  .page-footer__wrapper {
+    max-width: 600px;
+  }
+  .page-footer__logo {
+    margin-left: 0;
+  }
+  .page-footer__subscribe {
+    display: none;
+  }
+  .page-footer__donate {
+    margin-top: 27px;
+  }
+  .page-footer__donate-link {
+    margin-left: 0;
   }
 }

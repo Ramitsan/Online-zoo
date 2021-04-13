@@ -183,3 +183,57 @@
     left: 196px;
   }
 }
+
+@media (max-width: $tablet-width) {
+  .pick-and-feed {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .pick-and-feed__wrapper {
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 61px;
+  }
+  .pick-and-feed__subtitle,
+  .pick-and-feed__info,
+  .pick-and-feed__text {
+    width: 600px;
+    margin-left: 0;
+  }
+  .pick-and-feed__title {
+    font-size: 42px;
+  }
+  .pick-and-feed__subtitle,
+  .pick-and-feed__info,
+  .pick-and-feed__text {
+    margin-left: 20px;
+  }
+  .pick-and-feed__subtitle {
+    font-size: 22px;
+  }
+  .pick-and-feed__caption {
+    margin-top: 28px;
+    margin-bottom: 20px;
+  }
+  .pick-and-feed__list {
+    margin-top: 20px;
+    margin-bottom: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+  }
+  .pick-and-feed__container-img {
+    width: 168px;
+  }
+  .pick-and-feed__item:not(:last-of-type) {
+    &::after {
+      background-image: url("../assets/icons/green-arrow_tablet.png");
+      background-size: 89px 29px;
+      width: 89px;
+      height: 29px;
+      top: -7%;
+      left: 137px;
+      z-index: 100;
+    }
+  }
+}

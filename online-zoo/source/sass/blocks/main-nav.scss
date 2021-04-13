@@ -1,0 +1,107 @@
+.main-nav__toggle {
+  display: none;
+}
+
+.main-nav {
+  width: 530px;
+  position: relative;
+}
+
+.main-nav__list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 3px;
+  margin: 10px 0;
+}
+
+.main-nav__link {
+  display: inline-block;
+  color: $white;
+  font-weight: 500;
+  cursor: pointer;
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+.main-nav__link--active {
+  color: $orange;
+  cursor: default;
+}
+
+@media (max-width: $small-desktop-width) {
+  .main-nav {
+    width: 488px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .main-nav {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    width: 320px;
+    margin: 0px;
+    // background-color: #292929;
+  }
+  .main-nav--closed {
+    position: fixed;
+    right: -500px;
+    transform: translateX(100%);
+    transition: all .7s ease-out;
+  }
+  .main-nav--opened {
+    position: fixed;
+    right: 0;
+    transform: translateX(0%);
+    transition: all .7s ease-out;
+  }
+  .main-nav__toggle {
+    position: absolute;
+    background-color: transparent;
+    width: 45px;
+    height: 35px;
+    top: 0px;
+    right: 0px;
+    z-index: 3000;
+    display: block;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url("../../assets/icons/burger_menu_tablet.png");
+      background-repeat: no-repeat;
+      left: 7px;
+      top: 10px;
+      width: 18px;
+      height: 10px;
+    }
+  }
+  // .main-nav__wrapper {
+  //   flex-direction: column;
+  //   justify-content: flex-start;
+  // }
+  .main-nav__list {
+    width: 320px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 250px;
+    margin-bottom: 213px;
+  }
+  .main-nav__item {
+    padding-top: 10px;
+    padding-bottom: 52px;
+  }
+  .main-nav__link {
+    display: block;
+  }
+  .main-nav__link--active {
+    padding-bottom: 13px;
+  }
+}

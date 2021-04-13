@@ -1,7 +1,7 @@
 .backstage {
   padding-top: 100px;
   padding-bottom: 86px;
-  background-image: url("../assets/img/flower_bg_desktop.jpg");
+  background-image: url("../assets/img/flower_bg_desktop.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 281px auto;
@@ -58,5 +58,36 @@
   }
   .backstage__subtitle {
     margin-top: 54px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .backstage {
+    padding-top: 10px;
+    padding-bottom: 33px;
+    background-image: url("../assets/img/flower_bg_tablet.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 132px 484px;
+  }
+  .backstage__wrapper {
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .backstage__img {
+    display: none;
+  }
+  .backstage__info {
+    width: 495px;
+  }
+  .backstage__title {
+    margin-left: 5px;
+  }
+  .backstage__subtitle {
+    margin-top: 31px;
+    margin-left: 5px;
+    margin-bottom: 20px;
   }
 }

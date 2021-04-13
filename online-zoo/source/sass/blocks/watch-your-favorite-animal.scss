@@ -15,6 +15,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  overflow: hidden;
 }
 
 .watch-your-favorite-animal__title {
@@ -76,5 +77,33 @@
   }
   .watch-your-favorite-animal__btn {
     margin-right: 108px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .watch-your-favorite-animal {
+    background-image: url("../assets/img/giant-panda_tablet.jpg");
+    padding-bottom: 41px;
+  }
+  .watch-your-favorite-animal__wrapper {
+    width: 100%;
+    max-width: 600px;
+  }
+  .watch-your-favorite-animal__title {
+    width: 255px;
+    font-size: 54px;
+    margin-top: 51px;
+    margin-right: -3px;
+    margin-bottom: 0;
+    &::before {
+      width: 237px;
+      height: 237px;
+      top: -41px;
+      right: 55px;
+    }
+  }
+  .watch-your-favorite-animal__btn {
+    padding: 12px 95px;
+    align-self: flex-start;
   }
 }

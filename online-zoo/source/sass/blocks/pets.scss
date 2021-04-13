@@ -291,3 +291,39 @@
     align-items: center;
   }
 }
+
+@media (max-width: $tablet-width) {
+  .pets {
+    padding-top: 16px;
+    padding-bottom: 115px;
+    background-image: url("../assets/img/palm_bg_tablet.png"), url("../assets/img/strelitzia_tablet.png");
+    background-size: 134px 202px, 175px 131px;
+  }
+  .pets__wrapper {
+    max-width: 600px;
+  }
+  .pets__list {
+    overflow: hidden;
+    height: 828px;
+  }
+  .pets__item {
+    width: 285px;
+  }
+  .pets__info {
+    margin-left: 11px;
+  }
+  .pets__name {
+    font-size: 12px;
+    margin-top: 8px;
+    line-height: 130%;
+  }
+  .pets__home-country {
+    font-size: 11px;
+  }
+  .pets__buttons {
+    width: 157px;
+    left: 61%;
+    margin-left: -145px;
+    margin-top: -60px;
+  }
+}

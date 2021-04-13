@@ -67,3 +67,30 @@
     margin-bottom: 42px;
   }
 }
+
+@media (max-width: $tablet-width) {
+  .testimonials {
+    padding-top: 26px;
+    padding-bottom: 80px;
+    background-image: url("../../assets/img/leav_bg_tablet.png");
+    background-position: right 533px;
+    background-size: 116px 204px;
+  }
+  .testimonials__wrapper {
+    max-width: 600px;
+    align-items: center;
+  }
+  .testimonials__list {
+    flex-direction: column;
+    margin-top: 22px;
+    height: 363px;
+  }
+  .testimonials__controls {
+    display: none;
+  }
+  .testimonials__link {
+    margin-top: 17px;
+    align-self: center;
+    padding: 15px 54px;
+  }
+}

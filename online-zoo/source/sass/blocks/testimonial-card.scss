@@ -108,3 +108,20 @@
     margin: 12px 15px;
   }
 }
+
+@media (max-width: $tablet-width) {
+  .testimonial-card {
+    width: 100%;
+    height: 104px;
+    margin-right: 0;
+    margin-bottom: 19px;
+    // overflow: hidden;
+  }
+  .testimonial-card__text {
+    width: 100%;
+  }
+  .testimonial-card blockquote {
+    height: 84px;
+    overflow: hidden;
+  }
+}
