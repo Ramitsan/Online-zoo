@@ -648,6 +648,7 @@ img {
 @media (max-width: 999px) {
   .watch-your-favorite-animal {
     background-image: url("../assets/img/giant-panda_tablet.jpg");
+    background-position: center -34px;
     padding-bottom: 41px; }
   .watch-your-favorite-animal__wrapper {
     width: 100%;
@@ -1863,17 +1864,78 @@ img {
 
 @media (max-width: 999px) {
   .page-footer {
-    padding-top: 0; }
+    padding-top: 0;
+    padding-bottom: 0; }
   .page-footer__wrapper {
-    max-width: 600px; }
+    max-width: 600px;
+    height: 258px;
+    margin: 12px auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
   .page-footer__logo {
-    margin-left: 0; }
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 0; }
   .page-footer__subscribe {
     display: none; }
   .page-footer__donate {
-    margin-top: 27px; }
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 43px;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -ms-flex-item-align: start;
+        align-self: flex-start; }
   .page-footer__donate-link {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .page-footer__nav {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3; }
+  .page-footer__nav-list {
+    margin-bottom: 0; }
+  .page-footer__nav-link {
+    margin-right: 37px; }
+  .page-footer__social {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4; }
+  .page-footer__social-link {
+    position: relative;
+    padding-left: 0;
+    margin-bottom: 17px;
+    font-size: 0; }
+    .page-footer__social-link::before {
+      left: 202px;
+      top: 0px; }
+  .page-footer__social-link--youtube::after {
+    left: 206px;
+    top: 6px; }
+  .page-footer__social-link--instagram::after {
+    left: 207px;
+    top: 5px; }
+  .page-footer__social-link--twitter::after {
+    left: 208px;
+    top: 6px; }
+  .page-footer__social-link--facebook::after {
+    left: 211px;
+    top: 5px; }
+  .page-footer__copyright {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+    margin-right: 2px;
+    padding-bottom: 0; }
+  .page-footer__copyright a {
+    padding-bottom: 0;
+    padding-top: 10px; } }
 
 .map {
   width: 100%;
