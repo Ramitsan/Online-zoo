@@ -327,3 +327,31 @@
     margin-top: -60px;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .pets {
+    padding-top: 7px;
+    padding-bottom: 75px;
+    background-image: url("../assets/img/palm_bg_mobile.png"), url("../assets/img/strelitzia_mobile.png");
+    background-size: 58px 72px, 68px 71px;
+  }
+  .pets__wrapper {
+    max-width: 300px;
+  }
+  .pets__buttons {
+    display: none;
+  }
+  .pets__list {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 1420px;
+  }
+  .pets__item {
+    margin-bottom: 20px;
+  }
+  .pets__item--cheetahs,
+  .pets__item--penguins {
+    display: none;
+  }
+}

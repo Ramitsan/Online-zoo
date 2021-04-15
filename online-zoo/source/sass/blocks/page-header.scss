@@ -46,3 +46,9 @@
     margin: 0;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .page-header__wrapper {
+    max-width: 300px;
+  }
+}

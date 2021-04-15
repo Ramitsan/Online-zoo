@@ -237,3 +237,68 @@
     }
   }
 }
+
+@media (max-width: $mobile-width) {
+  .pick-and-feed {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .pick-and-feed__wrapper {
+    max-width: 300px;
+    padding-top: 21px;
+    padding-bottom: 41px;
+  }
+  .pick-and-feed__title {
+    font-size: 24px;
+  }
+  .pick-and-feed__info,
+  .pick-and-feed__text {
+    display: none;
+  }
+  .pick-and-feed__subtitle {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 0;
+  }
+  .pick-and-feed__caption {
+    margin-top: 23px;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .pick-and-feed__list {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -2px;
+  }
+  .pick-and-feed__item:not(:last-of-type) {
+    &::after {
+      background-image: url("../assets/icons/green-arrow_tablet.png");
+      background-size: 89px 29px;
+      width: 89px;
+      height: 29px;
+      top: 79%;
+      left: 141px;
+      z-index: 100;
+      transform: rotate(83deg);
+    }
+  }
+  .pick-and-feed__item p {
+    margin-top: 10px;
+    margin-bottom: 41px;
+  }
+  .pick-and-feed__item:nth-child(2) {
+    &::after {
+      top: 79%;
+      transform: rotate(85deg);
+    }
+  }
+  .pick-and-feed__item:nth-child(2) p {
+    margin-bottom: 30px;
+  }
+  .pick-and-feed__link {
+    padding: 14px 72px;
+    width: 100%;
+  }
+}

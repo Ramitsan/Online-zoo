@@ -91,3 +91,40 @@
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .backstage {
+    padding-top: 10px;
+    padding-bottom: 0;
+    background-image: url("../../assets/img/flower_bg_mobile.png");
+    background-size: 35px 225px;
+    background-position: right top;
+  }
+  .backstage__wrapper {
+    max-width: 300px;
+  }
+  .backstage__info {
+    width: 100%;
+  }
+  .backstage__title {
+    width: 100%;
+    font-size: 24px;
+    margin-top: 62px;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  .backstage__subtitle {
+    margin-top: 22px;
+    margin-left: 2px;
+    margin-bottom: 12px;
+  }
+  .backstage__text {
+    margin-top: 11px;
+  }
+  .backstage__text--one {
+    line-height: 130%;
+  }
+  .backstage__text--two {
+    line-height: 140%;
+  }
+}

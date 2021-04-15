@@ -105,3 +105,11 @@
     padding-bottom: 13px;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .main-nav__toggle {
+    &::before {
+      left: 16px;
+    }
+  }
+}
