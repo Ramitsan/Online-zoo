@@ -125,3 +125,9 @@
     overflow: hidden;
   }
 }
+
+@media (max-width: $mobile-width)  {
+  .testimonial-card {
+    margin-bottom: 20px;
+  }
+}

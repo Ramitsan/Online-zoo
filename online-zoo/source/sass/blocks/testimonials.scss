@@ -94,3 +94,25 @@
     padding: 15px 54px;
   }
 }
+@media (max-width: $mobile-width) {
+  .testimonials {
+    padding-bottom: 60px;
+    background-image: url("../../assets/img/leav_bg_mobile.png");
+    background-position: right 516px;
+    background-size: 51px 94px;
+  }
+  .testimonials__wrapper {
+    max-width: 97%;
+  }
+  .testimonials__title {
+    font-size: 24px;
+    line-height: 120%;
+    margin-top: 5px;
+    margin-left: -20px;
+  }
+  .testimonials__list {
+    margin-top: 12px;
+    margin-bottom: 6px;
+    padding: 2px 7px;
+  }
+}
