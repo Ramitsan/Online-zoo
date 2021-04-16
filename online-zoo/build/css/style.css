@@ -1006,7 +1006,53 @@ img {
   transition: all .5s ease-in-out; }
 
 .pets__info {
-  margin-left: 14px; }
+  margin-left: 14px;
+  position: relative; }
+  .pets__info::before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 11px;
+    top: 0; }
+
+.pets__info--panda::before {
+  background-image: url("../assets/icons/banana-bamboo_icon.png");
+  background-size: 33px 37px;
+  width: 33px;
+  height: 37px; }
+
+.pets__info--eagles::before {
+  background-image: url("../assets/icons/meet-fish_icon.png");
+  background-size: 48px 38px;
+  width: 48px;
+  height: 38px;
+  right: 8px; }
+
+.pets__info--gorillas::before {
+  background-image: url("../assets/icons/banana-bamboo_icon.png");
+  background-size: 33px 37px;
+  width: 33px;
+  height: 37px; }
+
+.pets__info--sloth::before {
+  background-image: url("../assets/icons/banana-bamboo_icon.png");
+  background-size: 33px 37px;
+  width: 33px;
+  height: 37px; }
+
+.pets__info--cheetahs::before {
+  background-image: url("../assets/icons/meet-fish_icon.png");
+  background-size: 48px 38px;
+  width: 48px;
+  height: 38px;
+  right: 8px; }
+
+.pets__info--penguins::before {
+  background-image: url("../assets/icons/meet-fish_icon.png");
+  background-size: 48px 38px;
+  width: 48px;
+  height: 38px;
+  right: 8px; }
 
 .pets__name {
   font-weight: 500;
@@ -1127,6 +1173,45 @@ img {
     width: 285px; }
   .pets__info {
     margin-left: 11px; }
+  .pets__info::before {
+    top: 0;
+    right: 8px; }
+  .pets__info--panda::before {
+    background-image: url("../assets/icons/banana-bamboo_icon_tablet.png");
+    background-size: 26px 29px;
+    width: 26px;
+    height: 29px; }
+  .pets__info--eagles::before {
+    background-image: url("../assets/icons/meet-fish_icon_tablet.png");
+    background-size: 39px 31px;
+    width: 39px;
+    height: 31px;
+    top: -2px;
+    right: 3px; }
+  .pets__info--gorillas::before {
+    background-image: url("../assets/icons/banana-bamboo_icon_tablet.png");
+    background-size: 26px 29px;
+    width: 26px;
+    height: 29px; }
+  .pets__info--sloth::before {
+    background-image: url("../assets/icons/banana-bamboo_icon_tablet.png");
+    background-size: 26px 29px;
+    width: 26px;
+    height: 29px; }
+  .pets__info--cheetahs::before {
+    background-image: url("../assets/icons/meet-fish_icon_tablet.png");
+    background-size: 39px 31px;
+    width: 39px;
+    height: 31px;
+    top: -2px;
+    right: 3px; }
+  .pets__info--penguins::before {
+    background-image: url("../assets/icons/meet-fish_icon_tablet.png");
+    background-size: 39px 31px;
+    width: 39px;
+    height: 31px;
+    top: -2px;
+    right: 3px; }
   .pets__name {
     font-size: 12px;
     margin-top: 8px;
