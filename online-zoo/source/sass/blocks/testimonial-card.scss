@@ -1,5 +1,5 @@
 .testimonial-card {
-  width: 266px;
+  width: 265px;
   position: relative;
   background-color: $light-gray;
   border-radius: 20px;
@@ -20,7 +20,7 @@
 }
 
 .testimonial-card blockquote {
-  margin: 20px 15px;
+  margin: 16px 15px;
 }
 
 .testimonial-card__user-info {
@@ -126,7 +126,7 @@
   }
 }
 
-@media (max-width: $mobile-width)  {
+@media (max-width: $mobile-width) {
   .testimonial-card {
     margin-bottom: 20px;
   }

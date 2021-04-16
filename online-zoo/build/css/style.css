@@ -707,7 +707,7 @@ img {
   background-image: url("../assets/img/flower_bg_desktop.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 281px auto; }
+  background-size: 204px 613px; }
 
 .backstage__wrapper {
   width: 100%;
@@ -1487,8 +1487,9 @@ img {
 
 .testimonials__list {
   width: 100;
-  padding: 0;
+  padding: 2px;
   margin-top: 23px;
+  margin-bottom: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1508,19 +1509,56 @@ img {
   overflow: hidden; }
 
 .testimonials__controls {
-  margin-bottom: 20px; }
+  margin-bottom: 25px; }
 
 .testimonials__link {
   display: inline-block;
   -ms-flex-item-align: start;
       align-self: flex-start;
   border-radius: 5px;
-  padding: 15px 84px; }
+  padding: 15px 84px;
+  margin-bottom: 10px; }
+
+.testimonials__controls input[type=range] {
+  width: 600px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+input[type=range]::-webkit-slider-runnable-track {
+  background: #F5F7F6;
+  height: 8px;
+  border-radius: 5px; }
+
+input[type=range]::-webkit-slider-thumb {
+  width: 115px;
+  height: 8px;
+  background: #FE9013;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-appearance: none; }
+
+input[type=range]::-moz-range-track {
+  background: #F5F7F6;
+  height: 8px;
+  border-radius: 5px; }
+
+input[type=range]::-moz-range-thumb {
+  width: 115px;
+  height: 8px;
+  background: #FE9013;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.testimonials__link {
+  margin-bottom: 3px; }
 
 @media (max-width: 1599px) {
   .testimonials {
     padding-top: 65px;
-    padding-bottom: 140px;
+    padding-bottom: 137px;
     background-image: url("../assets/img/leav_bg_small-desktop.png");
     background-position: right 604px;
     background-size: 196px 325px; }
@@ -1531,13 +1569,21 @@ img {
   .testimonials__list {
     padding: 2px; }
   .testimonials__controls {
-    margin-bottom: 42px; } }
+    margin-bottom: 44px; }
+  .testimonials__controls input[type=range] {
+    width: 390px; }
+  input[type=range]::-webkit-slider-thumb {
+    width: 75px;
+    height: 6px; }
+  input[type=range]::-moz-range-thumb {
+    width: 75px;
+    height: 6px; } }
 
 @media (max-width: 999px) {
   .testimonials {
     padding-top: 26px;
     padding-bottom: 80px;
-    background-image: url("../../assets/img/leav_bg_tablet.png");
+    background-image: url("../assets/img/leav_bg_tablet.png");
     background-position: right 533px;
     background-size: 116px 204px; }
   .testimonials__wrapper {
@@ -1579,7 +1625,7 @@ img {
     padding: 2px 7px; } }
 
 .testimonial-card {
-  width: 266px;
+  width: 265px;
   position: relative;
   background-color: #F1F3F2;
   border-radius: 20px;
@@ -1599,7 +1645,7 @@ img {
     background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%); }
 
 .testimonial-card blockquote {
-  margin: 20px 15px; }
+  margin: 16px 15px; }
 
 .testimonial-card__user-info {
   display: -webkit-box;
@@ -1717,7 +1763,7 @@ img {
 
 .page-footer {
   width: 100%;
-  padding-top: 28px;
+  padding-top: 26px;
   padding-bottom: 36px;
   background-color: #111115; }
 
@@ -1749,7 +1795,8 @@ img {
 
 .page-footer__logo-image {
   width: 82px;
-  height: 52px; }
+  height: 52px;
+  display: block; }
 
 .page-footer__subscribe {
   -webkit-box-flex: 2;
@@ -1995,12 +2042,14 @@ img {
     -webkit-box-flex: 0;
         -ms-flex-positive: 0;
             flex-grow: 0;
-    margin-right: 0;
-    margin-left: 7px;
-    margin-top: 13px; }
+    margin: 0;
+    margin-left: 15px;
+    margin-top: -6px; }
   .page-footer__subscribe {
     padding-top: 13px;
     margin-right: 20px; }
+  .page-footer__donate {
+    margin-top: 38px; }
   .page-footer__donate-link {
     margin-left: 14px; }
   .page-footer__social {

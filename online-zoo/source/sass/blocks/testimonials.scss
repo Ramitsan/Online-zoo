@@ -24,8 +24,9 @@
 
 .testimonials__list {
   width: 100;
-  padding: 0;
+  padding: 2px;
   margin-top: 23px;
+  margin-bottom: 14px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -36,7 +37,7 @@
 }
 
 .testimonials__controls {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .testimonials__link {
@@ -44,12 +45,55 @@
   align-self: flex-start;
   border-radius: 5px;
   padding: 15px 84px;
+  margin-bottom: 10px;
+}
+
+.testimonials__controls input[type=range] {
+  width: 600px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  background: #F5F7F6;
+  height: 8px;
+  border-radius: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  width: 115px;
+  height: 8px;
+  background: $orange;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+input[type=range]::-moz-range-track {
+  background: #F5F7F6;
+  height: 8px;
+  border-radius: 5px;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 115px;
+  height: 8px;
+  background: $orange;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.testimonials__link {
+  margin-bottom: 3px;
 }
 
 @media (max-width: $small-desktop-width) {
   .testimonials {
     padding-top: 65px;
-    padding-bottom: 140px;
+    padding-bottom: 137px;
     background-image: url("../assets/img/leav_bg_small-desktop.png");
     background-position: right 604px;
     background-size: 196px 325px;
@@ -64,7 +108,18 @@
     padding: 2px;
   }
   .testimonials__controls {
-    margin-bottom: 42px;
+    margin-bottom: 44px;
+  }
+  .testimonials__controls input[type=range] {
+    width: 390px;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    width: 75px;
+    height: 6px;
+  }
+  input[type=range]::-moz-range-thumb {
+    width: 75px;
+    height: 6px;
   }
 }
 
@@ -72,7 +127,7 @@
   .testimonials {
     padding-top: 26px;
     padding-bottom: 80px;
-    background-image: url("../../assets/img/leav_bg_tablet.png");
+    background-image: url("../assets/img/leav_bg_tablet.png");
     background-position: right 533px;
     background-size: 116px 204px;
   }
@@ -94,6 +149,7 @@
     padding: 15px 54px;
   }
 }
+
 @media (max-width: $mobile-width) {
   .testimonials {
     padding-bottom: 60px;
