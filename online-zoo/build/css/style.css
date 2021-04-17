@@ -456,6 +456,9 @@ img {
     margin: 0 auto; } }
 
 @media (max-width: 999px) {
+  .page-header {
+    position: fixed;
+    z-index: 1000; }
   .page-header__wrapper {
     max-width: 600px; }
   .page-header__logo {

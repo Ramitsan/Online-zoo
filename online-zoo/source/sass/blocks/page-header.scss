@@ -32,6 +32,10 @@
 }
 
 @media (max-width: $tablet-width) {
+  .page-header {
+    position: fixed;
+    z-index: 1000;
+  }
   .page-header__wrapper {
     max-width: 600px;
   }
