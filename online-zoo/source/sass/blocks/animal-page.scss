@@ -21,6 +21,11 @@
   margin-bottom: 15px;
 }
 
+.animal-page__iframe {
+  width: 1162px;
+  height: 652px;
+}
+
 .animal-page__donate {
   width: 100%;
   height: 390px;
@@ -49,4 +54,19 @@
   margin-top: 276px;
   border-radius: 25px;
   padding: 15px 117px;
+}
+
+@media (max-width: $small-desktop-width) {
+  .animal-page__camera {
+    display: flex;
+    padding-top: 20px;
+  }
+  .animal-page__wrapper {
+    max-width: 940px;
+    margin-right: 96px;
+  }
+  .animal-page__iframe {
+    width: 778px;
+    height: 438px;
+  }
 }

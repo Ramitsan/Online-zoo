@@ -68,3 +68,35 @@
     left: 19px;
   }
 }
+
+@media (max-width: $small-desktop-width) {
+  .watch-online__container {
+    max-width: 940px;
+  }
+  .watch-online__frame-box {
+    width: 100%;
+    margin-top: 60px;
+    justify-content: flex-start;
+  }
+  .watch-online__previews {
+    max-width: 650px;
+    height: 210px;
+    overflow: hidden;
+  }
+  .watch-online__previews img {
+    width: 293px;
+    height: 210px;
+  }
+  .watch-online__previews img {
+    margin-right: 30px;
+  }
+  .watch-online__buttons {
+    width: 65px;
+    flex-direction: column-reverse;
+    left: 69%;
+    top: 31%;
+  }
+  .watch-online__button--right {
+    margin-bottom: 10px;
+  }
+}

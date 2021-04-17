@@ -63,19 +63,32 @@
 
       <div class="animal-page__wrapper">
         <h2 class="animal-page__title">Panda camera</h2>
-        <!-- <a href="">
-          <img src="assets/img/panda_youtube.jpg" alt="">
-        </a> -->
 
-        <iframe width="1162" height="652" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <iframe class="animal-page__iframe" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
         <div class="watch-online__container">
           <div class="watch-online__frame-box">
-            <img src="assets/img/screenshot_panda.jpg" alt="">
-            <img src="assets/img/screenshot_panda.jpg" alt="">
-            <img src="assets/img/screenshot_panda.jpg" alt="">
-            <img src="assets/img/screenshot_panda.jpg" alt="">
+            <div class="watch-online__previews">
+              <picture>
+                <source media="(max-width: 1599px)" srcset="assets/img/screenshot_panda__small_desktop.jpg">
+                <img src="assets/img/screenshot_panda.jpg" alt="">
+              </picture>
+              <picture>
+                <source media="(max-width: 1599px)" srcset="assets/img/screenshot_panda__small_desktop.jpg">
+                <img src="assets/img/screenshot_panda.jpg" alt="">
+              </picture>
+              <picture>
+                <source media="(max-width: 1599px)" srcset="assets/img/screenshot_panda__small_desktop.jpg">
+                <img src="assets/img/screenshot_panda.jpg" alt="">
+              </picture>
+              <picture>
+                <source media="(max-width: 1599px)" srcset="assets/img/screenshot_panda__small_desktop.jpg">
+                <img src="assets/img/screenshot_panda.jpg" alt="">
+              </picture>
+            </div>
+
           </div>
+
           <div class="watch-online__buttons">
             <button class="btn watch-online__button watch-online__button--left" type="button"></button>
             <button class="btn watch-online__button watch-online__button--right" type="button"></button>

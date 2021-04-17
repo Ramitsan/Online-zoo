@@ -163,3 +163,83 @@
 .side-bar__link--other-active::after {
   background-image: url("../assets/icons/other_icon_hover.svg");
 }
+
+@media (max-width: $small-desktop-width) {
+  .side-bar {
+    width: 72px;
+    height: 438px;
+    position: sticky;
+    margin-top: 73px;
+  }
+  .side-bar__link {
+    width: 72px;
+    height: 72px;
+    &::before {
+      width: 52px;
+      height: 52px;
+    }
+  }
+  .side-bar__link--gorilla {
+    &::after {
+      background-size: 36px 31px;
+      width: 36px;
+      height: 31px;
+      left: 20px;
+      top: 9px;
+    }
+  }
+  .side-bar__link--alligator {
+    &::after {
+      background-size: 42px 20px;
+      width: 42px;
+      height: 20px;
+      left: 16px;
+      top: 16px;
+    }
+  }
+  .side-bar__link--panda {
+    &::after {
+      background-size: 38px 27px;
+      width: 38px;
+      height: 27px;
+      left: 16px;
+      top: 14px;
+    }
+  }
+  .side-bar__link--eagle {
+    &::after {
+      background-size: 40px 35px;
+      width: 40px;
+      height: 35px;
+      left: 16px;
+      top: 8px;
+    }
+  }
+  .side-bar__link--sloth {
+    &::after {
+      background-size: 38px 42px;
+      width: 38px;
+      height: 42px;
+      top: 3px;
+      left: 19px;
+    }
+  }
+  .side-bar__link--penguin {
+    &::after {
+      background-size: 20px 37px;
+      width: 20px;
+      height: 37px;
+      left: 27px;
+      top: 7px;
+    }
+  }
+  .side-bar__link--other {
+    &::after {
+      background-size: 52px 52px;
+      width: 52px;
+      height: 52px;
+      left: 10px;
+      top: 0px;
+    }
+  }
+}

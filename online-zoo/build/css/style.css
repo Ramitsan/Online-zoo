@@ -2539,6 +2539,10 @@ input[type=range]::-moz-range-thumb {
   margin-top: 0;
   margin-bottom: 15px; }
 
+.animal-page__iframe {
+  width: 1162px;
+  height: 652px; }
+
 .animal-page__donate {
   width: 100%;
   height: 390px;
@@ -2562,6 +2566,19 @@ input[type=range]::-moz-range-thumb {
   margin-top: 276px;
   border-radius: 25px;
   padding: 15px 117px; }
+
+@media (max-width: 1599px) {
+  .animal-page__camera {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20px; }
+  .animal-page__wrapper {
+    max-width: 940px;
+    margin-right: 96px; }
+  .animal-page__iframe {
+    width: 778px;
+    height: 438px; } }
 
 .side-bar {
   width: 100px;
@@ -2701,6 +2718,61 @@ input[type=range]::-moz-range-thumb {
 .side-bar__link--other-active::after {
   background-image: url("../assets/icons/other_icon_hover.svg"); }
 
+@media (max-width: 1599px) {
+  .side-bar {
+    width: 72px;
+    height: 438px;
+    position: sticky;
+    margin-top: 73px; }
+  .side-bar__link {
+    width: 72px;
+    height: 72px; }
+    .side-bar__link::before {
+      width: 52px;
+      height: 52px; }
+  .side-bar__link--gorilla::after {
+    background-size: 36px 31px;
+    width: 36px;
+    height: 31px;
+    left: 20px;
+    top: 9px; }
+  .side-bar__link--alligator::after {
+    background-size: 42px 20px;
+    width: 42px;
+    height: 20px;
+    left: 16px;
+    top: 16px; }
+  .side-bar__link--panda::after {
+    background-size: 38px 27px;
+    width: 38px;
+    height: 27px;
+    left: 16px;
+    top: 14px; }
+  .side-bar__link--eagle::after {
+    background-size: 40px 35px;
+    width: 40px;
+    height: 35px;
+    left: 16px;
+    top: 8px; }
+  .side-bar__link--sloth::after {
+    background-size: 38px 42px;
+    width: 38px;
+    height: 42px;
+    top: 3px;
+    left: 19px; }
+  .side-bar__link--penguin::after {
+    background-size: 20px 37px;
+    width: 20px;
+    height: 37px;
+    left: 27px;
+    top: 7px; }
+  .side-bar__link--other::after {
+    background-size: 52px 52px;
+    width: 52px;
+    height: 52px;
+    left: 10px;
+    top: 0px; } }
+
 .watch-online__container {
   width: 100%;
   position: relative; }
@@ -2772,6 +2844,35 @@ input[type=range]::-moz-range-thumb {
   height: 10px;
   top: 27px;
   left: 19px; }
+
+@media (max-width: 1599px) {
+  .watch-online__container {
+    max-width: 940px; }
+  .watch-online__frame-box {
+    width: 100%;
+    margin-top: 60px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .watch-online__previews {
+    max-width: 650px;
+    height: 210px;
+    overflow: hidden; }
+  .watch-online__previews img {
+    width: 293px;
+    height: 210px; }
+  .watch-online__previews img {
+    margin-right: 30px; }
+  .watch-online__buttons {
+    width: 65px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    left: 69%;
+    top: 31%; }
+  .watch-online__button--right {
+    margin-bottom: 10px; } }
 
 .animal-info {
   text-align: left;
