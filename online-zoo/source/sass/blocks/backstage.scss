@@ -67,7 +67,8 @@
     padding-bottom: 33px;
     background-image: url("../assets/img/flower_bg_tablet.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right -41px;
+    ;
     background-size: 132px 484px;
   }
   .backstage__wrapper {
@@ -84,6 +85,7 @@
   }
   .backstage__title {
     margin-left: 5px;
+    margin-top: 16px;
   }
   .backstage__subtitle {
     margin-top: 31px;

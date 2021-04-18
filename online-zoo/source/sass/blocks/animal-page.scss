@@ -60,13 +60,39 @@
   .animal-page__camera {
     display: flex;
     padding-top: 20px;
+    padding-bottom: 61px;
   }
   .animal-page__wrapper {
     max-width: 940px;
-    margin-right: 96px;
+    align-items: flex-end;
+  }
+  .animal-page__title {
+    align-self: flex-start;
+    margin-left: 120px;
   }
   .animal-page__iframe {
     width: 778px;
     height: 438px;
+    margin-right: 30px;
+  }
+  .animal-page__donate--panda {
+    background-image: url("../assets/img/panda_bg_small-desktop.jpg");
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .animal-page__camera {
+    padding-top: 100px;
+  }
+  .animal-page__wrapper {
+    max-width: 600px;
+  }
+  .animal-page__title {
+    font-size: 36px;
+    line-height: 130%;
+  }
+  .animal-page__iframe {
+    width: 495px;
+    height: 278px;
   }
 }

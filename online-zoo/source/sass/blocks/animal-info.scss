@@ -61,3 +61,36 @@
   text-decoration: none;
   color: $green;
 }
+
+@media (max-width: $small-desktop-width) {
+  .animal-info {
+    padding-bottom: 140px;
+    background-image: url("../assets/img/strelitzia_small-desktop2.png"), url("../assets/img/leav_bg_small-desktop2.png");
+    background-position: left bottom, right bottom;
+    background-size: 187px 139px, 169px 171px;
+  }
+  .animal-info__wrapper {
+    max-width: 940px;
+  }
+  .animal-info__foto {
+    width: 455px;
+    height: 458px;
+  }
+  .animal-info__header {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .animal-info__text-block {
+    width: 455px;
+    margin-left: 27px;
+    margin-top: 42px;
+  }
+  .animal-info__annotation {
+    font-size: 22px;
+    line-height: 143%;
+    margin-bottom: 108px;
+  }
+  .animal-info__link {
+    padding: 15px 74px;
+  }
+}

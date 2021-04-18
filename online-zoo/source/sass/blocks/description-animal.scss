@@ -98,3 +98,15 @@
   border: 1px solid $main-text-color;
   border-radius: 5px;
 }
+
+@media (max-width: $small-desktop-width) {
+  .description-animal__subtitle--diet {
+    margin-top: 25px;
+  }
+  .description-animal__text--diet {
+    margin-top: 31px;
+  }
+  .description-animal__text--diet2 {
+    width: 100%;
+  }
+}
