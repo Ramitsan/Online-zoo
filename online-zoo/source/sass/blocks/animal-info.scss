@@ -94,3 +94,44 @@
     padding: 15px 74px;
   }
 }
+
+@media (max-width: $tablet-width) {
+  .animal-info {
+    padding-bottom: 148px;
+    background-image: url("../../assets/img/strelitzia_tablet2.png"), url("../../assets/img/leave_zoos_tablet.png");
+    background-size: 144px 107px, 126px 120px;
+  }
+  .animal-info__wrapper {
+    max-width: 600px;
+  }
+  .animal-info__wrapper hr {
+    display: none;
+  }
+  .animal-info__title {
+    text-align: center;
+    margin-bottom: 21px;
+  }
+  .animal-info__header {
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 58px;
+  }
+  .animal-info__foto {
+    width: 391px;
+    height: 393px;
+  }
+  .animal-info__text-block {
+    width: 420px;
+    margin-left: 0;
+    margin-top: 66px;
+  }
+  .animal-info__annotation {
+    margin-bottom: 55px;
+  }
+  .animal-info__link {
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    margin-left: -152px;
+  }
+}

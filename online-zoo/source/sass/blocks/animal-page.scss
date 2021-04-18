@@ -82,7 +82,8 @@
 
 @media (max-width: $tablet-width) {
   .animal-page__camera {
-    padding-top: 100px;
+    padding-top: 54px;
+    padding-bottom: 20px;
   }
   .animal-page__wrapper {
     max-width: 600px;
@@ -90,9 +91,21 @@
   .animal-page__title {
     font-size: 36px;
     line-height: 130%;
+    margin-left: 52px;
+    margin-bottom: 11px;
   }
   .animal-page__iframe {
     width: 495px;
     height: 278px;
+    margin-right: 20px;
+  }
+  .animal-page__donate {
+    height: 288px;
+  }
+  .animal-page__donate--panda {
+    background-image: url("../assets/img/panda_bg_tablet.jpg");
+  }
+  .animal-page__donate a {
+    margin-top: 200px;
   }
 }

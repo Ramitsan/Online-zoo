@@ -2594,15 +2594,25 @@ input[type=range]::-moz-range-thumb {
 
 @media (max-width: 999px) {
   .animal-page__camera {
-    padding-top: 100px; }
+    padding-top: 54px;
+    padding-bottom: 20px; }
   .animal-page__wrapper {
     max-width: 600px; }
   .animal-page__title {
     font-size: 36px;
-    line-height: 130%; }
+    line-height: 130%;
+    margin-left: 52px;
+    margin-bottom: 11px; }
   .animal-page__iframe {
     width: 495px;
-    height: 278px; } }
+    height: 278px;
+    margin-right: 20px; }
+  .animal-page__donate {
+    height: 288px; }
+  .animal-page__donate--panda {
+    background-image: url("../assets/img/panda_bg_tablet.jpg"); }
+  .animal-page__donate a {
+    margin-top: 200px; } }
 
 .side-bar {
   width: 100px;
@@ -2797,6 +2807,11 @@ input[type=range]::-moz-range-thumb {
     left: 10px;
     top: 0px; } }
 
+@media (max-width: 999px) {
+  .side-bar {
+    margin-top: 57px;
+    left: 20px; } }
+
 .watch-online__container {
   width: 100%;
   position: relative; }
@@ -2898,6 +2913,36 @@ input[type=range]::-moz-range-thumb {
   .watch-online__button--right {
     margin-bottom: 10px; } }
 
+@media (max-width: 999px) {
+  .watch-online__container {
+    max-width: 600px; }
+  .watch-online__frame-box {
+    margin-top: 20px; }
+  .watch-online__previews {
+    width: 440px;
+    height: 140px;
+    margin-left: 40px; }
+  .watch-online__previews img {
+    width: 180px;
+    height: 140px;
+    margin-right: 25px; }
+  .watch-online__buttons {
+    left: 81%;
+    top: 21%; }
+  .watch-online__button {
+    width: 43px;
+    height: 43px; }
+  .watch-online__button--left::before,
+  .watch-online__button--right::before {
+    width: 17px;
+    height: 6px; }
+  .watch-online__button--left::before {
+    top: 15px;
+    left: 15px; }
+  .watch-online__button--right::before {
+    top: 19px;
+    left: 12px; } }
+
 .animal-info {
   text-align: left;
   padding-bottom: 181px;
@@ -2993,6 +3038,40 @@ input[type=range]::-moz-range-thumb {
     margin-bottom: 108px; }
   .animal-info__link {
     padding: 15px 74px; } }
+
+@media (max-width: 999px) {
+  .animal-info {
+    padding-bottom: 148px;
+    background-image: url("../../assets/img/strelitzia_tablet2.png"), url("../../assets/img/leave_zoos_tablet.png");
+    background-size: 144px 107px, 126px 120px; }
+  .animal-info__wrapper {
+    max-width: 600px; }
+  .animal-info__wrapper hr {
+    display: none; }
+  .animal-info__title {
+    text-align: center;
+    margin-bottom: 21px; }
+  .animal-info__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    margin-bottom: 58px; }
+  .animal-info__foto {
+    width: 391px;
+    height: 393px; }
+  .animal-info__text-block {
+    width: 420px;
+    margin-left: 0;
+    margin-top: 66px; }
+  .animal-info__annotation {
+    margin-bottom: 55px; }
+  .animal-info__link {
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    margin-left: -152px; } }
 
 .description-animal {
   color: #000000; }
@@ -3090,6 +3169,19 @@ input[type=range]::-moz-range-thumb {
     margin-top: 31px; }
   .description-animal__text--diet2 {
     width: 100%; } }
+
+@media (max-width: 999px) {
+  .description-animal__subtitle--diet {
+    margin-top: 31px; }
+  .description-animal__text--diet {
+    width: 540px;
+    margin-top: 36px;
+    margin-bottom: 0; }
+  .description-animal__text--general-info {
+    margin-top: 23px;
+    margin-bottom: 22px; }
+  .description-animal__text--diet2 {
+    margin-bottom: 31px; } }
 
 .error-page {
   padding-top: 65px;

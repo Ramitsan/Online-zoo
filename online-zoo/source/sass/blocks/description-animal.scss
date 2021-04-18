@@ -110,3 +110,21 @@
     width: 100%;
   }
 }
+
+@media (max-width: $tablet-width) {
+  .description-animal__subtitle--diet {
+    margin-top: 31px;
+  }
+  .description-animal__text--diet {
+    width: 540px;
+    margin-top: 36px;
+    margin-bottom: 0;
+  }
+  .description-animal__text--general-info {
+    margin-top: 23px;
+    margin-bottom: 22px;
+  }
+  .description-animal__text--diet2 {
+    margin-bottom: 31px;
+  }
+}
