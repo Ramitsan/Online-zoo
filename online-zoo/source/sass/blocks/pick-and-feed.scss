@@ -197,7 +197,7 @@
   .pick-and-feed__subtitle,
   .pick-and-feed__info,
   .pick-and-feed__text {
-    width: 600px;
+    width: 95%;
     margin-left: 0;
   }
   .pick-and-feed__title {
@@ -216,11 +216,12 @@
     margin-bottom: 20px;
   }
   .pick-and-feed__list {
+    width: 590px;
+    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 27px;
-    padding-left: 20px;
-    padding-right: 20px;
     justify-content: space-between;
+    padding: 0;
   }
   .pick-and-feed__container-img {
     width: 168px;
@@ -260,7 +261,7 @@
     font-size: 18px;
     text-align: center;
     margin-top: 12px;
-    margin-left: 0;
+    margin-left: 5px;
   }
   .pick-and-feed__caption {
     margin-top: 23px;
@@ -268,6 +269,7 @@
     line-height: 120%;
   }
   .pick-and-feed__list {
+    width: 170px;
     flex-direction: column;
     align-items: center;
     margin-bottom: -2px;

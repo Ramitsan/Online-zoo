@@ -308,7 +308,7 @@
   }
   .page-footer__donate {
     order: 2;
-    margin-top: 43px;
+    margin-top: 47px;
     flex-basis: 0;
     align-self: flex-start;
   }
@@ -380,11 +380,11 @@
     max-width: 300px;
     height: inherit;
     align-items: center;
-    margin-top: 24px;
+    margin-top: 19px;
   }
   .page-footer__logo-image {
     width: 127px;
-    height: 20px;
+    height: 22px;
   }
   .page-footer__social {
     order: 2;
@@ -392,10 +392,10 @@
   }
   .page-footer__social-link {
     &::before {
-      top: 23px;
+      top: 31px;
     }
     &::after {
-      top: 29px;
+      top: 37px;
     }
   }
   .page-footer__social-link--facebook {
@@ -428,14 +428,13 @@
     }
     &::after {
       left: 155px;
-      top: 30px;
     }
   }
   .page-footer__subscribe {
     display: flex;
     order: 3;
     margin-right: -10px;
-    margin-top: 30px;
+    margin-top: 39px;
     align-items: center;
   }
   .page-footer__subscribe-title {
@@ -456,6 +455,7 @@
   .page-footer__donate {
     order: 4;
     margin-bottom: 47px;
+    margin-top: 43px;
   }
   .page-footer__copyright {
     order: 5;

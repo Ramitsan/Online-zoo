@@ -63,12 +63,11 @@
 
 @media (max-width: $tablet-width) {
   .backstage {
-    padding-top: 10px;
+    padding-top: 19px;
     padding-bottom: 33px;
-    background-image: url("../assets/img/flower_bg_tablet.png");
+    background-image: url(../assets/img/flower_bg_tablet.png);
     background-repeat: no-repeat;
-    background-position: right -41px;
-    ;
+    background-position: right -32px;
     background-size: 132px 484px;
   }
   .backstage__wrapper {
@@ -96,9 +95,9 @@
 
 @media (max-width: $mobile-width) {
   .backstage {
-    padding-top: 10px;
+    padding-top: 18px;
     padding-bottom: 0;
-    background-image: url("../../assets/img/flower_bg_mobile.png");
+    background-image: url("../assets/img/flower_bg_mobile.png");
     background-size: 35px 225px;
     background-position: right top;
   }

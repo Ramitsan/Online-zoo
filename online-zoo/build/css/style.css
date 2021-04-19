@@ -638,7 +638,8 @@ img {
 @media (max-width: 1599px) {
   .watch-your-favorite-animal {
     padding-bottom: 47px;
-    background-image: url("../assets/img/giant-panda_small-desktop.jpg"); }
+    background-image: url("../assets/img/giant-panda_small-desktop.jpg");
+    background-position: center -77px; }
   .watch-your-favorite-animal__wrapper {
     width: 100%;
     max-width: 940px; }
@@ -658,10 +659,10 @@ img {
 
 @media (max-width: 999px) {
   .watch-your-favorite-animal {
-    background-image: url("../assets/img/giant-panda_tablet.jpg");
-    background-position: center -34px;
     padding-top: 33px;
-    padding-bottom: 76px; }
+    padding-bottom: 67px;
+    background-image: url("../assets/img/giant-panda_tablet.jpg");
+    background-position: center -26px; }
   .watch-your-favorite-animal__wrapper {
     max-width: 600px; }
   .watch-your-favorite-animal__title {
@@ -682,8 +683,8 @@ img {
 
 @media (max-width: 639px) {
   .watch-your-favorite-animal {
-    background-image: url("../../assets/img/giant-panda_mobile.jpg");
-    background-size: cover; }
+    background-image: url("../assets/img/giant-panda_mobile.jpg");
+    background-position: center -26px; }
   .watch-your-favorite-animal__wrapper {
     max-width: 300px;
     position: relative;
@@ -775,11 +776,11 @@ img {
 
 @media (max-width: 999px) {
   .backstage {
-    padding-top: 10px;
+    padding-top: 19px;
     padding-bottom: 33px;
-    background-image: url("../assets/img/flower_bg_tablet.png");
+    background-image: url(../assets/img/flower_bg_tablet.png);
     background-repeat: no-repeat;
-    background-position: right -41px;
+    background-position: right -32px;
     background-size: 132px 484px; }
   .backstage__wrapper {
     max-width: 600px;
@@ -807,9 +808,9 @@ img {
 
 @media (max-width: 639px) {
   .backstage {
-    padding-top: 10px;
+    padding-top: 18px;
     padding-bottom: 0;
-    background-image: url("../../assets/img/flower_bg_mobile.png");
+    background-image: url("../assets/img/flower_bg_mobile.png");
     background-size: 35px 225px;
     background-position: right top; }
   .backstage__wrapper {
@@ -1458,7 +1459,7 @@ img {
   .pick-and-feed__subtitle,
   .pick-and-feed__info,
   .pick-and-feed__text {
-    width: 600px;
+    width: 95%;
     margin-left: 0; }
   .pick-and-feed__title {
     font-size: 42px; }
@@ -1472,13 +1473,14 @@ img {
     margin-top: 28px;
     margin-bottom: 20px; }
   .pick-and-feed__list {
+    width: 590px;
+    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 27px;
-    padding-left: 20px;
-    padding-right: 20px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    padding: 0; }
   .pick-and-feed__container-img {
     width: 168px; }
   .pick-and-feed__item:not(:last-of-type)::after {
@@ -1508,12 +1510,13 @@ img {
     font-size: 18px;
     text-align: center;
     margin-top: 12px;
-    margin-left: 0; }
+    margin-left: 5px; }
   .pick-and-feed__caption {
     margin-top: 23px;
     font-size: 24px;
     line-height: 120%; }
   .pick-and-feed__list {
+    width: 170px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1672,7 +1675,7 @@ input[type=range]::-moz-range-thumb {
 @media (max-width: 999px) {
   .testimonials {
     padding-top: 26px;
-    padding-bottom: 80px;
+    padding-bottom: 78px;
     background-image: url("../assets/img/leav_bg_tablet.png");
     background-position: right 533px;
     background-size: 116px 204px; }
@@ -1691,15 +1694,15 @@ input[type=range]::-moz-range-thumb {
   .testimonials__controls {
     display: none; }
   .testimonials__link {
-    margin-top: 17px;
+    margin-top: 19px;
     -ms-flex-item-align: center;
         align-self: center;
     padding: 15px 54px; } }
 
 @media (max-width: 639px) {
   .testimonials {
-    padding-bottom: 60px;
-    background-image: url("../../assets/img/leav_bg_mobile.png");
+    padding-bottom: 56px;
+    background-image: url("../assets/img/leav_bg_mobile.png");
     background-position: right 516px;
     background-size: 51px 94px; }
   .testimonials__wrapper {
@@ -1708,7 +1711,7 @@ input[type=range]::-moz-range-thumb {
     font-size: 24px;
     line-height: 120%;
     margin-top: 5px;
-    margin-left: -20px; }
+    margin-left: -2px; }
   .testimonials__list {
     margin-top: 12px;
     margin-bottom: 6px;
@@ -1845,7 +1848,8 @@ input[type=range]::-moz-range-thumb {
     width: 100%; }
   .testimonial-card blockquote {
     height: 84px;
-    overflow: hidden; } }
+    overflow: hidden;
+    margin: 11px 10px; } }
 
 @media (max-width: 639px) {
   .testimonial-card {
@@ -2192,7 +2196,7 @@ input[type=range]::-moz-range-thumb {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    margin-top: 43px;
+    margin-top: 47px;
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
     -ms-flex-item-align: start;
@@ -2250,10 +2254,10 @@ input[type=range]::-moz-range-thumb {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 24px; }
+    margin-top: 19px; }
   .page-footer__logo-image {
     width: 127px;
-    height: 20px; }
+    height: 22px; }
   .page-footer__social {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
@@ -2263,9 +2267,9 @@ input[type=range]::-moz-range-thumb {
         -ms-flex-direction: row;
             flex-direction: row; }
   .page-footer__social-link::before {
-    top: 23px; }
+    top: 31px; }
   .page-footer__social-link::after {
-    top: 29px; }
+    top: 37px; }
   .page-footer__social-link--facebook::before {
     left: -16px; }
   .page-footer__social-link--facebook::after {
@@ -2281,8 +2285,7 @@ input[type=range]::-moz-range-thumb {
   .page-footer__social-link--youtube::before {
     left: 151px; }
   .page-footer__social-link--youtube::after {
-    left: 155px;
-    top: 30px; }
+    left: 155px; }
   .page-footer__subscribe {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2291,7 +2294,7 @@ input[type=range]::-moz-range-thumb {
         -ms-flex-order: 3;
             order: 3;
     margin-right: -10px;
-    margin-top: 30px;
+    margin-top: 39px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
@@ -2311,7 +2314,8 @@ input[type=range]::-moz-range-thumb {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
-    margin-bottom: 47px; }
+    margin-bottom: 47px;
+    margin-top: 43px; }
   .page-footer__copyright {
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
