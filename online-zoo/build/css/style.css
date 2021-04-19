@@ -457,6 +457,7 @@ img {
 
 @media (max-width: 999px) {
   .page-header {
+    width: 100vw;
     position: fixed;
     z-index: 1000; }
   .page-header__wrapper {

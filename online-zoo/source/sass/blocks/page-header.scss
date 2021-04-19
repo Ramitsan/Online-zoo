@@ -33,6 +33,7 @@
 
 @media (max-width: $tablet-width) {
   .page-header {
+    width: 100vw;
     position: fixed;
     z-index: 1000;
   }
