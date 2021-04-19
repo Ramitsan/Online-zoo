@@ -52,7 +52,12 @@
   <main>
     <section class="map">
       <div class="map__container">
-        <img class="map__img" src="assets/img/map.png" alt="map of world">
+        <picture>
+          <source media="(max-width: 639px)" srcset="assets/img/map_tablet.png">
+          <source media="(max-width: 1599px)" srcset="assets/img/map_small-desktop.png">
+          <img class="map__img" src="assets/img/map.png" alt="map of world">
+        </picture>
+
         <ul class="map__animals-list">
           <li class="map__animals-item map__animals-item--pandas">
             <img class="map-animals__img" src="assets/icons/pandas.png" alt="two pandas">

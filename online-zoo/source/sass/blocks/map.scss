@@ -190,3 +190,135 @@
 .map__btn--minus {
   margin-top: 10px;
 }
+
+@media (max-width: $small-desktop-width) {
+  .map {
+    padding-bottom: 32px;
+  }
+  .map__container {
+    max-width: 940px;
+  }
+  .map__img {
+    width: 940px;
+    height: 621px;
+    margin-top: -14px;
+  }
+  .map__animals-item--eagle1 {
+    top: 289px;
+    left: 75px;
+  }
+  .map__animals-item--eagle2 {
+    top: 320px;
+    left: 106px;
+  }
+  .map__animals-item--gorillas {
+    top: 406px;
+    left: 467px;
+  }
+  .map__animals-item--pandas {
+    left: 701px;
+    top: 315px;
+  }
+  .map__animals-item--panda {
+    left: 702px;
+    top: 253px;
+  }
+  .map__animals-item--crocodile {
+    top: 333px;
+    left: 211px;
+  }
+  .map__buttons {
+    bottom: -11px;
+    right: -8px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .map {
+    padding-bottom: 20px;
+  }
+  .map__container {
+    max-width: 600px;
+  }
+  .map__img {
+    width: 595px;
+    height: 393px;
+    margin-top: -14px;
+  }
+  .map__buttons {
+    display: none;
+  }
+  .map__animals-item::before {
+    width: 14px;
+    height: 18px;
+    background-size: 14px 17px;
+  }
+  .map__animals-item--gorillas {
+    top: 246px;
+    left: 299px;
+  }
+  .map__animals-item--gorillas img {
+    width: 27px;
+    height: 22px;
+  }
+  .map__animals-item--gorillas::before {
+    top: -20px;
+    left: 0px;
+  }
+  .map__animals-item--pandas {
+    left: 446px;
+    top: 188px;
+  }
+  .map__animals-item--pandas img {
+    width: 25px;
+    height: 23px;
+  }
+  .map__animals-item--pandas::before {
+    top: -8px;
+    left: 20px;
+  }
+  .map__animals-item--panda {
+    left: 448px;
+    top: 150px;
+  }
+  .map__animals-item--panda img {
+    width: 20px;
+    height: 27px;
+  }
+  .map__animals-item--panda::before {
+    top: 4px;
+    left: 21px;
+  }
+  .map__animals-item--crocodile {
+    top: 199px;
+    left: 136px;
+  }
+  .map__animals-item--crocodile img {
+    width: 41px;
+    height: 11px;
+  }
+  .map__animals-item--crocodile::before {
+    top: -19px;
+    left: 3px;
+  }
+  .map__animals-item--eagle1 {
+    top: 174px;
+    left: 52px;
+  }
+  .map__animals-item--eagle1 img {
+    width: 24px;
+    height: 24px
+  }
+  .map__animals-item--eagle1::before {
+    top: -4px;
+    left: 23px;
+  }
+  .map__animals-item--eagle2 {
+    top: 192px;
+    left: 70px;
+  }
+  .map__animals-item--eagle2 img {
+    width: 27px;
+    height: 12px;
+  }
+}
