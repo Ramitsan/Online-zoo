@@ -1256,7 +1256,9 @@ img {
     margin-bottom: 20px; }
   .pets__item--cheetahs,
   .pets__item--penguins {
-    display: none; } }
+    display: none; }
+  .pets__link {
+    padding: 16px 52px; } }
 
 .pick-and-feed {
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
@@ -1545,7 +1547,7 @@ img {
   .pick-and-feed__item:nth-child(2) p {
     margin-bottom: 30px; }
   .pick-and-feed__link {
-    padding: 14px 72px;
+    padding: 14px 70px;
     width: 100%; } }
 
 .testimonials {
@@ -2316,6 +2318,8 @@ input[type=range]::-moz-range-thumb {
             order: 4;
     margin-bottom: 47px;
     margin-top: 43px; }
+  .page-footer__donate-link {
+    padding: 16px 45px; }
   .page-footer__copyright {
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
