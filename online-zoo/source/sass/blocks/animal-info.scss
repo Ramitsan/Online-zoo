@@ -65,8 +65,7 @@
 @media (max-width: $small-desktop-width) {
   .animal-info {
     padding-bottom: 140px;
-    background-image: url("../assets/img/strelitzia_small-desktop2.png"),
-      url("../assets/img/leav_bg_small-desktop2.png");
+    background-image: url("../assets/img/strelitzia_small-desktop2.png"), url("../assets/img/leav_bg_small-desktop2.png");
     background-position: left bottom, right bottom;
     background-size: 187px 139px, 169px 171px;
   }
@@ -100,7 +99,7 @@
   .animal-info {
     padding-bottom: 148px;
     background-image: url("../../assets/img/strelitzia_tablet2.png"), url("../../assets/img/leave_zoos_tablet.png");
-    background-size: 144px 107px, 126px 120px;
+    background-size: 144px 107px, 126px 104px;
   }
   .animal-info__wrapper {
     max-width: 600px;
@@ -136,6 +135,7 @@
     margin-left: -152px;
   }
 }
+
 @media (max-width: $mobile-width) {
   .animal-info {
     padding-bottom: 80px;

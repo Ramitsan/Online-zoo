@@ -11,7 +11,7 @@
 }
 
 .description-animal__subtitle {
-  @include fourth-level-headings ();
+  @include fourth-level-headings();
 }
 
 .description-animal__subtitle--diet {
@@ -126,5 +126,34 @@
   }
   .description-animal__text--diet2 {
     margin-bottom: 31px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .description-animal {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .description-animal__subtitle--diet {
+    width: 135px;
+  }
+  .description-animal__subtitle--diet {
+    margin-top: 12px;
+  }
+  .description-animal__text--diet {
+    margin-top: 18px;
+  }
+  .description-animal__subtitle--range {
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  .description-animal__text--range {
+    margin-top: 30px;
+  }
+  .description-animal__subtitle--general-info {
+    margin-top: 4px;
+  }
+  .description-animal__text--general-info {
+    margin-top: 11px;
   }
 }

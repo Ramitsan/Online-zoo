@@ -3117,7 +3117,7 @@ input[type=range]::-moz-range-thumb {
   .animal-info {
     padding-bottom: 148px;
     background-image: url("../../assets/img/strelitzia_tablet2.png"), url("../../assets/img/leave_zoos_tablet.png");
-    background-size: 144px 107px, 126px 120px; }
+    background-size: 144px 107px, 126px 104px; }
   .animal-info__wrapper {
     max-width: 600px; }
   .animal-info__wrapper hr {
@@ -3280,6 +3280,26 @@ input[type=range]::-moz-range-thumb {
     margin-bottom: 22px; }
   .description-animal__text--diet2 {
     margin-bottom: 31px; } }
+
+@media (max-width: 639px) {
+  .description-animal {
+    width: 100%;
+    padding: 0 10px; }
+  .description-animal__subtitle--diet {
+    width: 135px; }
+  .description-animal__subtitle--diet {
+    margin-top: 12px; }
+  .description-animal__text--diet {
+    margin-top: 18px; }
+  .description-animal__subtitle--range {
+    margin-top: 24px;
+    margin-bottom: 16px; }
+  .description-animal__text--range {
+    margin-top: 30px; }
+  .description-animal__subtitle--general-info {
+    margin-top: 4px; }
+  .description-animal__text--general-info {
+    margin-top: 11px; } }
 
 .error-page {
   padding-top: 65px;
