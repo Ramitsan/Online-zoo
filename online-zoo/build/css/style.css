@@ -2614,6 +2614,29 @@ input[type=range]::-moz-range-thumb {
   .animal-page__donate a {
     margin-top: 200px; } }
 
+@media (max-width: 639px) {
+  .animal-page__camera {
+    padding-bottom: 41px; }
+  .animal-page__wrapper {
+    max-width: 300px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .animal-page__title {
+    font-size: 24px;
+    line-height: 120%;
+    margin-left: 0; }
+  .animal-page__iframe {
+    width: 300px;
+    height: 168px;
+    margin-right: 0px; }
+  .animal-page__donate {
+    height: 220px; }
+  .animal-page__donate--panda {
+    background-image: url("../assets/img/panda_bg_mobile.jpg"); }
+  .animal-page__donate a {
+    margin-top: 156px; } }
+
 .side-bar {
   width: 100px;
   height: 652px;
@@ -2812,6 +2835,36 @@ input[type=range]::-moz-range-thumb {
     margin-top: 57px;
     left: 20px; } }
 
+@media (max-width: 639px) {
+  .side-bar {
+    width: 62px;
+    height: 233px;
+    position: absolute;
+    top: 224px;
+    left: 10px; }
+  .side-bar__link {
+    width: 62px;
+    height: 62px; }
+  .side-bar__link::before {
+    top: -5px;
+    left: 5px; }
+  .side-bar__link--gorilla::after {
+    left: 13px;
+    top: 5px; }
+  .side-bar__link--alligator::after {
+    left: 9px;
+    top: 11px; }
+  .side-bar__link--panda::after {
+    left: 11px;
+    top: 7px; }
+  .side-bar__link--other::after {
+    left: 5px;
+    top: -5px; }
+  .side-bar__link--eagle,
+  .side-bar__link--sloth,
+  .side-bar__link--penguin {
+    display: none; } }
+
 .watch-online__container {
   width: 100%;
   position: relative; }
@@ -2858,7 +2911,7 @@ input[type=range]::-moz-range-thumb {
   .watch-online__button:hover {
     background: #4B9200; }
   .watch-online__button:active {
-    opacity: .7; }
+    opacity: 0.7; }
 
 .watch-online__button--left::before {
   content: "";
@@ -2943,6 +2996,23 @@ input[type=range]::-moz-range-thumb {
     top: 19px;
     left: 12px; } }
 
+@media (max-width: 639px) {
+  .watch-online__container {
+    max-width: 300px; }
+  .watch-online__frame-box {
+    margin-top: 21px; }
+  .watch-online__previews {
+    height: 146px;
+    margin-left: 45px; }
+  .watch-online__previews img {
+    width: 90px;
+    height: 70px;
+    margin-right: 0;
+    margin-left: 9px;
+    margin-bottom: 2px; }
+  .watch-online__button {
+    display: none; } }
+
 .animal-info {
   text-align: left;
   padding-bottom: 181px;
@@ -2999,7 +3069,7 @@ input[type=range]::-moz-range-thumb {
   font-weight: 500;
   font-size: 26px;
   line-height: 140%;
-  color: #ABABAB; }
+  color: #ababab; }
 
 .animal-info__link {
   border-radius: 25px;
@@ -3072,6 +3142,30 @@ input[type=range]::-moz-range-thumb {
     bottom: -28px;
     left: 50%;
     margin-left: -152px; } }
+
+@media (max-width: 639px) {
+  .animal-info {
+    padding-bottom: 80px;
+    background-size: 85px 63px, 65px 66px; }
+  .animal-info__wrapper {
+    max-width: 100%; }
+  .animal-info__title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 10px; }
+  .animal-info__foto {
+    max-width: 100%;
+    height: auto; }
+  .animal-info__text-block {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 55px; }
+  .animal-info__annotation {
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: normal;
+    margin-bottom: 45px; } }
 
 .description-animal {
   color: #000000; }

@@ -35,7 +35,7 @@
     background: $green;
   }
   &:active {
-    opacity: .7;
+    opacity: 0.7;
   }
 }
 
@@ -138,5 +138,27 @@
   .watch-online__button--right::before {
     top: 19px;
     left: 12px;
+  }
+}
+@media (max-width: $mobile-width) {
+  .watch-online__container {
+    max-width: 300px;
+  }
+  .watch-online__frame-box {
+    margin-top: 21px;
+  }
+  .watch-online__previews {
+    height: 146px;
+    margin-left: 45px;
+  }
+  .watch-online__previews img {
+    width: 90px;
+    height: 70px;
+    margin-right: 0;
+    margin-left: 9px;
+    margin-bottom: 2px;
+  }
+  .watch-online__button {
+    display: none;
   }
 }

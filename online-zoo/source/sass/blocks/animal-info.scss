@@ -18,7 +18,7 @@
 }
 
 .animal-info__title {
-  @include second-level-headings ();
+  @include second-level-headings();
   font-weight: 500;
   color: $green;
   margin-bottom: 25px;
@@ -48,7 +48,7 @@
   font-weight: 500;
   font-size: 26px;
   line-height: 140%;
-  color: #ABABAB;
+  color: #ababab;
 }
 
 .animal-info__link {
@@ -65,7 +65,8 @@
 @media (max-width: $small-desktop-width) {
   .animal-info {
     padding-bottom: 140px;
-    background-image: url("../assets/img/strelitzia_small-desktop2.png"), url("../assets/img/leav_bg_small-desktop2.png");
+    background-image: url("../assets/img/strelitzia_small-desktop2.png"),
+      url("../assets/img/leav_bg_small-desktop2.png");
     background-position: left bottom, right bottom;
     background-size: 187px 139px, 169px 171px;
   }
@@ -133,5 +134,35 @@
     bottom: -28px;
     left: 50%;
     margin-left: -152px;
+  }
+}
+@media (max-width: $mobile-width) {
+  .animal-info {
+    padding-bottom: 80px;
+    background-size: 85px 63px, 65px 66px;
+  }
+  .animal-info__wrapper {
+    max-width: 100%;
+  }
+  .animal-info__title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 10px;
+  }
+  .animal-info__foto {
+    max-width: 100%;
+    height: auto;
+  }
+  .animal-info__text-block {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 55px;
+  }
+  .animal-info__annotation {
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: normal;
+    margin-bottom: 45px;
   }
 }
