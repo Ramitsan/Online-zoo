@@ -550,7 +550,7 @@ img {
     .main-nav__toggle::before {
       content: "";
       position: absolute;
-      background-image: url("../../assets/icons/burger_menu_tablet.png");
+      background-image: url("../assets/icons/burger_menu_tablet.png");
       background-repeat: no-repeat;
       left: 7px;
       top: 10px;
@@ -778,7 +778,7 @@ img {
   .backstage {
     padding-top: 19px;
     padding-bottom: 33px;
-    background-image: url(../assets/img/flower_bg_tablet.png);
+    background-image: url("../assets/img/flower_bg_tablet.png");
     background-repeat: no-repeat;
     background-position: right -32px;
     background-size: 132px 484px; }
@@ -3116,7 +3116,7 @@ input[type=range]::-moz-range-thumb {
 @media (max-width: 999px) {
   .animal-info {
     padding-bottom: 148px;
-    background-image: url("../../assets/img/strelitzia_tablet2.png"), url("../../assets/img/leave_zoos_tablet.png");
+    background-image: url("../assets/img/strelitzia_tablet2.png"), url("../assets/img/leave_zoos_tablet.png");
     background-size: 144px 107px, 126px 104px; }
   .animal-info__wrapper {
     max-width: 600px; }

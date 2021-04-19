@@ -75,7 +75,7 @@
     &::before {
       content: "";
       position: absolute;
-      background-image: url("../../assets/icons/burger_menu_tablet.png");
+      background-image: url("../assets/icons/burger_menu_tablet.png");
       background-repeat: no-repeat;
       left: 7px;
       top: 10px;
@@ -83,10 +83,6 @@
       height: 10px;
     }
   }
-  // .main-nav__wrapper {
-  //   flex-direction: column;
-  //   justify-content: flex-start;
-  // }
   .main-nav__list {
     width: 320px;
     flex-direction: column;
