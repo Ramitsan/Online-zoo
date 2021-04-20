@@ -2376,62 +2376,55 @@ input[type=range]::-moz-range-thumb {
   z-index: 100;
   -webkit-transition: all 0.2s;
   transition: all 0.2s; }
+  .map__animals-item::before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 33px;
+    background-image: Url("../assets/icons/pin.png");
+    background-repeat: no-repeat;
+    background-size: 26px 33px; }
 
 .map__animals-item--pandas {
   left: 1066px;
   top: 380px; }
+  .map__animals-item--pandas::before {
+    top: -14px;
+    left: 38px; }
 
 .map__animals-item--panda {
   left: 1072px;
   top: 312px; }
+  .map__animals-item--panda::before {
+    top: 6px;
+    left: 38px; }
 
 .map__animals-item--eagle1 {
   top: 354px;
   left: 348px; }
+  .map__animals-item--eagle1::before {
+    top: -6px;
+    left: 44px; }
 
 .map__animals-item--eagle2 {
   top: 388px;
   left: 380px; }
+  .map__animals-item--eagle2::before {
+    display: none; }
 
 .map__animals-item--gorillas {
   top: 488px;
   left: 798px; }
+  .map__animals-item--gorillas::before {
+    top: -38px;
+    left: 0px; }
 
 .map__animals-item--crocodile {
   top: 402px;
   left: 500px; }
-
-.map__animals-item::before {
-  content: "";
-  position: absolute;
-  width: 26px;
-  height: 33px;
-  background-image: Url("../assets/icons/pin.png");
-  background-repeat: no-repeat;
-  background-size: 26px 33px; }
-
-.map__animals-item--pandas::before {
-  top: -14px;
-  left: 38px; }
-
-.map__animals-item--panda::before {
-  top: 6px;
-  left: 38px; }
-
-.map__animals-item--eagle1::before {
-  top: -6px;
-  left: 44px; }
-
-.map__animals-item--eagle2::before {
-  display: none; }
-
-.map__animals-item--gorillas::before {
-  top: -38px;
-  left: 0px; }
-
-.map__animals-item--crocodile::before {
-  top: -37px;
-  left: 8px; }
+  .map__animals-item--crocodile::before {
+    top: -37px;
+    left: 8px; }
 
 .map-animals__img {
   display: block; }
@@ -2440,7 +2433,7 @@ input[type=range]::-moz-range-thumb {
   width: 158px;
   position: absolute;
   background-color: #FFFFFF;
-  padding: 5px;
+  padding: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2454,20 +2447,24 @@ input[type=range]::-moz-range-thumb {
   border: 1px solid #000000;
   border-radius: 5px;
   display: none;
-  top: 50px;
-  left: -45px; }
+  top: 24px;
+  left: -22px; }
 
 .map__animals-tooltip p {
   color: #000000;
-  margin: 0; }
+  margin: 0;
+  text-align: left; }
 
-.map__animals-tooltip button {
-  padding: 5px;
-  margin-top: 5px;
+.map__animals-link {
+  display: inline-block;
+  padding: 5px 15px;
+  margin-top: 9px;
+  margin-bottom: 4px;
   color: #4B9200;
   border-radius: 5px;
   -ms-flex-item-align: center;
-      align-self: center; }
+      align-self: center;
+  background-color: #F1F3F2; }
 
 .map__animals-item:hover img {
   cursor: pointer;
@@ -2528,24 +2525,59 @@ input[type=range]::-moz-range-thumb {
     width: 940px;
     height: 621px;
     margin-top: -14px; }
+  .map__animals-item::before {
+    width: 22px;
+    height: 28px;
+    background-size: 22px 28px; }
   .map__animals-item--eagle1 {
     top: 289px;
-    left: 75px; }
+    left: 79px; }
+    .map__animals-item--eagle1::before {
+      top: -4px;
+      left: 41px; }
+  .map__animals-item--eagle1 img {
+    width: 38px;
+    height: 38px; }
   .map__animals-item--eagle2 {
     top: 320px;
     left: 106px; }
+  .map__animals-item--eagle2 img {
+    width: 43px;
+    height: 19px; }
   .map__animals-item--gorillas {
     top: 406px;
-    left: 467px; }
+    left: 470px; }
+    .map__animals-item--gorillas::before {
+      top: -33px;
+      left: 0; }
+  .map__animals-item--gorillas img {
+    width: 43px;
+    height: 35px; }
   .map__animals-item--pandas {
-    left: 701px;
-    top: 315px; }
-  .map__animals-item--panda {
     left: 702px;
+    top: 313px; }
+    .map__animals-item--pandas::before {
+      top: -13px;
+      left: 33px; }
+  .map__animals-item--pandas img {
+    width: 40px;
+    height: 36px; }
+  .map__animals-item--panda {
+    left: 708px;
     top: 253px; }
+    .map__animals-item--panda::before {
+      left: 32px; }
+  .map__animals-item--panda img {
+    width: 32px;
+    height: 42px; }
   .map__animals-item--crocodile {
     top: 333px;
     left: 211px; }
+    .map__animals-item--crocodile::before {
+      top: -34px; }
+  .map__animals-item--crocodile img {
+    width: 65px;
+    height: 17px; }
   .map__buttons {
     bottom: -11px;
     right: -8px; } }
@@ -2568,54 +2600,122 @@ input[type=range]::-moz-range-thumb {
   .map__animals-item--gorillas {
     top: 246px;
     left: 299px; }
+    .map__animals-item--gorillas::before {
+      top: -20px;
+      left: 0px; }
   .map__animals-item--gorillas img {
     width: 27px;
     height: 22px; }
-  .map__animals-item--gorillas::before {
-    top: -20px;
-    left: 0px; }
   .map__animals-item--pandas {
     left: 446px;
     top: 188px; }
+    .map__animals-item--pandas::before {
+      top: -8px;
+      left: 20px; }
   .map__animals-item--pandas img {
     width: 25px;
     height: 23px; }
-  .map__animals-item--pandas::before {
-    top: -8px;
-    left: 20px; }
   .map__animals-item--panda {
     left: 448px;
     top: 150px; }
+    .map__animals-item--panda::before {
+      top: 4px;
+      left: 21px; }
   .map__animals-item--panda img {
     width: 20px;
     height: 27px; }
-  .map__animals-item--panda::before {
-    top: 4px;
-    left: 21px; }
   .map__animals-item--crocodile {
     top: 199px;
     left: 136px; }
+    .map__animals-item--crocodile::before {
+      top: -19px;
+      left: 3px; }
   .map__animals-item--crocodile img {
     width: 41px;
     height: 11px; }
-  .map__animals-item--crocodile::before {
-    top: -19px;
-    left: 3px; }
   .map__animals-item--eagle1 {
     top: 174px;
     left: 52px; }
+    .map__animals-item--eagle1::before {
+      top: -4px;
+      left: 23px; }
   .map__animals-item--eagle1 img {
     width: 24px;
     height: 24px; }
-  .map__animals-item--eagle1::before {
-    top: -4px;
-    left: 23px; }
   .map__animals-item--eagle2 {
     top: 192px;
     left: 70px; }
   .map__animals-item--eagle2 img {
     width: 27px;
     height: 12px; } }
+
+@media (max-width: 639px) {
+  .map {
+    overflow-x: hidden;
+    padding-bottom: 41px;
+    padding-left: 0; }
+  .map__container {
+    max-width: 100vw; }
+  .map__img {
+    width: 100vw;
+    height: auto;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    margin-top: -2px;
+    margin-left: 17px; }
+  .map__animals-item::before {
+    width: 10px;
+    height: 12px;
+    background-size: 10px 12px; }
+  .map__animals-item--gorillas {
+    top: 142px;
+    left: 177px; }
+    .map__animals-item--gorillas::before {
+      top: -14px; }
+  .map__animals-item--gorillas img {
+    width: 19px;
+    height: 15px; }
+  .map__animals-item--pandas {
+    left: 277px;
+    top: 101px; }
+    .map__animals-item--pandas::before {
+      top: -5px;
+      left: 15px; }
+  .map__animals-item--pandas img {
+    width: 17px;
+    height: 16px; }
+  .map__animals-item--panda {
+    left: 280px;
+    top: 76px; }
+    .map__animals-item--panda::before {
+      top: 4px;
+      left: 14px; }
+  .map__animals-item--panda img {
+    width: 14px;
+    height: 18px; }
+  .map__animals-item--crocodile {
+    top: 109px;
+    left: 65px; }
+    .map__animals-item--crocodile::before {
+      top: -13px; }
+  .map__animals-item--crocodile img {
+    width: 28px;
+    height: 8px; }
+  .map__animals-item--eagle1 {
+    top: 91px;
+    left: 7px; }
+    .map__animals-item--eagle1::before {
+      top: -2px;
+      left: 18px; }
+  .map__animals-item--eagle1 img {
+    width: 17px;
+    height: 17px; }
+  .map__animals-item--eagle2 {
+    top: 105px;
+    left: 19px; }
+  .map__animals-item--eagle2 img {
+    width: 19px;
+    height: 8px; } }
 
 .animal-page__camera {
   width: 100%;
