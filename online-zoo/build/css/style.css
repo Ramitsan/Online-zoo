@@ -2145,7 +2145,7 @@ input[type=range]::-moz-range-thumb {
     max-width: 940px; }
   .page-footer__wrapper--map,
   .page-footer__wrapper--zoos {
-    margin-right: 42px; }
+    padding-right: 42px; }
   .page-footer__logo {
     -webkit-box-flex: 0;
         -ms-flex-positive: 0;
@@ -2261,8 +2261,6 @@ input[type=range]::-moz-range-thumb {
     padding-top: 10px; } }
 
 @media (max-width: 639px) {
-  .page-footer {
-    padding-bottom: 48px; }
   .page-footer__wrapper {
     max-width: 300px;
     height: inherit;
@@ -2348,7 +2346,7 @@ input[type=range]::-moz-range-thumb {
             order: 6; }
   .page-footer__nav-list {
     width: 100%;
-    margin-bottom: 42px;
+    margin-bottom: 18px;
     margin-top: 41px; }
   .page-footer__nav-link {
     margin-right: 0; }

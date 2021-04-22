@@ -232,7 +232,7 @@
   }
   .page-footer__wrapper--map,
   .page-footer__wrapper--zoos {
-    margin-right: 42px;
+    padding-right: 42px;
   }
   .page-footer__logo {
     flex-grow: 0;
@@ -378,9 +378,9 @@
 }
 
 @media (max-width: $mobile-width) {
-  .page-footer {
-    padding-bottom: 48px;
-  }
+  // .page-footer {
+  //   padding-bottom: 48px;
+  // }
   .page-footer__wrapper {
     max-width: 300px;
     height: inherit;
@@ -479,7 +479,7 @@
   }
   .page-footer__nav-list {
     width: 100%;
-    margin-bottom: 42px;
+    margin-bottom: 18px;
     margin-top: 41px;
   }
   .page-footer__nav-link {
