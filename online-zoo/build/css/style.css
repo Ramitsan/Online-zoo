@@ -2200,6 +2200,9 @@ input[type=range]::-moz-range-thumb {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start; }
+  .page-footer__wrapper--map,
+  .page-footer__wrapper--zoos {
+    padding-right: 0; }
   .page-footer__logo {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
