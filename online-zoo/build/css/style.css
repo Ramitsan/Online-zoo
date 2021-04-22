@@ -2530,7 +2530,7 @@ input[type=range]::-moz-range-thumb {
 
 @media (max-width: 1599px) {
   .map {
-    padding-bottom: 32px; }
+    padding-bottom: 0; }
   .map__container {
     max-width: 940px; }
   .map__img {
