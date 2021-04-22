@@ -304,6 +304,10 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  .page-footer__wrapper--map,
+  .page-footer__wrapper--zoos {
+    padding-right: 0;
+  }
   .page-footer__logo {
     order: 1;
     margin: 0;
