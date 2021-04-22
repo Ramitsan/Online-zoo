@@ -37,6 +37,10 @@
   color: $main-text-color;
 }
 
+.backstage__text--two br {
+  display: none;
+}
+
 @media (max-width: $small-desktop-width) {
   .backstage {
     padding-top: 50px;
@@ -127,5 +131,8 @@
   }
   .backstage__text--two {
     line-height: 140%;
+  }
+  .backstage__text--two br {
+    display: block;
   }
 }

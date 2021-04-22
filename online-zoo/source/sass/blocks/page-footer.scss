@@ -230,6 +230,10 @@
   .page-footer__wrapper {
     max-width: 940px;
   }
+  .page-footer__wrapper--map,
+  .page-header__wrapper--zoos {
+    margin-right: 42px;
+  }
   .page-footer__logo {
     flex-grow: 0;
     margin: 0;
