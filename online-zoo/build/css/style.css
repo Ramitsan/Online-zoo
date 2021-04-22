@@ -767,7 +767,7 @@ img {
   .backstage__img {
     width: 455px;
     height: 408px;
-    margin-right: 44px;
+    margin-right: 43px;
     margin-top: 42px; }
   .backstage__title {
     margin-top: 50px;
@@ -1424,7 +1424,7 @@ img {
     padding-top: 30px;
     padding-bottom: 51px; }
   .pick-and-feed__subtitle {
-    width: 844px;
+    width: 854px;
     margin-top: 22px;
     margin-bottom: 20px; }
   .pick-and-feed__subtitle,
@@ -1433,7 +1433,7 @@ img {
     margin-left: 50px; }
   .pick-and-feed__info,
   .pick-and-feed__text {
-    width: 806px; }
+    width: 810px; }
   .pick-and-feed__info {
     font-weight: 500;
     line-height: 130%; }
@@ -1673,7 +1673,9 @@ input[type=range]::-moz-range-thumb {
     height: 6px; }
   input[type=range]::-moz-range-thumb {
     width: 75px;
-    height: 6px; } }
+    height: 6px; }
+  .testimonials__link {
+    padding: 15px 79px; } }
 
 @media (max-width: 999px) {
   .testimonials {
@@ -1837,7 +1839,8 @@ input[type=range]::-moz-range-thumb {
     height: 387px;
     margin-right: 32px; }
   .testimonial-card__text {
-    width: 260px; }
+    width: 260px;
+    font-size: 16px; }
   .testimonial-card blockquote {
     margin: 12px 15px; } }
 
@@ -2148,6 +2151,7 @@ input[type=range]::-moz-range-thumb {
   .page-footer__donate {
     margin-top: 38px; }
   .page-footer__donate-link {
+    padding: 16px 44px;
     margin-left: 14px; }
   .page-footer__social {
     margin-right: 160px; }

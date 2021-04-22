@@ -121,6 +121,9 @@ input[type=range]::-moz-range-thumb {
     width: 75px;
     height: 6px;
   }
+  .testimonials__link {
+    padding: 15px 79px;
+  }
 }
 
 @media (max-width: $tablet-width) {
