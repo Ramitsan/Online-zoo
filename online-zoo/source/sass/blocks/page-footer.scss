@@ -242,6 +242,10 @@
   }
   .page-footer__subscribe {
     padding-top: 13px;
+    margin-right: -21px;
+  }
+  .page-footer__wrapper--map .page-footer__subscribe,
+  .page-footer__wrapper--zoos .page-footer__subscribe {
     margin-right: 23px;
   }
   .page-footer__donate {
