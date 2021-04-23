@@ -2315,6 +2315,9 @@ input[type=range]::-moz-range-thumb {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+  .page-footer__wrapper--map .page-footer__subscribe,
+  .page-footer__wrapper--zoos .page-footer__subscribe {
+    margin-right: -9px; }
   .page-footer__subscribe-title {
     margin-right: 0;
     font-size: 16px;
