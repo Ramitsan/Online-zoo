@@ -421,7 +421,8 @@ img {
 
 .page-header {
   width: 100%;
-  background-color: #000000; }
+  background-color: #000000;
+  z-index: 1000; }
 
 .page-header__wrapper {
   width: 100%;
@@ -1870,7 +1871,8 @@ input[type=range]::-moz-range-thumb {
   width: 100%;
   padding-top: 26px;
   padding-bottom: 36px;
-  background-color: #111115; }
+  background-color: #111115;
+  z-index: 1000; }
 
 .page-footer__wrapper {
   width: 100%;
@@ -2365,7 +2367,8 @@ input[type=range]::-moz-range-thumb {
   background-color: #EAF7FE;
   padding-top: 103px;
   padding-left: 5px;
-  padding-bottom: 113px; }
+  padding-bottom: 113px;
+  overflow: hidden; }
 
 .map__container {
   width: 100%;
@@ -2517,7 +2520,6 @@ input[type=range]::-moz-range-thumb {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  bottom: -73px;
   right: 40px; }
 
 .map__btn {
