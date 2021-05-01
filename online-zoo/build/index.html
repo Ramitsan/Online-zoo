@@ -73,93 +73,293 @@
     </section>
     <section class="pets">
       <div class="pets__wrapper">
-        <ul class="pets__list">
-          <li class="pets__item" tabindex="0">
-            <div class="pets__image-wrapper pets__image-wrapper--panda">
-              <span class="pets__overlay"></span>
-              <picture>
-                <source media="(max-width: 639px)" srcset="assets/img/pandas_mobile.jpg">
-                <source media="(max-width: 1599px)" srcset="assets/img/pandas_small-desktop.jpg">
-                <img class="pets__img" src="assets/img/pandas_desktop.jpg" alt="giant Pandas">
-              </picture>
-            </div>
-            <div class="pets__info pets__info--panda">
-              <p class="pets__name">giant Pandas</p>
-              <p class="pets__home-country">Native to Southwest China</p>
-            </div>
-          </li>
-          <li class="pets__item" tabindex="0">
-            <div class="pets__image-wrapper pets__image-wrapper--eagles">
-              <span class="pets__overlay"></span>
-              <picture>
-                <source media="(max-width: 639px)" srcset="assets/img/eagles_mobile.jpg">
-                <source media="(max-width: 1599px)" srcset="assets/img/eagles_small-desktop.jpg">
-                <img class="pets__img" src="assets/img/eagles_desktop.jpg" alt="eagles">
-              </picture>
-            </div>
-            <div class="pets__info pets__info--eagles">
-              <p class="pets__name">Eagles</p>
-              <p class="pets__home-country">Native to South America</p>
-            </div>
-          </li>
 
-          <li class="pets__item" tabindex="0">
-            <div class="pets__image-wrapper pets__image-wrapper--gorillas">
-              <span class="pets__overlay"></span>
-              <picture>
-                <source media="(max-width: 639px)" srcset="assets/img/gorillas_mobile.jpg">
-                <source media="(max-width: 1599px)" srcset="assets/img/gorillas_small-desktop.jpg">
-                <img class="pets__img" src="assets/img/gorillas_desktop.jpg" alt="gorillas">
-              </picture>
+        <div class="pets__slider">
+          <div class="pets__list pets__list--one pets__list--active">
+            <div class="pets__item" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--panda">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <source media="(max-width: 639px)" srcset="assets/img/pandas_mobile.jpg">
+                  <source media="(max-width: 1599px)" srcset="assets/img/pandas_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/pandas_desktop.jpg" alt="giant Pandas">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--panda">
+                <p class="pets__name">giant Pandas</p>
+                <p class="pets__home-country">Native to Southwest China</p>
+              </div>
             </div>
-            <div class="pets__info pets__info--gorillas">
-              <p class="pets__name">Gorillas</p>
-              <p class="pets__home-country">Native to Congo</p>
+            <div class="pets__item" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--eagles">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <source media="(max-width: 639px)" srcset="assets/img/eagles_mobile.jpg">
+                  <source media="(max-width: 1599px)" srcset="assets/img/eagles_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/eagles_desktop.jpg" alt="eagles">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--eagles">
+                <p class="pets__name">Eagles</p>
+                <p class="pets__home-country">Native to South America</p>
+              </div>
             </div>
-          </li>
-          <li class="pets__item" tabindex="0">
-            <div class="pets__image-wrapper pets__image-wrapper--sloth">
-              <span class="pets__overlay"></span>
-              <picture>
-                <source media="(max-width: 639px)" srcset="assets/img/sloth_mobile.jpg">
-                <source media="(max-width: 1599px)" srcset="assets/img/sloth_small-desktop.jpg">
-                <img class="pets__img" src="assets/img/sloth-animal_desktop.jpg" alt="two-toed Sloth">
-              </picture>
+            <div class="pets__item" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--gorillas">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <source media="(max-width: 639px)" srcset="assets/img/gorillas_mobile.jpg">
+                  <source media="(max-width: 1599px)" srcset="assets/img/gorillas_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/gorillas_desktop.jpg" alt="gorillas">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--gorillas">
+                <p class="pets__name">Gorillas</p>
+                <p class="pets__home-country">Native to Congo</p>
+              </div>
             </div>
-            <div class="pets__info pets__info--sloth">
-              <p class="pets__name">Two-toed Sloth</p>
-              <p class="pets__home-country">Mesoamerica, South America</p>
+            <div class="pets__item" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--sloth">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <source media="(max-width: 639px)" srcset="assets/img/sloth_mobile.jpg">
+                  <source media="(max-width: 1599px)" srcset="assets/img/sloth_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/sloth-animal_desktop.jpg" alt="two-toed Sloth">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--sloth">
+                <p class="pets__name">Two-toed Sloth</p>
+                <p class="pets__home-country">Mesoamerica, South America</p>
+              </div>
             </div>
-          </li>
-          <li class="pets__item pets__item--cheetahs" tabindex="0">
-            <div class="pets__image-wrapper pets__image-wrapper--cheetahs">
-              <span class="pets__overlay"></span>
-              <picture>
-                <source media="(max-width: 639px)" srcset="assets/img/leopards_mobile.jpg">
-                <source media="(max-width: 1599px)" srcset="assets/img/leopards_small-desktop.jpg">
-                <img class="pets__img" src="assets/img/leopards_desktop.jpg" alt="cheetahs">
-              </picture>
+            <div class="pets__item pets__item--cheetahs" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--cheetahs">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <source media="(max-width: 639px)" srcset="assets/img/leopards_mobile.jpg">
+                  <source media="(max-width: 1599px)" srcset="assets/img/leopards_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/leopards_desktop.jpg" alt="cheetahs">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--cheetahs">
+                <p class="pets__name">Cheetahs</p>
+                <p class="pets__home-country">Native to Africa</p>
+              </div>
             </div>
-            <div class="pets__info pets__info--cheetahs">
-              <p class="pets__name">Cheetahs</p>
-              <p class="pets__home-country">Native to Africa</p>
+            <div class="pets__item pets__item--penguins" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--penguins">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg">
+                  <source media="(max-width: 1599px)" srcset="assets/img/penguins_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/penguins_desktop.jpg" alt="penguins">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--penguins">
+                <p class="pets__name">Penguins</p>
+                <p class="pets__home-country">Native to Antarctica</p>
+              </div>
             </div>
-          </li>
-          <li class="pets__item pets__item--penguins" tabindex="0">
-            <div class="pets__image-wrapper pets__image-wrapper--penguins">
-              <span class="pets__overlay"></span>
-              <picture>
-                <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg">
-                <source media="(max-width: 1599px)" srcset="assets/img/penguins_small-desktop.jpg">
-                <img class="pets__img" src="assets/img/penguins_desktop.jpg" alt="penguins">
-              </picture>
+          </div>
+
+
+
+          <div class="pets__list pets__list--two">
+
+            <div class="pets__item pets__item--fox" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--fox">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/fox_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/fox_desktop.jpg" alt="fox">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--fox">
+                <p class="pets__name">Fox</p>
+                <p class="pets__home-country">Native to Europe</p>
+              </div>
             </div>
-            <div class="pets__info pets__info--penguins">
-              <p class="pets__name">Penguins</p>
-              <p class="pets__home-country">Native to Antarctica</p>
+
+            <div class="pets__item pets__item--elephant" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--elephant">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/elephant_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/elephant_desktop.jpg" alt="elephant">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--elephant">
+                <p class="pets__name">Elephant</p>
+                <p class="pets__home-country">Native to Africa</p>
+              </div>
             </div>
-          </li>
-        </ul>
+
+            <div class="pets__item pets__item--kangaroo" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--kangaroo">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/kangaroo_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/kangaroo_desktop.jpg" alt="kangaroo">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--kangaroo">
+                <p class="pets__name">Kangaroo</p>
+                <p class="pets__home-country">Native to Australia</p>
+              </div>
+            </div>
+
+            <div class="pets__item pets__item--koala" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--koala">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/koala_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/koala_desktop.jpg" alt="koala">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--koala">
+                <p class="pets__name">Koala</p>
+                <p class="pets__home-country">Native to Australia</p>
+              </div>
+            </div>
+
+            <div class="pets__item pets__item--parrots" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--parrots">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/parrots_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/parrots_desktop.jpg" alt="parrots">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--parrots">
+                <p class="pets__name">Parrots</p>
+                <p class="pets__home-country">Native to Australia</p>
+              </div>
+            </div>
+
+            <div class="pets__item pets__item--zebra" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--zebra">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/zebra_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/zebra_desktop.jpg" alt="zebra">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--zebra">
+                <p class="pets__name">Zebra</p>
+                <p class="pets__home-country">Native to Africa</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pets__list pets__list--three">
+            <div class="pets__item pets__item--squirrel" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--squirrel">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/squirrel_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/squirrel_desktop.jpg" alt="squirrel">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--squirrel">
+                <p class="pets__name">Squirrel</p>
+                <p class="pets__home-country">Native to Europe</p>
+              </div>
+            </div>
+
+            <div class="pets__item pets__item--bear" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--bear">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/bear_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/bear_desktop.jpg" alt="bear">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--bear">
+                <p class="pets__name">Bear</p>
+                <p class="pets__home-country">Native to Europe</p>
+              </div>
+            </div>
+
+            <div class="pets__item pets__item--boar" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--boar">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/boar_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/boar_desktop.jpg" alt="squirrel">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--boar">
+                <p class="pets__name">Boar</p>
+                <p class="pets__home-country">Native to Europe</p>
+              </div>
+            </div>
+
+            <div class="pets__item pets__item--bison" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--bison">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/bison_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/bison_desktop.jpg" alt="bison">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--bison">
+                <p class="pets__name">Bison</p>
+                <p class="pets__home-country">Native to Europe</p>
+              </div>
+            </div>
+
+            <div class="pets__item pets__item--owl" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--owl">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/owl_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/owl_desktop.jpg" alt="owl">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--owl">
+                <p class="pets__name">Owl</p>
+                <p class="pets__home-country">Native to Europe</p>
+              </div>
+            </div>
+
+            <div class="pets__item pets__item--deer" tabindex="0">
+              <div class="pets__image-wrapper pets__image-wrapper--deer">
+                <span class="pets__overlay"></span>
+                <picture>
+                  <!-- <source media="(max-width: 639px)" srcset="assets/img/penguins_mobile.jpg"> -->
+                  <source media="(max-width: 1599px)" srcset="assets/img/deer_small-desktop.jpg">
+                  <img class="pets__img" src="assets/img/deer_desktop.jpg" alt="squirrel">
+                </picture>
+              </div>
+              <div class="pets__info pets__info--deer">
+                <p class="pets__name">Deer</p>
+                <p class="pets__home-country">Native to Europe</p>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+        </div>
 
         <div class="pets__buttons">
           <button class="btn pets__button pets__button--left" type="button"></button>
@@ -329,6 +529,7 @@
     </div>
   </footer>
   <!-- Footer [END] -->
+  <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 .pets {
-  padding-top: 65px;
+  padding-top: 80px;
   padding-bottom: 117px;
   background-image: url("../assets/img/palm_bg_desktop.png"), url("../assets/img/strelitzia_desktop.png");
   background-repeat: no-repeat;
@@ -14,23 +14,87 @@
   position: relative;
 }
 
-.pets__list {
+.pets__slider {
+  position: relative;
   width: 100%;
+  height: 892px;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
+  justify-content: centert;
+  align-items: center;
+  margin-bottom: 74px;
+  padding-left: 0;
+}
+
+.pets__list {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 74px;
-  padding-left: 0;
-  list-style: none;
+  display: none;
+  animation: 0.5s ease-in-out;
+}
+
+.pets__list--active,
+.pets__list--next {
+  display: block;
+}
+
+.pets__list--next {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.to-left {
+  animation-name: left;
+}
+
+.to-right {
+  animation-name: right;
+  animation-direction: reverse;
+}
+
+.from-left {
+  animation-name: left;
+  animation-direction: reverse;
+}
+
+.from-right {
+  animation-name: right;
+}
+
+@keyframes left {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes right {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
 }
 
 .pets__item {
   width: 366px;
   display: inline-block;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  margin-right: 25px;
   background-color: $white;
   text-align: left;
   border: 1px solid #FE9013;
@@ -39,6 +103,10 @@
   &:hover {
     cursor: pointer;
   }
+}
+
+.pets__item:nth-child(3n) {
+  margin-right: 0px;
 }
 
 @keyframes up {
@@ -100,6 +168,54 @@
   content: "Penguins";
 }
 
+.pets__image-wrapper--fox::before {
+  content: "fox";
+}
+
+.pets__image-wrapper--elephant::before {
+  content: "elephant";
+}
+
+.pets__image-wrapper--kangaroo::before {
+  content: "kangaroo";
+}
+
+.pets__image-wrapper--koala::before {
+  content: "koala";
+}
+
+.pets__image-wrapper--parrots::before {
+  content: "parrots";
+}
+
+.pets__image-wrapper--zebra::before {
+  content: "zebra";
+}
+
+.pets__image-wrapper--squirrel::before {
+  content: "squirrel";
+}
+
+.pets__image-wrapper--bear::before {
+  content: "bear";
+}
+
+.pets__image-wrapper--boar::before {
+  content: "boar";
+}
+
+.pets__image-wrapper--bison::before {
+  content: "bison";
+}
+
+.pets__image-wrapper--owl::before {
+  content: "owl";
+}
+
+.pets__image-wrapper--deer::before {
+  content: "deer";
+}
+
 .pets__image-wrapper::after {
   position: absolute;
   bottom: 0;
@@ -127,12 +243,30 @@
   content: "Mesoamerica, South America";
 }
 
-.pets__image-wrapper--cheetahs::after {
+.pets__image-wrapper--cheetahs::after,
+.pets__image-wrapper--elephant::after,
+.pets__image-wrapper--zebra::after {
   content: "Native to Africa";
 }
 
 .pets__image-wrapper--penguins::after {
   content: "Native to Antarctica";
+}
+
+.pets__image-wrapper--fox::after,
+.pets__image-wrapper--squirrel::after,
+.pets__image-wrapper--bear::after,
+.pets__image-wrapper--boar::after,
+.pets__image-wrapper--bison::after,
+.pets__image-wrapper--owl::after,
+.pets__image-wrapper--deer::after {
+  content: "Native to Europe";
+}
+
+.pets__image-wrapper--kangaroo::after,
+.pets__image-wrapper--koala::after,
+.pets__image-wrapper--parrots::after {
+  content: "Native to Australia";
 }
 
 .pets__item:hover .pets__image-wrapper::before {
@@ -189,18 +323,30 @@
   }
 }
 
-.pets__info--panda {
+.pets__info--panda,
+.pets__info--gorillas,
+.pets__info--sloth,
+.pets__info--elephant,
+.pets__info--kangaroo,
+.pets__info--koala,
+.pets__info--parrots,
+.pets__info--zebra {
   &::before {
-    background-image: url("../assets/icons/banana-bamboo_icon.png");
+    background-image: url("../../assets/icons/banana-bamboo_icon.png");
     background-size: 33px 37px;
     width: 33px;
     height: 37px;
   }
 }
 
-.pets__info--eagles {
+.pets__info--eagles,
+.pets__info--cheetahs,
+.pets__info--penguins,
+.pets__info--fox,
+.pets__info--bear,
+.pets__info--owl {
   &::before {
-    background-image: url("../assets/icons/meet-fish_icon.png");
+    background-image: url("../../assets/icons/meet-fish_icon.png");
     background-size: 48px 38px;
     width: 48px;
     height: 38px;
@@ -208,41 +354,24 @@
   }
 }
 
-.pets__info--gorillas {
+.pets__info--boar,
+.pets__info--bison,
+.pets__info--deer {
   &::before {
-    background-image: url("../assets/icons/banana-bamboo_icon.png");
-    background-size: 33px 37px;
-    width: 33px;
-    height: 37px;
+    background-image: url("../../assets/icons/leaves_icon.png");
+    background-size: 50px 43px;
+    width: 50px;
+    height: 43px;
   }
 }
 
-.pets__info--sloth {
+.pets__info--squirrel {
   &::before {
-    background-image: url("../assets/icons/banana-bamboo_icon.png");
-    background-size: 33px 37px;
-    width: 33px;
-    height: 37px;
-  }
-}
-
-.pets__info--cheetahs {
-  &::before {
-    background-image: url("../assets/icons/meet-fish_icon.png");
-    background-size: 48px 38px;
-    width: 48px;
-    height: 38px;
-    right: 8px;
-  }
-}
-
-.pets__info--penguins {
-  &::before {
-    background-image: url("../assets/icons/meet-fish_icon.png");
-    background-size: 48px 38px;
-    width: 48px;
-    height: 38px;
-    right: 8px;
+    background-image: url("../../assets/icons/nuts_icon.png");
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    top: -8px;
   }
 }
 
@@ -337,9 +466,6 @@
   .pets__wrapper {
     max-width: 940px;
   }
-  .pets__list {
-    margin-bottom: 4px;
-  }
   .pets__item {
     width: 294px;
     margin-bottom: 92px;
@@ -347,7 +473,7 @@
   .pets__buttons {
     width: 295px;
     position: absolute;
-    top: 47%;
+    top: 44%;
     left: 50%;
     margin-left: -147px;
     margin-top: -63px;
