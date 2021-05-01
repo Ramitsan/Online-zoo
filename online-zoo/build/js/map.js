@@ -85,4 +85,27 @@
   headerElement.addEventListener('mouseenter', stopDrag);
   footerElement.addEventListener('mouseenter', stopDrag);
 
+  // открытие тултипа по клику на иконку животного
+  const mapElement = document.querySelector('.map');
+  const animalsIconsElements = document.querySelectorAll('.map__animals-item');
+
+  animalsIconsElements.forEach((icon) => {
+    icon.addEventListener('click', function() {
+      removeActiveIcon();
+      icon.classList.add('map__animals-item--active');
+    })
+  });
+
+  const removeActiveIcon = () => {
+    let activeIcon = document.querySelector('.map__animals-item--active');
+    if (activeIcon) {
+      activeIcon.classList.remove('map__animals-item--active');
+    }
+  };
+
+  mapElement.addEventListener('click', (evt) => {
+    if (evt.target !== animalsIconsElements) {
+      removeActiveIcon();
+    }
+  }, true);
 })();

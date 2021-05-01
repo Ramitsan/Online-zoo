@@ -47,6 +47,15 @@
   }
 }
 
+.map__animals-item--active .map-animals__img {
+  transform: scale(1.3);
+  transition: all 0.2s;
+}
+
+.map__animals-item--active .map__animals-tooltip {
+  display: block;
+}
+
 .map__animals-item--pandas {
   left: 1066px;
   top: 380px;
@@ -119,6 +128,11 @@
   left: -22px;
 }
 
+.map__animals-tooltip--panda,
+.map__animals-tooltip--gorillas {
+  top: 40px;
+}
+
 .map__animals-tooltip p {
   color: $black;
   margin: 0;
@@ -142,26 +156,11 @@
   transition: all 0.2s;
 }
 
-.map__animals-item--pandas:hover .map__animals-tooltip--panda {
-  display: block;
-}
-
-.map__animals-item--panda:hover .map__animals-tooltip--panda {
-  display: block;
-}
-
-.map__animals-item--eagle1:hover .map__animals-tooltip--eagle {
-  display: block;
-}
-
-.map__animals-item--eagle2:hover .map__animals-tooltip--eagle {
-  display: block;
-}
-
-.map__animals-item--gorillas:hover .map__animals-tooltip--gorillas {
-  display: block;
-}
-
+.map__animals-item--pandas:hover .map__animals-tooltip--panda,
+.map__animals-item--panda:hover .map__animals-tooltip--panda,
+.map__animals-item--eagle1:hover .map__animals-tooltip--eagle,
+.map__animals-item--eagle2:hover .map__animals-tooltip--eagle,
+.map__animals-item--gorillas:hover .map__animals-tooltip--gorillas,
 .map__animals-item--crocodile:hover .map__animals-tooltip--alligators {
   display: block;
 }
