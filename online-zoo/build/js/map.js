@@ -71,10 +71,10 @@
 
     calculateCoords(evt);
     moveAt(evt);
-    // resetMapMove();
 
     document.addEventListener('mousemove', moveAt);
     mapContainerElement.addEventListener('mouseup', stopDrag);
+    // resetMapMove();
   });
 
 

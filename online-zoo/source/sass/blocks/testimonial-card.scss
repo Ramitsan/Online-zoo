@@ -1,6 +1,7 @@
 .testimonial-card {
   width: 265px;
   position: relative;
+  margin-right: 32px;
   background-color: $light-gray;
   border-radius: 20px;
   box-sizing: border-box;
@@ -19,6 +20,9 @@
   }
 }
 
+// .testimonial-card--hide {
+//   display: none;
+// }
 .testimonial-card blockquote {
   margin: 16px 15px;
 }

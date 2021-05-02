@@ -1,3 +1,5 @@
+'use strict';
+
 // var pageHeader = document.querySelector('.page-header');
 // var headerToggle = document.querySelector('.page-header__toggle');
 
@@ -14,11 +16,12 @@
 // });
 
 (function() {
-  let petsListsElements = document.querySelectorAll('.pets__list');
+  // слайдер в блоке Pets
+  const petsListsElements = document.querySelectorAll('.pets__list');
+  const btnLeft = document.querySelector('.pets__button--left');
+  const btnRight = document.querySelector('.pets__button--right');
   let currentItem = 0;
   let isEnabled = true;
-  let btnLeft = document.querySelector('.pets__button--left');
-  let btnRight = document.querySelector('.pets__button--right');
 
   function changeCurrentItem(n) {
     currentItem = (n + petsListsElements.length) % petsListsElements.length;
@@ -53,7 +56,6 @@
     showItem('from-right');
   }
 
-
   btnLeft.addEventListener('click', function() {
     if (isEnabled) {
       previosItem(currentItem);
@@ -66,4 +68,42 @@
     }
   });
 
+  // слайдер в блоке Testimonials
+  const gap = 32;
+  const testimonialsCarousel = document.querySelector('.testimonials__carousel');
+  const testimonialsList = document.querySelector('.testimonials__list');
+
+  let slideIndex = 0;
+  let width = testimonialsCarousel.offsetWidth;
+
+  let imgWidth = document.querySelector('.testimonial-card').offsetWidth;
+
+  window.addEventListener('resize', (e) => {
+    width = testimonialsCarousel.offsetWidth;
+    imgWidth = document.querySelector('.testimonial-card').offsetWidth;
+  });
+
+  const slideFunc = () => {
+    slideIndex += 1;
+    if (slideIndex > 11) {
+      slideIndex = 0;
+    }
+    testimonialsList.scrollTo((imgWidth + gap) * slideIndex, 0);
+  };
+
+  let autoSlideInterval = setInterval(slideFunc, 10000);
+  let autoSlideTimeout = null;
+
+  const delayAutoSliding = () => {
+    clearTimeout(autoSlideTimeout);
+    clearInterval(autoSlideInterval);
+    autoSlideInterval = null;
+
+    autoSlideTimeout = setTimeout(() => {
+      clearInterval(autoSlideInterval);
+      autoSlideInterval = setInterval(slideFunc, 10000);
+    }, 40000);
+  };
+
+  testimonialsList.addEventListener('click', delayAutoSliding);
 })();
