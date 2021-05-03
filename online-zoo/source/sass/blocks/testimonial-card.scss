@@ -6,6 +6,7 @@
   border-radius: 20px;
   box-sizing: border-box;
   background-clip: padding-box;
+  cursor: pointer;
   &::after {
     content: "";
     position: absolute;
@@ -20,9 +21,6 @@
   }
 }
 
-// .testimonial-card--hide {
-//   display: none;
-// }
 .testimonial-card blockquote {
   margin: 16px 15px;
 }

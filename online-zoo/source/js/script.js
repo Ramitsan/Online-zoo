@@ -72,23 +72,28 @@
   const gap = 32;
   const testimonialsCarousel = document.querySelector('.testimonials__carousel');
   const testimonialsList = document.querySelector('.testimonials__list');
+  const testimonialsControls = document.querySelector('.testimonials__controls');
+  const testimonialsCountRange = document.querySelector('#testimonials-count');
 
   let slideIndex = 0;
-  let width = testimonialsCarousel.offsetWidth;
+  testimonialsCountRange.value = 0;
 
-  let imgWidth = document.querySelector('.testimonial-card').offsetWidth;
+  let width = testimonialsCarousel.offsetWidth;
+  let cardWidth = document.querySelector('.testimonial-card').offsetWidth;
 
   window.addEventListener('resize', (e) => {
     width = testimonialsCarousel.offsetWidth;
-    imgWidth = document.querySelector('.testimonial-card').offsetWidth;
+    cardWidth = document.querySelector('.testimonial-card').offsetWidth;
   });
 
   const slideFunc = () => {
     slideIndex += 1;
-    if (slideIndex > 11) {
+    if (slideIndex >= 8) {
       slideIndex = 0;
     }
-    testimonialsList.scrollTo((imgWidth + gap) * slideIndex, 0);
+
+    testimonialsList.scrollTo((cardWidth + gap) * slideIndex, 0);
+    testimonialsCountRange.value = slideIndex;
   };
 
   let autoSlideInterval = setInterval(slideFunc, 10000);

@@ -1793,7 +1793,7 @@ input[type=range]::-webkit-slider-runnable-track {
   border-radius: 5px; }
 
 input[type=range]::-webkit-slider-thumb {
-  width: 115px;
+  width: 49px;
   height: 8px;
   background: #FE9013;
   border: 1px solid transparent;
@@ -1896,7 +1896,8 @@ input[type=range]::-moz-range-thumb {
   border-radius: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-clip: padding-box; }
+  background-clip: padding-box;
+  cursor: pointer; }
   .testimonial-card::after {
     content: "";
     position: absolute;
