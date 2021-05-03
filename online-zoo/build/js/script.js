@@ -74,14 +74,11 @@
   const testimonialsList = document.querySelector('.testimonials__list');
   const testimonialsControls = document.querySelector('.testimonials__controls');
   const testimonialsCountRange = document.querySelector('#testimonials-count');
-  console.log(testimonialsControls);
-  console.log(testimonialsCountRange);
 
   let slideIndex = 0;
   testimonialsCountRange.value = 0;
 
   let width = testimonialsCarousel.offsetWidth;
-
   let cardWidth = document.querySelector('.testimonial-card').offsetWidth;
 
   window.addEventListener('resize', (e) => {
@@ -97,7 +94,6 @@
 
     testimonialsList.scrollTo((cardWidth + gap) * slideIndex, 0);
     testimonialsCountRange.value = slideIndex;
-    console.log(testimonialsCountRange.value);
   };
 
   let autoSlideInterval = setInterval(slideFunc, 10000);

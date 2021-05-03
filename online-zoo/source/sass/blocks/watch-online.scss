@@ -8,13 +8,54 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 65px;
+}
+
+.watch-online__previews {
+  width: 100%;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.watch-online__iframe {
+  width: 269px;
+  height: 210px;
+}
+
+.watch-online__video {
+  margin-right: 28px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 269px;
+    height: 210px;
+    background-color: transparent;
+  }
+  &::after {
+    content: "live";
+    position: absolute;
+    color: $black;
+    font-size: 16px;
+    text-transform: uppercase;
+    top: 9px;
+    left: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    height: 25px;
+    background-size: 25px 50px;
+    border-radius: 5px;
+  }
 }
 
 .watch-online__buttons {
   width: 1320px;
   position: absolute;
-  top: 50%;
+  top: 46%;
   left: -7%;
   margin-top: 9px;
   display: flex;
@@ -83,13 +124,6 @@
     overflow: hidden;
     margin-left: 116px;
   }
-  .watch-online__previews img {
-    width: 293px;
-    height: 210px;
-  }
-  .watch-online__previews img {
-    margin-right: 28px;
-  }
   .watch-online__buttons {
     width: 65px;
     flex-direction: column-reverse;
@@ -113,7 +147,7 @@
     height: 140px;
     margin-left: 40px;
   }
-  .watch-online__previews img {
+  .watch-online__video {
     width: 180px;
     height: 140px;
     margin-right: 25px;
@@ -140,6 +174,7 @@
     left: 12px;
   }
 }
+
 @media (max-width: $mobile-width) {
   .watch-online__container {
     max-width: 300px;
@@ -151,7 +186,7 @@
     height: 146px;
     margin-left: 45px;
   }
-  .watch-online__previews img {
+  .watch-online__video {
     width: 90px;
     height: 70px;
     margin-right: 0;
