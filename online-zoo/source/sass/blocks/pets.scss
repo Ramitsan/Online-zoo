@@ -332,7 +332,7 @@
 .pets__info--parrots,
 .pets__info--zebra {
   &::before {
-    background-image: url("../../assets/icons/banana-bamboo_icon.png");
+    background-image: url("../assets/icons/banana-bamboo_icon.png");
     background-size: 33px 37px;
     width: 33px;
     height: 37px;
@@ -346,7 +346,7 @@
 .pets__info--bear,
 .pets__info--owl {
   &::before {
-    background-image: url("../../assets/icons/meet-fish_icon.png");
+    background-image: url("../assets/icons/meet-fish_icon.png");
     background-size: 48px 38px;
     width: 48px;
     height: 38px;
@@ -358,7 +358,7 @@
 .pets__info--bison,
 .pets__info--deer {
   &::before {
-    background-image: url("../../assets/icons/leaves_icon.png");
+    background-image: url("../assets/icons/leaves_icon.png");
     background-size: 50px 43px;
     width: 50px;
     height: 43px;
@@ -367,7 +367,7 @@
 
 .pets__info--squirrel {
   &::before {
-    background-image: url("../../assets/icons/nuts_icon.png");
+    background-image: url("../assets/icons/nuts_icon.png");
     background-size: 50px 50px;
     width: 50px;
     height: 50px;
