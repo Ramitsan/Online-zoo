@@ -72,7 +72,6 @@
   const gap = 32;
   const testimonialsCarousel = document.querySelector('.testimonials__carousel');
   const testimonialsList = document.querySelector('.testimonials__list');
-  const testimonialsControls = document.querySelector('.testimonials__controls');
   const testimonialsCountRange = document.querySelector('#testimonials-count');
 
   let slideIndex = 0;

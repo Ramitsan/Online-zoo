@@ -1167,7 +1167,7 @@ img {
 .pets__info--koala::before,
 .pets__info--parrots::before,
 .pets__info--zebra::before {
-  background-image: url("../../assets/icons/banana-bamboo_icon.png");
+  background-image: url("../assets/icons/banana-bamboo_icon.png");
   background-size: 33px 37px;
   width: 33px;
   height: 37px; }
@@ -1178,7 +1178,7 @@ img {
 .pets__info--fox::before,
 .pets__info--bear::before,
 .pets__info--owl::before {
-  background-image: url("../../assets/icons/meet-fish_icon.png");
+  background-image: url("../assets/icons/meet-fish_icon.png");
   background-size: 48px 38px;
   width: 48px;
   height: 38px;
@@ -1187,13 +1187,13 @@ img {
 .pets__info--boar::before,
 .pets__info--bison::before,
 .pets__info--deer::before {
-  background-image: url("../../assets/icons/leaves_icon.png");
+  background-image: url("../assets/icons/leaves_icon.png");
   background-size: 50px 43px;
   width: 50px;
   height: 43px; }
 
 .pets__info--squirrel::before {
-  background-image: url("../../assets/icons/nuts_icon.png");
+  background-image: url("../assets/icons/nuts_icon.png");
   background-size: 50px 50px;
   width: 50px;
   height: 50px;
@@ -3274,7 +3274,10 @@ input[type=range]::-moz-range-thumb {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 65px; }
+  margin-top: 65px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none; }
 
 .watch-online__previews {
   width: 100%;
@@ -3382,15 +3385,15 @@ input[type=range]::-moz-range-thumb {
   .watch-online__container {
     max-width: 940px; }
   .watch-online__frame-box {
+    width: 582px;
     margin-top: 60px;
+    margin-left: 134px;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start; }
   .watch-online__previews {
-    width: 650px;
-    height: 210px;
-    overflow: hidden;
-    margin-left: 116px; }
+    width: 100%;
+    height: 210px; }
   .watch-online__buttons {
     width: 65px;
     -webkit-box-orient: vertical;
