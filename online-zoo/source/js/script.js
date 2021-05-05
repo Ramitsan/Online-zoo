@@ -106,7 +106,7 @@
     autoSlideTimeout = setTimeout(() => {
       clearInterval(autoSlideInterval);
       autoSlideInterval = setInterval(slideFunc, 10000);
-    }, 40000);
+    }, 30000);
   };
 
   testimonialsList.addEventListener('click', delayAutoSliding);

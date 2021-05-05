@@ -169,8 +169,8 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  // bottom: -118px;
-  right: 40px;
+  right: 3%;
+  bottom: -118px;
 }
 
 .map__btn {
@@ -276,7 +276,7 @@
   .map__buttons {
     position: sticky;
     bottom: 0;
-    margin-left: 95%;
+    margin-left: 93%;
     padding-bottom: 20px;
     margin-top: -106px;
   }

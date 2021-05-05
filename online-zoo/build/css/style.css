@@ -1793,7 +1793,7 @@ input[type=range]::-webkit-slider-runnable-track {
   border-radius: 5px; }
 
 input[type=range]::-webkit-slider-thumb {
-  width: 49px;
+  width: 150px;
   height: 8px;
   background: #FE9013;
   border: 1px solid transparent;
@@ -2684,7 +2684,8 @@ input[type=range]::-moz-range-thumb {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  right: 40px; }
+  right: 3%;
+  bottom: -118px; }
 
 .map__btn {
   width: 54px;
@@ -2764,7 +2765,7 @@ input[type=range]::-moz-range-thumb {
   .map__buttons {
     position: sticky;
     bottom: 0;
-    margin-left: 95%;
+    margin-left: 93%;
     padding-bottom: 20px;
     margin-top: -106px; } }
 
