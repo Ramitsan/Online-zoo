@@ -97,6 +97,13 @@
   padding: 10px;
   border: 1px solid $main-text-color;
   border-radius: 5px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.description-animal--hidden {
+  max-height: 275px;
+  overflow: hidden;
 }
 
 @media (max-width: $small-desktop-width) {

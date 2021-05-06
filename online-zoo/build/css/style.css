@@ -1743,7 +1743,7 @@ img {
   position: relative; }
 
 .testimonials__carousel {
-  overflow: auto;
+  overflow: hidden;
   scroll-behavior: smooth;
   scrollbar-width: none; }
 
@@ -3296,7 +3296,8 @@ input[type=range]::-moz-range-thumb {
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  z-index: 10; }
 
 .watch-online__video {
   margin-right: 28px;
@@ -3342,7 +3343,8 @@ input[type=range]::-moz-range-thumb {
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  z-index: 3; }
 
 .watch-online__button {
   width: 62px;
@@ -3694,7 +3696,13 @@ input[type=range]::-moz-range-thumb {
   width: 130px;
   padding: 10px;
   border: 1px solid #333B41;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin-top: 32px;
+  cursor: pointer; }
+
+.description-animal--hidden {
+  max-height: 275px;
+  overflow: hidden; }
 
 @media (max-width: 1599px) {
   .description-animal__subtitle--diet {

@@ -22,7 +22,7 @@
     buttonRight = document.querySelector('.watch-online__button--right'),
     buttonLeft = document.querySelector('.watch-online__button--left');
 
-  buttonRight.addEventListener("click", () => {
+  buttonRight.addEventListener('click', () => {
     carousel.scrollBy(gap, 0);
     if (carousel.scrollWidth !== 0) {
       buttonLeft.style.opacity = 1;
@@ -31,7 +31,7 @@
       buttonRight.style.opacity = 0.5;
     }
   });
-  buttonLeft.addEventListener("click", () => {
+  buttonLeft.addEventListener('click', () => {
     carousel.scrollBy(-(gap), 0);
     if (carousel.scrollLeft - gap <= 0) {
       buttonLeft.style.opacity = 0.5;
@@ -42,6 +42,19 @@
   });
 
   let width = carousel.offsetWidth;
-  window.addEventListener("resize", () => (width = carousel.offsetWidth));
+  window.addEventListener('resize', () => (width = carousel.offsetWidth));
+
+  // спойлер
+  const btnDescription = document.querySelector('.description-animal__button');
+  const descriptionAnimal = document.querySelector('.description-animal');
+
+  btnDescription.addEventListener('click', () => {
+    descriptionAnimal.classList.toggle('description-animal--hidden');
+    if (descriptionAnimal.classList.contains('description-animal--hidden')) {
+      btnDescription.textContent = 'Read More';
+    } else {
+      btnDescription.textContent = 'Read Less';
+    }
+  });
 
 })();
