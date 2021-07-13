@@ -19,7 +19,7 @@
 
 .backstage__img {
   margin-right: 86px;
-  margin-top: 25px;
+  margin-top: 29px;
 }
 
 .backstage__info {
@@ -30,11 +30,14 @@
 .backstage__title {
   @include second-level-headings ();
   color: $main-text-color;
+  margin-bottom: 22px;
 }
 
 .backstage__subtitle {
   @include fourth-level-headings ();
   color: $main-text-color;
+  margin-top: 53px;
+  margin-bottom: 34px;
 }
 
 .backstage__text--two br {

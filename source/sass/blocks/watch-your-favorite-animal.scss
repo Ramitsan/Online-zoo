@@ -4,7 +4,7 @@
   background-color: $white;
   background-image: url("../assets/img/giant-panda_desktop.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center -218px;
   background-size: cover;
 }
 
@@ -21,21 +21,21 @@
 .watch-your-favorite-animal__title {
   width: 495px;
   position: relative;
+  margin-top: 85px;
+  margin-bottom: 61px;
   font-family: $font-roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 106px;
-  line-height: 75%;
+  line-height: 76%;
   text-transform: uppercase;
   color: $white;
   z-index: 100;
-  margin-top: 88px;
-  margin-bottom: 64px;
   &::before {
     content: "";
     position: absolute;
-    top: -78px;
-    right: 109px;
+    top: -73px;
+    right: 106px;
     width: 465px;
     height: 465px;
     background: $orange-gradient;
@@ -46,7 +46,7 @@
 
 .watch-your-favorite-animal__btn {
   border-radius: 25px;
-  margin-right: 100px;
+  margin-right: 98px;
 }
 
 .watch-your-favorite-animal__title span {

@@ -442,9 +442,9 @@ img {
           justify-content: flex-start; }
 
 .page-header__logo {
-  margin: 15px 0;
+  margin: 14px 0;
   margin-right: 60px;
-  margin-bottom: 7px; }
+  margin-bottom: 8px; }
 
 .page-header__logo img {
   width: 82px;
@@ -586,7 +586,7 @@ img {
   background-color: #FFFFFF;
   background-image: url("../assets/img/giant-panda_desktop.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center -218px;
   background-size: cover; }
 
 .watch-your-favorite-animal__wrapper {
@@ -608,21 +608,21 @@ img {
 .watch-your-favorite-animal__title {
   width: 495px;
   position: relative;
+  margin-top: 85px;
+  margin-bottom: 61px;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 106px;
-  line-height: 75%;
+  line-height: 76%;
   text-transform: uppercase;
   color: #FFFFFF;
-  z-index: 100;
-  margin-top: 88px;
-  margin-bottom: 64px; }
+  z-index: 100; }
   .watch-your-favorite-animal__title::before {
     content: "";
     position: absolute;
-    top: -78px;
-    right: 109px;
+    top: -73px;
+    right: 106px;
     width: 465px;
     height: 465px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
@@ -631,7 +631,7 @@ img {
 
 .watch-your-favorite-animal__btn {
   border-radius: 25px;
-  margin-right: 100px; }
+  margin-right: 98px; }
 
 .watch-your-favorite-animal__title span {
   color: #FFEE2E; }
@@ -735,7 +735,7 @@ img {
 
 .backstage__img {
   margin-right: 86px;
-  margin-top: 25px; }
+  margin-top: 29px; }
 
 .backstage__info {
   width: 465px;
@@ -747,7 +747,8 @@ img {
   font-weight: normal;
   font-size: 48px;
   line-height: 120%;
-  color: #333B41; }
+  color: #333B41;
+  margin-bottom: 22px; }
 
 .backstage__subtitle {
   font-family: "Roboto", "Arial", sans-serif;
@@ -755,7 +756,9 @@ img {
   font-weight: normal;
   font-size: 24px;
   line-height: 120%;
-  color: #333B41; }
+  color: #333B41;
+  margin-top: 53px;
+  margin-bottom: 34px; }
 
 .backstage__text--two br {
   display: none; }
@@ -841,11 +844,11 @@ img {
     display: block; } }
 
 .pets {
-  padding-top: 80px;
-  padding-bottom: 117px;
+  padding-top: 76px;
+  padding-bottom: 115px;
   background-image: url("../assets/img/palm_bg_desktop.png"), url("../assets/img/strelitzia_desktop.png");
   background-repeat: no-repeat;
-  background-position: left bottom, right bottom;
+  background-position: -7px 722px, 1225px 907px;
   background-size: 292px 460px, 368px 275px; }
 
 .pets__wrapper {
@@ -872,7 +875,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 74px;
+  margin-bottom: 76px;
   padding-left: 0; }
 
 .pets__list {
@@ -955,7 +958,7 @@ img {
   width: 366px;
   display: inline-block;
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   margin-right: 25px;
   background-color: #FFFFFF;
   text-align: left;
@@ -1204,7 +1207,7 @@ img {
   text-transform: uppercase;
   color: #000000;
   margin-top: 10px;
-  margin-bottom: 0; }
+  margin-bottom: -2px; }
 
 .pets__home-country {
   font-weight: 300;
@@ -1212,7 +1215,7 @@ img {
   line-height: 120%;
   color: #000000;
   margin-top: 0;
-  margin-bottom: 10px; }
+  margin-bottom: 12px; }
 
 .pets__buttons {
   width: 1320px;
@@ -1270,7 +1273,7 @@ img {
 
 .pets__link {
   border-radius: 25px;
-  padding: 16px 56px; }
+  padding: 17px 56px; }
 
 @media (max-width: 1599px) {
   .pets {
@@ -1405,7 +1408,7 @@ img {
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
   width: 100%;
   padding-top: 70px;
-  padding-bottom: 98px; }
+  padding-bottom: 101px; }
 
 .pick-and-feed__wrapper {
   width: 100%;
@@ -1452,7 +1455,7 @@ img {
 .pick-and-feed__text-link {
   display: inline-block;
   color: #333B41;
-  padding-bottom: 3px;
+  padding-bottom: 1px;
   border-bottom: 1px solid #FE9013; }
 
 .pick-and-feed__list {
@@ -1464,16 +1467,16 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
   list-style: none;
   margin-top: 40px;
-  margin-bottom: 65px;
-  padding-left: 120px;
-  padding-right: 120px; }
+  margin-bottom: 46px;
+  padding-left: 0px; }
 
 .pick-and-feed__item {
   display: -webkit-box;
@@ -1493,17 +1496,19 @@ img {
   margin-top: 0;
   padding-top: 0; }
 
-.pick-and-feed__item:not(:last-of-type)::after {
-  content: "";
-  position: absolute;
-  background-image: url("../assets/icons/arrow-pick-and-feed.png");
-  background-repeat: no-repeat;
-  background-size: 71px 37px;
-  background-position: center;
-  width: 71px;
-  height: 37px;
-  top: 24%;
-  left: 200px; }
+.pick-and-feed__item:not(:last-of-type) {
+  margin-right: 130px; }
+  .pick-and-feed__item:not(:last-of-type)::after {
+    content: "";
+    position: absolute;
+    background-image: url("../assets/icons/arrow-pick-and-feed.png");
+    background-repeat: no-repeat;
+    background-size: 71px 37px;
+    background-position: center;
+    width: 71px;
+    height: 37px;
+    top: 24%;
+    left: 200px; }
 
 .pick-and-feed__container-img {
   width: 168px;
@@ -1539,12 +1544,13 @@ img {
 
 .pick-and-feed__item p {
   width: 168px;
-  text-align: left; }
+  text-align: left;
+  margin-top: 30px; }
 
 .pick-and-feed__link {
   display: inline-block;
   border-radius: 25px;
-  padding: 14px 74px; }
+  padding: 15px 72px; }
 
 .pick-and-feed__caption {
   font-family: "Roboto", "Arial", sans-serif;
@@ -1553,7 +1559,7 @@ img {
   font-size: 36px;
   line-height: 130%;
   color: #333B41;
-  margin-top: 54px; }
+  margin-top: 56px; }
 
 @media (max-width: 1599px) {
   .pick-and-feed {
@@ -1693,7 +1699,7 @@ img {
 
 .testimonials {
   width: 100%;
-  padding-top: 104px;
+  padding-top: 105px;
   padding-bottom: 177px;
   background-image: url("../assets/img/leav_bg_desktop.png");
   background-repeat: no-repeat;
@@ -1719,7 +1725,7 @@ img {
   font-size: 36px;
   line-height: 130%;
   color: #333B41;
-  margin-bottom: 26px; }
+  margin-bottom: 24px; }
 
 .testimonials__auto-carousel {
   margin: 0;
@@ -1751,7 +1757,7 @@ img {
   width: 1160px;
   padding: 2px;
   margin-top: 23px;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1771,7 +1777,7 @@ img {
   overflow: hidden; }
 
 .testimonials__controls {
-  margin-bottom: 25px; }
+  margin-bottom: 26px; }
 
 .testimonials__link {
   display: inline-block;
@@ -1789,12 +1795,12 @@ img {
 
 input[type=range]::-webkit-slider-runnable-track {
   background: #F5F7F6;
-  height: 8px;
+  height: 6px;
   border-radius: 5px; }
 
 input[type=range]::-webkit-slider-thumb {
-  width: 150px;
-  height: 8px;
+  width: 118px;
+  height: 6px;
   background: #FE9013;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -1890,6 +1896,7 @@ input[type=range]::-moz-range-thumb {
 
 .testimonial-card {
   width: 265px;
+  height: 387px;
   position: relative;
   margin-right: 32px;
   background-color: #F1F3F2;
@@ -1911,7 +1918,7 @@ input[type=range]::-moz-range-thumb {
     background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%); }
 
 .testimonial-card blockquote {
-  margin: 16px 15px; }
+  margin: 14px 15px; }
 
 .testimonial-card__user-info {
   display: -webkit-box;

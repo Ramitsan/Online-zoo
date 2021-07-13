@@ -2,7 +2,7 @@
   background: $orange-gradient-bg;
   width: 100%;
   padding-top: 70px;
-  padding-bottom: 98px;
+  padding-bottom: 101px;
 }
 
 .pick-and-feed__wrapper {
@@ -48,7 +48,7 @@
 .pick-and-feed__text-link {
   display: inline-block;
   color: #333B41;
-  padding-bottom: 3px;
+  padding-bottom: 1px;
   border-bottom: 1px solid $orange;
 }
 
@@ -56,13 +56,12 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
   list-style: none;
   margin-top: 40px;
-  margin-bottom: 65px;
-  padding-left: 120px;
-  padding-right: 120px;
+  margin-bottom: 46px;
+  padding-left: 0px;
 }
 
 .pick-and-feed__item {
@@ -76,6 +75,7 @@
 }
 
 .pick-and-feed__item:not(:last-of-type) {
+  margin-right: 130px;
   &::after {
     content: "";
     position: absolute;
@@ -122,18 +122,19 @@
 .pick-and-feed__item p {
   width: 168px;
   text-align: left;
+  margin-top: 30px;
 }
 
 .pick-and-feed__link {
   display: inline-block;
   border-radius: 25px;
-  padding: 14px 74px;
+  padding: 15px 72px;
 }
 
 .pick-and-feed__caption {
   @include third-level-headings ();
   color: $main-text-color;
-  margin-top: 54px;
+  margin-top: 56px;
 }
 
 @media (max-width: $small-desktop-width) {
