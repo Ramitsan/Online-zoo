@@ -457,7 +457,7 @@
 
 @media (max-width: $small-desktop-width) {
   .pets {
-    padding-top: 67px;
+    padding-top: 80px;
     padding-bottom: 156px;
     background-image: url("../assets/img/palm_bg_small-desktop.png"), url("../assets/img/strelitzia_small-desktop.png");
     background-repeat: no-repeat;
@@ -468,12 +468,15 @@
   }
   .pets__item {
     width: 294px;
-    margin-bottom: 92px;
+    margin-bottom: 88px;
+  }
+  .pets__slider {
+    margin-bottom: 6px;
   }
   .pets__buttons {
     width: 295px;
     position: absolute;
-    top: 44%;
+    top: 47%;
     left: 50%;
     margin-left: -147px;
     margin-top: -63px;
