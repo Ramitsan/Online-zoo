@@ -463,7 +463,7 @@ img {
   .page-header__wrapper {
     max-width: 600px; }
   .page-header__logo {
-    height: 30px;
+    height: 31px;
     margin: 0;
     margin-top: 3px; }
   .page-header__logo img {
@@ -661,7 +661,7 @@ img {
 @media (max-width: 999px) {
   .watch-your-favorite-animal {
     padding-top: 33px;
-    padding-bottom: 67px;
+    padding-bottom: 66px;
     background-image: url("../assets/img/giant-panda_tablet.jpg");
     background-position: center -26px; }
   .watch-your-favorite-animal__wrapper {
@@ -669,16 +669,17 @@ img {
   .watch-your-favorite-animal__title {
     width: 255px;
     font-size: 54px;
-    margin-top: 51px;
+    margin-top: 48px;
     margin-right: -3px;
     margin-bottom: 0; }
     .watch-your-favorite-animal__title::before {
       width: 237px;
       height: 237px;
-      top: -41px;
+      top: -36px;
       right: 55px; }
   .watch-your-favorite-animal__btn {
-    padding: 12px 95px;
+    margin-top: -7px;
+    padding: 15px 96px;
     -ms-flex-item-align: start;
         align-self: flex-start; } }
 
@@ -1308,15 +1309,20 @@ img {
 
 @media (max-width: 999px) {
   .pets {
-    padding-top: 16px;
+    padding-top: 48px;
     padding-bottom: 115px;
-    background-image: url("../assets/img/palm_bg_tablet.png"), url("../assets/img/strelitzia_tablet.png");
-    background-size: 134px 202px, 175px 131px; }
+    background-image: url("../assets/img/palm_bg_tablet.png"), url("../../assets/img/strelitzia_desktop.png");
+    background-size: 134px 202px, 175px 131px;
+    background-position: left bottom, right bottom; }
   .pets__wrapper {
     max-width: 600px; }
+  .pets__slider {
+    height: 826px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
   .pets__list {
-    overflow: hidden;
-    height: 828px; }
+    overflow: hidden; }
   .pets__item:nth-child(3n) {
     margin-right: 25px; }
   .pets__item {
@@ -1364,6 +1370,16 @@ img {
     height: 31px;
     top: -2px;
     right: 3px; }
+  .pets__info--squirrel::before {
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px; }
+  .pets__info--boar::before,
+  .pets__info--bison::before,
+  .pets__info--deer::before {
+    background-size: 40px 33px;
+    width: 40px;
+    height: 33px; }
   .pets__name {
     font-size: 12px;
     margin-top: 8px;
@@ -1371,10 +1387,13 @@ img {
   .pets__home-country {
     font-size: 11px; }
   .pets__buttons {
-    width: 157px;
+    width: 154px;
+    top: 47%;
     left: 61%;
-    margin-left: -145px;
-    margin-top: -60px; } }
+    margin-left: -143px;
+    margin-top: -60px; }
+  .pets__link {
+    padding: 16px 56px; } }
 
 @media (max-width: 639px) {
   .pets {
@@ -1605,8 +1624,8 @@ img {
     padding-bottom: 20px; }
   .pick-and-feed__wrapper {
     width: 100%;
-    padding-top: 9px;
-    padding-bottom: 61px; }
+    padding-top: 10px;
+    padding-bottom: 60px; }
   .pick-and-feed__subtitle,
   .pick-and-feed__info,
   .pick-and-feed__text {
@@ -1625,23 +1644,25 @@ img {
     margin-bottom: 20px; }
   .pick-and-feed__list {
     width: 590px;
-    margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 27px;
+    margin-bottom: 26px;
+    margin-left: 20px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 0; }
   .pick-and-feed__container-img {
     width: 168px; }
-  .pick-and-feed__item:not(:last-of-type)::after {
-    background-image: url("../assets/icons/green-arrow_tablet.png");
-    background-size: 89px 29px;
-    width: 89px;
-    height: 29px;
-    top: -7%;
-    left: 137px;
-    z-index: 100; } }
+  .pick-and-feed__item:not(:last-of-type) {
+    margin-right: 42px; }
+    .pick-and-feed__item:not(:last-of-type)::after {
+      background-image: url("../assets/icons/green-arrow_tablet.png");
+      background-size: 89px 29px;
+      width: 89px;
+      height: 29px;
+      top: -16px;
+      left: 136px;
+      z-index: 100; } }
 
 @media (max-width: 639px) {
   .pick-and-feed {
@@ -1853,8 +1874,8 @@ input[type=range]::-moz-range-thumb {
 
 @media (max-width: 999px) {
   .testimonials {
-    padding-top: 26px;
-    padding-bottom: 78px;
+    padding-top: 25px;
+    padding-bottom: 77px;
     background-image: url("../assets/img/leav_bg_tablet.png");
     background-position: right 533px;
     background-size: 116px 204px; }
@@ -1864,6 +1885,7 @@ input[type=range]::-moz-range-thumb {
         -ms-flex-align: center;
             align-items: center; }
   .testimonials__list {
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1873,7 +1895,7 @@ input[type=range]::-moz-range-thumb {
   .testimonials__controls {
     display: none; }
   .testimonials__link {
-    margin-top: 19px;
+    margin-top: 22px;
     -ms-flex-item-align: center;
         align-self: center;
     padding: 15px 54px; } }
@@ -2026,13 +2048,13 @@ input[type=range]::-moz-range-thumb {
     width: 100%;
     height: 104px;
     margin-right: 0;
-    margin-bottom: 19px; }
+    margin-bottom: 20px; }
   .testimonial-card__text {
     width: 100%; }
   .testimonial-card blockquote {
     height: 84px;
     overflow: hidden;
-    margin: 11px 10px; } }
+    margin: 13px 10px 8px 11px; } }
 
 @media (max-width: 639px) {
   .testimonial-card {
@@ -2397,7 +2419,7 @@ input[type=range]::-moz-range-thumb {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    margin-top: 47px;
+    margin-top: 48px;
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
     -ms-flex-item-align: start;
@@ -2441,7 +2463,10 @@ input[type=range]::-moz-range-thumb {
         -ms-flex-order: 5;
             order: 5;
     margin-right: 2px;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
   .page-footer__copyright a {
     padding-bottom: 0;
     padding-top: 10px; } }

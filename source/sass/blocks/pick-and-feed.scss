@@ -192,8 +192,8 @@
   }
   .pick-and-feed__wrapper {
     width: 100%;
-    padding-top: 9px;
-    padding-bottom: 61px;
+    padding-top: 10px;
+    padding-bottom: 60px;
   }
   .pick-and-feed__subtitle,
   .pick-and-feed__info,
@@ -218,9 +218,9 @@
   }
   .pick-and-feed__list {
     width: 590px;
-    margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 27px;
+    margin-bottom: 26px;
+    margin-left: 20px;
     justify-content: space-between;
     padding: 0;
   }
@@ -228,13 +228,14 @@
     width: 168px;
   }
   .pick-and-feed__item:not(:last-of-type) {
+    margin-right: 42px;
     &::after {
       background-image: url("../assets/icons/green-arrow_tablet.png");
       background-size: 89px 29px;
       width: 89px;
       height: 29px;
-      top: -7%;
-      left: 137px;
+      top: -16px;
+      left: 136px;
       z-index: 100;
     }
   }

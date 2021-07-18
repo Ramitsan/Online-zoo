@@ -331,7 +331,7 @@
   }
   .page-footer__donate {
     order: 2;
-    margin-top: 47px;
+    margin-top: 48px;
     flex-basis: 0;
     align-self: flex-start;
   }
@@ -388,6 +388,7 @@
     order: 5;
     margin-right: 2px;
     padding-bottom: 0;
+    align-items: flex-start;
   }
   .page-footer__copyright a {
     padding-bottom: 0;

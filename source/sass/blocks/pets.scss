@@ -488,17 +488,21 @@
 
 @media (max-width: $tablet-width) {
   .pets {
-    padding-top: 16px;
+    padding-top: 48px;
     padding-bottom: 115px;
-    background-image: url("../assets/img/palm_bg_tablet.png"), url("../assets/img/strelitzia_tablet.png");
+    background-image: url("../assets/img/palm_bg_tablet.png"), url("../../assets/img/strelitzia_desktop.png");
     background-size: 134px 202px, 175px 131px;
+    background-position: left bottom, right bottom;
   }
   .pets__wrapper {
     max-width: 600px;
   }
+  .pets__slider {
+    height: 826px;
+    align-items: flex-start;
+  }
   .pets__list {
     overflow: hidden;
-    height: 828px;
   }
   .pets__item:nth-child(3n) {
     margin-right: 25px;
@@ -572,6 +576,20 @@
       right: 3px;
     }
   }
+  .pets__info--squirrel {
+    &::before {
+      background-size: 40px 40px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .pets__info--boar::before,
+  .pets__info--bison::before,
+  .pets__info--deer::before {
+    background-size: 40px 33px;
+    width: 40px;
+    height: 33px;
+  }
   .pets__name {
     font-size: 12px;
     margin-top: 8px;
@@ -581,10 +599,14 @@
     font-size: 11px;
   }
   .pets__buttons {
-    width: 157px;
+    width: 154px;
+    top: 47%;
     left: 61%;
-    margin-left: -145px;
+    margin-left: -143px;
     margin-top: -60px;
+  }
+  .pets__link {
+    padding: 16px 56px;
   }
 }
 

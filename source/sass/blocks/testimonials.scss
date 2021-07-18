@@ -148,8 +148,8 @@ input[type=range]::-moz-range-thumb {
 
 @media (max-width: $tablet-width) {
   .testimonials {
-    padding-top: 26px;
-    padding-bottom: 78px;
+    padding-top: 25px;
+    padding-bottom: 77px;
     background-image: url("../assets/img/leav_bg_tablet.png");
     background-position: right 533px;
     background-size: 116px 204px;
@@ -159,6 +159,7 @@ input[type=range]::-moz-range-thumb {
     align-items: center;
   }
   .testimonials__list {
+    width: 100%;
     flex-direction: column;
     margin-top: 22px;
     height: 363px;
@@ -167,7 +168,7 @@ input[type=range]::-moz-range-thumb {
     display: none;
   }
   .testimonials__link {
-    margin-top: 19px;
+    margin-top: 22px;
     align-self: center;
     padding: 15px 54px;
   }
