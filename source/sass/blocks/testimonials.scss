@@ -176,7 +176,7 @@ input[type=range]::-moz-range-thumb {
 
 @media (max-width: $mobile-width) {
   .testimonials {
-    padding-bottom: 56px;
+    padding-bottom: 58px;
     background-image: url("../assets/img/leav_bg_mobile.png");
     background-position: right 516px;
     background-size: 51px 94px;
@@ -194,5 +194,9 @@ input[type=range]::-moz-range-thumb {
     margin-top: 12px;
     margin-bottom: 6px;
     padding: 2px 7px;
+  }
+  .testimonials__link {
+    margin-top: 20px;
+    padding: 14px 54px;
   }
 }

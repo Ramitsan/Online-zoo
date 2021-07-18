@@ -263,18 +263,29 @@
     font-size: 18px;
     text-align: center;
     margin-top: 12px;
-    margin-left: 5px;
+    margin-left: 0px;
   }
   .pick-and-feed__caption {
     margin-top: 23px;
     font-size: 24px;
     line-height: 120%;
   }
+  .pick-and-feed__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .pick-and-feed__list {
     width: 170px;
     flex-direction: column;
     align-items: center;
     margin-bottom: -2px;
+    margin-top: 0;
+    margin-left: 40px;
+  }
+  .pick-and-feed__item:last-of-type {
+    margin-right: 42px;
   }
   .pick-and-feed__item:not(:last-of-type) {
     &::after {

@@ -685,8 +685,9 @@ img {
 
 @media (max-width: 639px) {
   .watch-your-favorite-animal {
+    padding-bottom: 40px;
     background-image: url("../assets/img/giant-panda_mobile.jpg");
-    background-position: center -26px; }
+    background-position: center 33px; }
   .watch-your-favorite-animal__wrapper {
     max-width: 300px;
     position: relative;
@@ -705,7 +706,7 @@ img {
     width: 100%;
     position: absolute;
     padding: 14px 95px;
-    top: 209px;
+    top: 216px;
     z-index: 100; } }
 
 .backstage {
@@ -816,13 +817,13 @@ img {
 
 @media (max-width: 639px) {
   .backstage {
-    padding-top: 18px;
+    padding-top: 45px;
     padding-bottom: 0;
     background-image: url("../assets/img/flower_bg_mobile.png");
     background-size: 35px 225px;
-    background-position: right top; }
+    background-position: right 40px; }
   .backstage__wrapper {
-    max-width: 300px; }
+    width: 93%; }
   .backstage__info {
     width: 100%; }
   .backstage__title {
@@ -1397,12 +1398,14 @@ img {
 
 @media (max-width: 639px) {
   .pets {
-    padding-top: 7px;
-    padding-bottom: 75px;
+    padding-top: 24px;
+    padding-bottom: 60px;
     background-image: url("../assets/img/palm_bg_mobile.png"), url("../assets/img/strelitzia_mobile.png");
     background-size: 58px 72px, 68px 71px; }
   .pets__wrapper {
     max-width: 300px; }
+  .pets__slider {
+    height: 100%; }
   .pets__buttons {
     display: none; }
   .pets__list {
@@ -1416,13 +1419,18 @@ img {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    height: 1420px; }
+    height: 100%; }
   .pets__item {
-    margin-bottom: 20px; }
+    margin-bottom: 14px;
+    margin-right: 25px; }
+  .pets__item:nth-child(2n) {
+    margin-right: 25px; }
   .pets__item--cheetahs,
   .pets__item--penguins {
     display: none; }
   .pets__link {
+    display: inline-block;
+    margin-top: -8px;
     padding: 16px 52px; } }
 
 .pick-and-feed {
@@ -1682,11 +1690,25 @@ img {
     font-size: 18px;
     text-align: center;
     margin-top: 12px;
-    margin-left: 5px; }
+    margin-left: 0px; }
   .pick-and-feed__caption {
     margin-top: 23px;
     font-size: 24px;
     line-height: 120%; }
+  .pick-and-feed__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
   .pick-and-feed__list {
     width: 170px;
     -webkit-box-orient: vertical;
@@ -1696,7 +1718,11 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: -2px; }
+    margin-bottom: -2px;
+    margin-top: 0;
+    margin-left: 40px; }
+  .pick-and-feed__item:last-of-type {
+    margin-right: 42px; }
   .pick-and-feed__item:not(:last-of-type)::after {
     background-image: url("../assets/icons/green-arrow_tablet.png");
     background-size: 89px 29px;
@@ -1902,7 +1928,7 @@ input[type=range]::-moz-range-thumb {
 
 @media (max-width: 639px) {
   .testimonials {
-    padding-bottom: 56px;
+    padding-bottom: 58px;
     background-image: url("../assets/img/leav_bg_mobile.png");
     background-position: right 516px;
     background-size: 51px 94px; }
@@ -1916,7 +1942,10 @@ input[type=range]::-moz-range-thumb {
   .testimonials__list {
     margin-top: 12px;
     margin-bottom: 6px;
-    padding: 2px 7px; } }
+    padding: 2px 7px; }
+  .testimonials__link {
+    margin-top: 20px;
+    padding: 14px 54px; } }
 
 .testimonial-card {
   width: 265px;
@@ -2058,7 +2087,9 @@ input[type=range]::-moz-range-thumb {
 
 @media (max-width: 639px) {
   .testimonial-card {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .testimonial-card blockquote {
+    margin: 10px 10px 10px 12px; } }
 
 .page-footer {
   width: 100%;
@@ -2519,7 +2550,7 @@ input[type=range]::-moz-range-thumb {
         -ms-flex-order: 3;
             order: 3;
     margin-right: -9px;
-    margin-top: 39px;
+    margin-top: 28px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
@@ -2537,15 +2568,17 @@ input[type=range]::-moz-range-thumb {
     margin-right: 7px;
     margin-bottom: 13px; }
   .page-footer__subscribe-container input {
-    margin-bottom: 13px; }
+    margin-bottom: 8px; }
   .page-footer__donate {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
-    margin-bottom: 47px;
-    margin-top: 43px; }
+    margin-bottom: 48px;
+    margin-top: 40px;
+    -ms-flex-item-align: center;
+        align-self: center; }
   .page-footer__donate-link {
-    padding: 16px 45px; }
+    padding: 16px 46px; }
   .page-footer__copyright {
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;

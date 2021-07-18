@@ -102,14 +102,14 @@
 
 @media (max-width: $mobile-width) {
   .backstage {
-    padding-top: 18px;
+    padding-top: 45px;
     padding-bottom: 0;
     background-image: url("../assets/img/flower_bg_mobile.png");
     background-size: 35px 225px;
-    background-position: right top;
+    background-position: right 40px;
   }
   .backstage__wrapper {
-    max-width: 300px;
+    width: 93%;
   }
   .backstage__info {
     width: 100%;

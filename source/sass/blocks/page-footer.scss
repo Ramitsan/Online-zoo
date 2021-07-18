@@ -397,9 +397,6 @@
 }
 
 @media (max-width: $mobile-width) {
-  // .page-footer {
-  //   padding-bottom: 48px;
-  // }
   .page-footer__wrapper {
     max-width: 300px;
     height: inherit;
@@ -459,7 +456,7 @@
     display: flex;
     order: 3;
     margin-right: -9px;
-    margin-top: 39px;
+    margin-top: 28px;
     align-items: center;
   }
   .page-footer__wrapper--map .page-footer__subscribe,
@@ -479,15 +476,16 @@
     margin-bottom: 13px;
   }
   .page-footer__subscribe-container input {
-    margin-bottom: 13px;
+    margin-bottom: 8px;
   }
   .page-footer__donate {
     order: 4;
-    margin-bottom: 47px;
-    margin-top: 43px;
+    margin-bottom: 48px;
+    margin-top: 40px;
+    align-self: center;
   }
   .page-footer__donate-link {
-    padding: 16px 45px;
+    padding: 16px 46px;
   }
   .page-footer__copyright {
     order: 5;
