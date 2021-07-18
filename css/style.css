@@ -2578,7 +2578,7 @@ input[type=range]::-moz-range-thumb {
     -ms-flex-item-align: center;
         align-self: center; }
   .page-footer__donate-link {
-    padding: 16px 46px; }
+    padding: 16px 45px; }
   .page-footer__copyright {
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
