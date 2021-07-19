@@ -1649,13 +1649,12 @@ img {
     margin-top: 28px;
     margin-bottom: 20px; }
   .pick-and-feed__list {
-    width: 590px;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 26px;
-    margin-left: 20px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 0; }
   .pick-and-feed__container-img {
     width: 168px; }
@@ -1675,7 +1674,7 @@ img {
     padding-top: 20px;
     padding-bottom: 20px; }
   .pick-and-feed__wrapper {
-    max-width: 300px;
+    width: 94%;
     padding-top: 21px;
     padding-bottom: 41px; }
   .pick-and-feed__title {
@@ -1742,7 +1741,7 @@ img {
     margin-bottom: 30px; }
   .pick-and-feed__link {
     padding: 14px 70px;
-    width: 100%; } }
+    width: 298px; } }
 
 .testimonials {
   width: 100%;
