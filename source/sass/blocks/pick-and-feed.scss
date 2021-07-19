@@ -217,11 +217,11 @@
     margin-bottom: 20px;
   }
   .pick-and-feed__list {
-    width: 590px;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 26px;
-    margin-left: 20px;
-    justify-content: space-between;
+    // margin-left: 20px;
+    justify-content: center;
     padding: 0;
   }
   .pick-and-feed__container-img {
@@ -247,7 +247,7 @@
     padding-bottom: 20px;
   }
   .pick-and-feed__wrapper {
-    max-width: 300px;
+    width: 94%;
     padding-top: 21px;
     padding-bottom: 41px;
   }
@@ -314,6 +314,6 @@
   }
   .pick-and-feed__link {
     padding: 14px 70px;
-    width: 100%;
+    width: 298px;
   }
 }
