@@ -3851,11 +3851,12 @@ input[type=range]::-moz-range-thumb {
 
 .error-page {
   padding-top: 65px;
-  padding-bottom: 117px;
+  padding-bottom: 50px;
+  background-color: #d5e88f;
   background-image: url("../assets/img/palm_bg_desktop.png"), url("../assets/img/bambuk-bg.jpg");
   background-repeat: no-repeat;
-  background-size: 292px 460px, cover;
-  background-position: bottom left, center; }
+  background-size: 292px 460px, contain;
+  background-position: bottom left, top 0px right -100px; }
 
 .error-page__wrapper {
   width: 100%;
@@ -3878,17 +3879,18 @@ input[type=range]::-moz-range-thumb {
 .error-page__title {
   font-size: 85px;
   font-weight: bold;
-  color: #4B9200;
+  color: #FE9013;
+  margin-top: 10px;
   margin-bottom: 45px; }
 
 .error-page__box {
   margin: 0 auto;
-  margin-top: 85px; }
+  margin-top: 20px; }
 
 .error-page__img {
   display: block;
-  width: 900px;
-  height: 460px; }
+  width: 589px;
+  height: 451px; }
 
 .error-page__text {
   font-size: 45px;
@@ -3918,5 +3920,43 @@ input[type=range]::-moz-range-thumb {
   font-size: 36px;
   font-weight: 500;
   color: #333B41; }
+
+@media (max-width: 999px) {
+  .error-page {
+    background-image: url("../assets/img/palm_bg_tablet.png"), url("../assets/img/bambuk-bg-tablet.jpg");
+    background-repeat: no-repeat;
+    background-size: 134px 202px, contain;
+    background-position: bottom left, bottom right; }
+  .error-page__title {
+    margin-top: 30px;
+    margin-bottom: 20px; }
+  .error-page__bottom {
+    width: 93%; }
+  .error-page__links {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .error-page__links a {
+    padding: 15px 75px; } }
+
+@media (max-width: 639px) {
+  .error-page {
+    padding-top: 70px;
+    padding-bottom: 10px; }
+  .error-page__text,
+  .error-page__links span {
+    font-size: 30px; }
+  .error-page__img {
+    width: 290px;
+    height: 222px; }
+  .error-page__links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .error-page__links > * {
+    margin-bottom: 20px; }
+  .error-page__links a {
+    width: 260px; } }
 
 /*# sourceMappingURL=style.css.map */
