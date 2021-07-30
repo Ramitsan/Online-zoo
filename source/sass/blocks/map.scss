@@ -35,15 +35,22 @@
 .map__animals-item {
   position: absolute;
   z-index: 100;
-  transition: all 0.2s;
+  // transition: all 0.2s;
   &::before {
     content: "";
     position: absolute;
     width: 26px;
     height: 33px;
-    background-image: Url("../assets/icons/pin.png");
+    background-image: url("../assets/icons/pin.png");
     background-repeat: no-repeat;
     background-size: 26px 33px;
+    transition: all 0.3s ease-out;
+  }
+  &:hover {
+    &::before {
+      background-image: url("../assets/icons/pin-active.png");
+      transition: all 0.1s ease-out;
+    }
   }
 }
 
@@ -57,7 +64,7 @@
 }
 
 .map__animals-item--pandas {
-  left: 1066px;
+  left: 1058px;
   top: 380px;
   &::before {
     top: -14px;
@@ -66,7 +73,7 @@
 }
 
 .map__animals-item--panda {
-  left: 1072px;
+  left: 1066px;
   top: 312px;
   &::before {
     top: 6px;
@@ -76,24 +83,24 @@
 
 .map__animals-item--eagle1 {
   top: 354px;
-  left: 348px;
-  &::before {
-    top: -6px;
-    left: 44px;
-  }
-}
-
-.map__animals-item--eagle2 {
-  top: 388px;
-  left: 380px;
+  left: 340px;
   &::before {
     display: none;
   }
 }
 
+.map__animals-item--eagle2 {
+  top: 388px;
+  left: 374px;
+  &::before {
+    top: -41px;
+    left: 10px;
+  }
+}
+
 .map__animals-item--gorillas {
   top: 488px;
-  left: 798px;
+  left: 790px;
   &::before {
     top: -38px;
     left: 0px;
@@ -102,15 +109,16 @@
 
 .map__animals-item--crocodile {
   top: 402px;
-  left: 500px;
+  left: 494px;
   &::before {
     top: -37px;
-    left: 8px;
+    left: 6px;
   }
 }
 
 .map-animals__img {
   display: block;
+  transition: all 0.3s ease-out;
 }
 
 .map__animals-tooltip {
@@ -153,12 +161,11 @@
 .map__animals-item:hover img {
   cursor: pointer;
   transform: scale(1.3);
-  transition: all 0.2s;
+  transition: all 0.3s ease-out;
 }
 
 .map__animals-item--pandas:hover .map__animals-tooltip--panda,
 .map__animals-item--panda:hover .map__animals-tooltip--panda,
-.map__animals-item--eagle1:hover .map__animals-tooltip--eagle,
 .map__animals-item--eagle2:hover .map__animals-tooltip--eagle,
 .map__animals-item--gorillas:hover .map__animals-tooltip--gorillas,
 .map__animals-item--crocodile:hover .map__animals-tooltip--alligators {
@@ -169,14 +176,15 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  right: 3%;
-  bottom: -118px;
+  right: 2%;
+  top: 864px;
 }
 
 .map__btn {
-  width: 54px;
-  height: 54px;
+  width: 52px;
+  height: 52px;
   background: #FFFFFF;
+  border: 1px solid #FFFFFF;
   border-radius: 5px;
   color: #333B41;
   font-size: 45px;
@@ -184,8 +192,37 @@
   cursor: pointer;
 }
 
+.map__btn:focus,
+.map__btn:hover,
+.map__btn:active {
+  border: 1px solid #4B9200;
+}
+
+.map__btn--plus {
+  background-image: url("../../assets/icons/plus.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px 32px;
+}
+
+.map__btn--plus:focus,
+.map__btn--plus:hover,
+.map__btn--plus:active {
+  background-image: url("../../assets/icons/plus-active.png");
+}
+
 .map__btn--minus {
   margin-top: 10px;
+  background-image: url("../../assets/icons/minus.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px 6px;
+}
+
+.map__btn--minus:focus,
+.map__btn--minus:hover,
+.map__btn--minus:active {
+  background-image: url("../../assets/icons/minus-active.png");
 }
 
 @media (max-width: $small-desktop-width) {
@@ -277,7 +314,7 @@
     position: sticky;
     bottom: 0;
     margin-left: 93%;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
     margin-top: -106px;
   }
 }
@@ -371,6 +408,10 @@
   .map__animals-item--eagle2 img {
     width: 27px;
     height: 12px;
+  }
+  .map__animals-item--eagle2::before {
+    top: -21px;
+    left: 6px;
   }
 }
 
