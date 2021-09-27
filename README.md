@@ -1,4 +1,4 @@
-##Online-zoo
+## Online-zoo
 
 Ссылка на макет: https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online
 Ссылка на деплой: https://ramitsan.github.io/Online-zoo/
