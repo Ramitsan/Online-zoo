@@ -1,5 +1,7 @@
 ## Online-zoo
 
+![online zoo](https://user-images.githubusercontent.com/45296707/134975018-97cbd3b4-b451-4b8e-b4d9-d2f6918bcad2.jpg)
+
 Ссылка на макет: https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online
 
 Ссылка на деплой: https://ramitsan.github.io/Online-zoo/
