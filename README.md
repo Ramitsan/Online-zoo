@@ -1,6 +1,7 @@
 ## Online-zoo
 
 Ссылка на макет: https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online
+
 Ссылка на деплой: https://ramitsan.github.io/Online-zoo/
 
 Онлайн-зоопарк - это сайт, на котором можно наблюдать за животными онлайн, прочитать информацию о них и задонатить им на вкусняшки :) 
